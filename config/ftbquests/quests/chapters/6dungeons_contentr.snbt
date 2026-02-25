@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6dungeons_contentr"
+	group: "2363E53A8E84B337"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "4B15B6686A5902F5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "duneons:towerdoor"
+			}
+			id: "709A920AA34A2837"
+			tasks: [{
+				icon: {
+					id: "duneons:tower_wooded_door"
+				}
+				id: "251509A95ACAB135"
+				structure: "duneons:tower"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["709A920AA34A2837"]
+			icon: {
+				id: "duneons:glowmelonroot"
+			}
+			id: "19827710C45D0A77"
+			tasks: [{
+				dimension: "duneons:forestcreeper"
+				icon: {
+					id: "duneons:creeperforestpatch"
+				}
+				id: "44EDDCA7B4D72659"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0652F4489D736EFE"]
+			id: "13313081DB41EF7F"
+			rewards: [{
+				id: "0F1A6499659433C0"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "78225B581B546DF0"
+				item: { count: 1, id: "duneons:poketmap" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "0652F4489D736EFE"
+			rewards: [{
+				id: "3F7ECB126A5B18CE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "33EDBF6563376CA6"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19827710C45D0A77"]
+			icon: {
+				id: "duneons:villagercage"
+			}
+			id: "67E4BDFB87B1DE3A"
+			rewards: [{
+				id: "2CF8BF5B912DED9F"
+				item: {
+					count: 1
+					id: "duneons:dungeonsmalltablebook"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "duneons:gravestonecreepermoss"
+					}
+					id: "015C30841F112A9E"
+					structure: "duneons:gravestone"
+					type: "structure"
+				}
+				{
+					advancement: "duneons:freethevillager"
+					criterion: ""
+					id: "6F6D51BB0F2404C4"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E4BDFB87B1DE3A"]
+			icon: {
+				id: "duneons:swampgrassside"
+			}
+			id: "343E0962C8344399"
+			tasks: [{
+				dimension: "duneons:swamp_soggy"
+				icon: {
+					id: "duneons:mosssoggydirt"
+				}
+				id: "5512208F6234ECDE"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3BA43827020930"]
+			icon: {
+				id: "duneons:mossdirtpumpkin"
+			}
+			id: "4BE45705C7DF0C99"
+			tasks: [{
+				dimension: "duneons:pumpkinpasture"
+				icon: {
+					id: "duneons:mossdirtpumpkin"
+				}
+				id: "6483C1B4F61899AB"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "duneons:continenttablecacti"
+			}
+			id: "1F4789D00744E29F"
+			tasks: [{
+				icon: {
+					id: "upgrade_aquatic:driftwood_boat"
+				}
+				id: "02FDEC5BF34B4C05"
+				structure: "duneons:boat"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F4789D00744E29F"]
+			icon: {
+				id: "duneons:canyonterracotta"
+			}
+			id: "3CFF66474300F5DE"
+			tasks: [{
+				dimension: "duneons:canyon_cacti"
+				icon: {
+					id: "duneons:cactimoss"
+				}
+				id: "055965534CF15C37"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F4789D00744E29F"]
+			icon: {
+				id: "duneons:testblock"
+			}
+			id: "5F11FC1BFF2DA8BB"
+			tasks: [{
+				dimension: "duneons:desertcaves"
+				id: "578CEBAEB1A2D48B"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "duneons:snowgrass"
+			}
+			id: "4FC81D619DF37032"
+			tasks: [{
+				dimension: "duneons:creepingfrozen"
+				id: "38B9C6A9C4559609"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "duneons:charredstone"
+			}
+			id: "1C0E1D06D6841E6A"
+			tasks: [{
+				dimension: "duneons:fiery_forge"
+				id: "338A7303A5BF6A05"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C0E1D06D6841E6A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "duneons:arenaeyeblock"
+			}
+			id: "657BDFDAE6729753"
+			tasks: [{
+				id: "0922E3AC9E041995"
+				structure: "duneons:arena_eye"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "duneons:sandrise"
+			}
+			id: "59CB8510EBCA8A39"
+			tasks: [{
+				dimension: "duneons:hiddendeepths"
+				id: "07FF0BEEF80A4EAD"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "duneons:highlandgrass"
+			}
+			id: "384197AF5BA0D114"
+			tasks: [{
+				dimension: "duneons:howling_peak"
+				id: "07AF7875008BD6B2"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "duneons:bamboostonebricks"
+			}
+			id: "0FB5A509F9179C37"
+			tasks: [{
+				dimension: "duneons:jungleawakens"
+				id: "6E09C9F238DDAF79"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "duneons:redstonecrystal_3"
+			}
+			id: "192C368AF3F6F559"
+			tasks: [{
+				dimension: "duneons:redstonecaves"
+				id: "265D97561A115CC5"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+}

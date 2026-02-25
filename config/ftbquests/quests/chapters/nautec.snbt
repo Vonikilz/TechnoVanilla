@@ -1,0 +1,692 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nautec"
+	group: "74BE1C5C28E7AE94"
+	icon: {
+		id: "nautec:prismarine_crystal"
+	}
+	id: "634C234270B0BBF6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "53F267F169E859BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50729FB42B9BDD4C"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "52434CAD3D35B688"
+				item: { components: { "modonomicon:book_open": 0b }, count: 1, id: "nautec:nautec_guide" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7430FA18901098D3"]
+			hide_until_deps_complete: true
+			id: "39CEAE0408F639BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19BCBA997F4DBA32"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "2E5E181805FD4C8D"
+				item: { count: 1, id: "nautec:aquarine_steel_ingot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "nautec:diving_helmet"
+			}
+			id: "349117835410CDC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C11B6228D848EBE"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1A1A01CF02164FA5"
+					item: { count: 1, id: "nautec:diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "55352D7B25DB7B55"
+					item: { count: 1, id: "nautec:diving_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0BFAA930B86F47E5"
+					item: { count: 1, id: "nautec:diving_leggings" }
+					type: "item"
+				}
+				{
+					id: "3759F0C22579F9C9"
+					item: { count: 1, id: "nautec:diving_boots" }
+					type: "item"
+				}
+				{
+					id: "4DEFC98240D11C29"
+					item: { count: 1, id: "nautec:air_bottle" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "nautec:aquatic_catalyst"
+			}
+			id: "7060EC436B124CAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7244DA4AB6B8AE44"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "nautec:chiseled_dark_prismarine"
+					}
+					id: "14FE307BC4FEBCEC"
+					structure: "nautec:ruins_1"
+					type: "structure"
+				}
+				{
+					id: "7D39C36C1C13C939"
+					item: { count: 1, id: "nautec:aquatic_catalyst" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7060EC436B124CAD"]
+			icon: {
+				id: "nautec:prismarine_crystal"
+			}
+			id: "7430FA18901098D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332815C1A10B8552"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "nautec:rusty_crate"
+				}
+				id: "548B8471FE36AF53"
+				structure: "nautec:deepslate_crystal_geode"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			id: "07804436CA4FCAA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "039DD38BEF8AB235"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "249EB2F998B7A37A"
+				item: { count: 1, id: "nautec:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07804436CA4FCAA1"]
+			id: "73D8440B693FEB76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0786A53EECF04EA8"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08D6A35DD42E9499"
+				item: { count: 1, id: "nautec:crowbar" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07804436CA4FCAA1"]
+			icon: {
+				id: "nautec:grafting_tool"
+			}
+			id: "03A22E3F85E798EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CAF35AFC786707B"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "76ECE2D85773BF5E"
+					item: { count: 1, id: "nautec:grafting_tool" }
+					type: "item"
+				}
+				{
+					id: "27D0655B50EA0EA3"
+					item: { count: 1, id: "nautec:petri_dish" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "nautec:rusty_gear"
+			}
+			id: "646CA7BD00401513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE282AA4D55075F"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "77D5AFAEB7E54DEB"
+					item: { count: 1, id: "nautec:broken_whisk" }
+					type: "item"
+				}
+				{
+					id: "415BD879CBCBEA4F"
+					item: { count: 1, id: "nautec:burnt_coil" }
+					type: "item"
+				}
+				{
+					id: "39447DD8E21B682A"
+					item: { count: 1, id: "nautec:rusty_gear" }
+					type: "item"
+				}
+				{
+					id: "5FC47BEEBAF134AD"
+					item: { count: 1, id: "nautec:ancient_valve" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E256D1A13922C8A"]
+			id: "02D01838DDD7A285"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F1041726C868E31"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "346747912FB2FCE6"
+				item: { count: 1, id: "nautec:drowned_lungs" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E256D1A13922C8A"]
+			id: "2BB38169EE38380D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E7553D02EE5EE31"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77478CF76648952C"
+				item: { count: 1, id: "nautec:dolphin_fin" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E256D1A13922C8A"]
+			id: "09470FCAEDF59DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B44BEEEA177F571"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06B8BC1A69F10F2D"
+				item: { count: 1, id: "nautec:eldritch_heart" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E256D1A13922C8A"]
+			id: "0BEA1761F828E5BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53D521E1E9AE6C3C"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "349A92CEFB63B6D1"
+				item: { count: 1, id: "nautec:guardian_eye" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12641F766B4DD7D4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "nautec:augmentation_station"
+			}
+			id: "4E256D1A13922C8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2241713B2E6711AF"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D6722E686E5E143"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 4L
+					id: "28F9ED30EEE22D74"
+					item: { count: 1, id: "nautec:polished_prismarine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B172EBF0F193982"
+					item: { count: 1, id: "nautec:aquarine_steel_block" }
+					type: "item"
+				}
+				{
+					id: "14C6B5BB82C008A4"
+					item: { count: 1, id: "nautec:augmentation_station" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21B428AEF54B0F3C"
+					item: { count: 1, id: "nautec:augmentation_station_extension" }
+					type: "item"
+				}
+				{
+					id: "3E5B71D0BB8FFCF5"
+					item: { count: 1, id: "nautec:claw_robot_arm" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			icon: {
+				id: "nautec:aquarine_steel_wrench"
+			}
+			id: "4501E09C5FD34355"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17242D8F1A7EC031"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "29316F323FDFB54A"
+					item: { count: 1, id: "nautec:aquarine_steel_wrench" }
+					type: "item"
+				}
+				{
+					id: "516D8C7A5C81A5B0"
+					item: { count: 1, id: "nautec:prism_monocle" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12641F766B4DD7D4"]
+			id: "01955D0F8D04D530"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F7C386F2F9D8B3"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E0A19E84144613A"
+				item: { count: 1, id: "nautec:prismatic_battery" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "28CECD591C19EC82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "532CC53840E81A72"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55BEAAF2E97CFD36"
+				item: { count: 1, id: "nautec:mixer" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "6CC863D55E19F782"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "328A1DDE7AFA0FCA"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "429C776A7719155A"
+				item: { count: 1, id: "nautec:bacterial_analyzer" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12641F766B4DD7D4"]
+			icon: {
+				id: "nautec:bio_reactor"
+			}
+			id: "3686B5B123B6257D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6190D4F0CE69CA7E"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					count: 8L
+					id: "5DA39A051A7E3FD8"
+					item: { count: 1, id: "nautec:dark_prismarine_pillar" }
+					type: "item"
+				}
+				{
+					id: "17DEA4A9E8F34166"
+					item: { count: 1, id: "nautec:polished_prismarine" }
+					type: "item"
+				}
+				{
+					id: "0A2B59216240C13C"
+					item: { count: 1, id: "nautec:bio_reactor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6536B873DBE49E8F"
+					item: { count: 1, id: "nautec:bacterial_containment_shield" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "2AD8E92D3C78C97D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F90EC0B0B57EEA1"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BE773A31FABF777"
+				item: { count: 1, id: "nautec:mutator" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.18d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "14B084BD5BEAB04E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3605AF8A7B03E4F5"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "655DBCBB899DDCAC"
+				item: { count: 1, id: "nautec:incubator" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.18d
+		}
+		{
+			dependencies: ["28CECD591C19EC82"]
+			icon: {
+				id: "nautec:deep_sea_drain"
+			}
+			id: "6D71A98CB21AC50B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CFD84F8905B55C2"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "621E0802797469A1"
+					item: { count: 1, id: "nautec:deep_sea_drain" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32A4CE2334F1E837"
+					item: { count: 1, id: "nautec:deep_sea_drain_wall" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			hide_until_deps_complete: true
+			id: "12641F766B4DD7D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE3BA24E8B8B2AB"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5756796283FBD2AE"
+				item: { count: 1, id: "nautec:prismarine_crystal_shard" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "77BE151532875C1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "565B0E5D76CA6479"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BD15D390C7424CA"
+				item: { count: 1, id: "nautec:charger" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			id: "38FB93F12702D2C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C377B87268F9421"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BB8D5E4A664CCA4"
+				item: { count: 1, id: "nautec:prismarine_laser_relay" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "7502E1E95C7EF6F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47DFBD726F992F27"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CFC892BD8455742"
+				item: { count: 1, id: "nautec:laser_junction" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.18d
+		}
+		{
+			dependencies: ["39CEAE0408F639BE"]
+			id: "7F06C13D0399BAB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67E83291951A472C"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49F7FEC18EE9045B"
+				item: { count: 1, id: "nautec:fishing_station" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12641F766B4DD7D4"]
+			id: "3140E2D0203C18B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ACA1CC51435AD59"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6588B8883D3F5334"
+				item: { count: 1, id: "nautec:long_distance_laser" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53F267F169E859BC"]
+			hide_until_deps_complete: true
+			id: "3393A4E491EF41DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C9BE252023172A8"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0823C285F258BC09"
+				item: { count: 1, id: "nautec:saltwater_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28CECD591C19EC82"]
+			id: "73CF2F21C45E8663"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0168A9A8E5881808"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "363B407412BEEBE3"
+				item: { count: 1, id: "nautec:eas_bucket" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+	]
+}

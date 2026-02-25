@@ -1,0 +1,879 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "curse_of_pandora"
+	group: "2363E53A8E84B337"
+	icon: {
+		components: {
+			"ftbquests:icon": "curseofpandora:item/pandora/spell_singularity"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "062F83E52545EED5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"24BF6CAA968BC8D1"
+				"2DF3F4725FEB2C16"
+			]
+			hide_until_deps_complete: true
+			id: "2025610CD1663513"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "60CE8B49B871C32D"
+				item: { count: 1, id: "curseofpandora:plain_charm" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: -8.6d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "68A7E1C789EFE913"
+			tasks: [{
+				id: "604832C9733677C9"
+				item: { count: 1, id: "curseofpandora:orb_of_magic_rejection" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "60EBAFE21A0180EE"
+			tasks: [{
+				id: "55B8FF938B6410B8"
+				item: { count: 1, id: "curseofpandora:earth_crush" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "0460C663F961FA48"
+			tasks: [{
+				id: "65C592339ADE6F2A"
+				item: { count: 1, id: "curseofpandora:orb_of_explosion_rejection" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "77890CF19952DE00"
+			tasks: [{
+				id: "47889B1250C71CE3"
+				item: { count: 1, id: "curseofpandora:orb_of_fire_rejection" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "23E201285A67A7E0"
+			tasks: [{
+				id: "224ABD2E56F8635A"
+				item: { count: 1, id: "curseofpandora:bless_of_lava_walker" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "32D5D6BA8670DB7E"
+			tasks: [{
+				id: "410904A0F0A23D4A"
+				item: { count: 1, id: "curseofpandora:flaming_explosion" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "7D667262486940EC"
+			tasks: [{
+				id: "48FDC367FD800465"
+				item: { count: 1, id: "curseofpandora:orb_of_nature" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "49A959F49FD1E7FF"
+			tasks: [{
+				id: "399C6A02B58656C6"
+				item: { count: 1, id: "curseofpandora:orb_of_projectile_rejection" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: {
+				id: "pandora:pandora_bracelet"
+			}
+			id: "2DF3F4725FEB2C16"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4B1CC730183FDB9E"
+					item: { components: { "pandora:backpack_content": [ { item: { count: 1, id: "curseofpandora:curse_of_inertia" }, slot: 0 }, { item: { count: 1, id: "curseofpandora:curse_of_proximity" }, slot: 1 }, { item: { count: 1, id: "curseofpandora:curse_of_flesh" }, slot: 2 }, { item: { count: 1, id: "curseofpandora:curse_of_metabolism" }, slot: 3 }, { item: { count: 1, id: "curseofpandora:curse_of_tension" }, slot: 4 }, { item: { count: 1, id: "curseofpandora:curse_of_prudence" }, slot: 5 }, { item: { count: 1, id: "curseofpandora:curse_of_spell" }, slot: 6 } ] }, count: 1, id: "pandora:pandora_necklace" }
+					type: "item"
+				}
+				{
+					id: "33CE55BC64BCE9F0"
+					item: { count: 1, id: "pandora:pandora_bracelet" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			hide_until_deps_complete: true
+			id: "5092578931E76990"
+			shape: "pentagon"
+			tasks: [{
+				id: "61373F40F695E878"
+				item: { count: 1, id: "curseofpandora:mini_beacon" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "293493E993A28DD2"
+			tasks: [{
+				id: "7741CB61CE56FCA7"
+				item: { count: 1, id: "curseofpandora:spellbound_orb" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "759EDC538385E1F1"
+			tasks: [{
+				id: "0BD9A88894DBD30B"
+				item: { count: 1, id: "curseofpandora:barbaric_edge" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "133ECC143227907A"
+			tasks: [{
+				id: "35FFE7E469C4CDFE"
+				item: { count: 1, id: "curseofpandora:sculk_crystal" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "6FC2D5B4EBA704C4"
+			tasks: [{
+				id: "7C35B35771655D5B"
+				item: { count: 1, id: "curseofpandora:angelic_feather" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "2F412F134AD8CDB6"
+			tasks: [{
+				id: "6CB31947ED31881D"
+				item: { count: 1, id: "curseofpandora:hellfire_rune" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "333600817CDED098"
+			tasks: [{
+				id: "18A1C062DA9B15C0"
+				item: { count: 1, id: "curseofpandora:shadow_fragment" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "3D8D92A89D2CB12A"
+			tasks: [{
+				id: "3AFE8FD5C4791D04"
+				item: { count: 1, id: "curseofpandora:abyss_crystal" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "7AE776900C85115C"
+			tasks: [{
+				id: "6247D2900EB8BC1C"
+				item: { count: 1, id: "curseofpandora:barbaric_blood" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "4BE5C08D50B673B5"
+			tasks: [
+				{
+					id: "51A64BCA9D839093"
+					item: { count: 1, id: "curseofpandora:rotten_spine" }
+					type: "item"
+				}
+				{
+					id: "131A0B17A900E749"
+					item: { count: 1, id: "curseofpandora:eroded_spine" }
+					type: "item"
+				}
+				{
+					id: "3B7B4274FAAE4DB7"
+					item: { count: 1, id: "curseofpandora:dried_spine" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "118CA82AC99A5B00"
+			tasks: [
+				{
+					id: "75BD3D2E5FF5482C"
+					item: { count: 1, id: "curseofpandora:rotten_brain" }
+					type: "item"
+				}
+				{
+					id: "5AD87E3531839E3F"
+					item: { count: 1, id: "curseofpandora:eroded_brain" }
+					type: "item"
+				}
+				{
+					id: "7878AFAF2611A9D8"
+					item: { count: 1, id: "curseofpandora:dried_brain" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"118CA82AC99A5B00"
+				"293493E993A28DD2"
+			]
+			id: "213431E9B8DA9A33"
+			tasks: [{
+				id: "1B9924E553DBE950"
+				item: { count: 1, id: "curseofpandora:evil_stone" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "67F6224C2B3CE68C"
+			tasks: [{
+				id: "0BD9E4A216C00D0F"
+				item: { count: 1, id: "curseofpandora:charm_of_health" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "23ECC071DE4E21D5"
+			tasks: [{
+				id: "1146F5CB54389BC8"
+				item: { count: 1, id: "curseofpandora:charm_of_armor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "54C1E9159A99BE23"
+			tasks: [{
+				id: "2424E7925A9B32EB"
+				item: { count: 1, id: "curseofpandora:charm_of_speed" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "678D46A7C597C180"
+			tasks: [{
+				id: "4E52726D7E9C79F7"
+				item: { count: 1, id: "curseofpandora:charm_of_damage" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			hide_lock_icon: true
+			id: "4743F5B958D63B4D"
+			tasks: [{
+				id: "610F960528CFB5DA"
+				item: { count: 1, id: "curseofpandora:charm_of_critical" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "1739B02FF32EBAF7"
+			tasks: [{
+				id: "3E90F58EC1430467"
+				item: { count: 1, id: "curseofpandora:charm_of_archery" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "0512470A2FB61A79"
+			tasks: [{
+				id: "2302BDD50387DC77"
+				item: { count: 1, id: "curseofpandora:charm_of_protection" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "326E770924FD0D87"
+			tasks: [{
+				id: "1941FA83CBF5CF5E"
+				item: { count: 1, id: "curseofpandora:charm_of_magic" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "4D760D8773082182"
+			tasks: [{
+				id: "0143D82BCE9FE4A9"
+				item: { count: 1, id: "curseofpandora:charm_of_explosion" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "05F3A262757D698C"
+			tasks: [{
+				id: "147CD8B8AD7D2ECB"
+				item: { count: 1, id: "curseofpandora:charm_of_heavy_weapon" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "448A10B0609B64CC"
+			tasks: [{
+				id: "634E618215FD3A56"
+				item: { count: 1, id: "curseofpandora:charm_of_accuracy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "29DDDD8A9A5470D3"
+			tasks: [{
+				id: "15B6C71DC3B9DF80"
+				item: { count: 1, id: "curseofpandora:charm_of_luck" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "6C65DF55041A6FA6"
+			tasks: [{
+				id: "38064B39651BCF33"
+				item: { count: 1, id: "curseofpandora:wind_thrust" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "7934E07EB9D39A7D"
+			tasks: [{
+				id: "1B5E0D6FF675AB22"
+				item: { count: 1, id: "curseofpandora:waving_spell" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "0A3C4BE41073BE0F"
+			tasks: [{
+				id: "3C8E814C7F92935E"
+				item: { count: 1, id: "curseofpandora:curse_redirection" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "28F727FED8839D8B"
+			tasks: [{
+				id: "0AA141A6DBAA6310"
+				item: { count: 1, id: "curseofpandora:orb_of_stability" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "01D9DD55E4CC0004"
+			tasks: [{
+				id: "240433536AA8C166"
+				item: { count: 1, id: "curseofpandora:golden_heart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "05DD47A0D2012666"
+			tasks: [{
+				id: "680DBB06487D65EB"
+				item: { count: 1, id: "curseofpandora:charm_of_calmness" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "2EC9BABE6727DCC6"
+			tasks: [{
+				id: "47773AC6A3D2A7EC"
+				item: { count: 1, id: "curseofpandora:bless_of_snow_walker" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			id: "7C008A9428BB3A0C"
+			tasks: [{
+				id: "61493B4F2F4C1C1B"
+				item: { count: 1, id: "curseofpandora:orb_of_master" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "22B93E7564DFF978"
+			tasks: [{
+				id: "475BD2B59336C30F"
+				item: { count: 1, id: "curseofpandora:charm_of_night_vision" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "17C4D6770E6B615A"
+			tasks: [{
+				id: "5EF7EE684553775C"
+				item: { count: 1, id: "curseofpandora:mini_beacon_speed" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "43CF69D793A7DBE4"
+			tasks: [{
+				id: "4C13C54B84D3AD60"
+				item: { count: 1, id: "curseofpandora:mini_beacon_haste" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "005E1635D4667914"
+			tasks: [{
+				id: "1BAA0ADC3A10493D"
+				item: { count: 1, id: "curseofpandora:mini_beacon_strength" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "27878700793E0C1F"
+			tasks: [{
+				id: "5CE101F92DDE3210"
+				item: { count: 1, id: "curseofpandora:mini_beacon_jump" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "688597D2EBA1EF68"
+			tasks: [{
+				id: "1E52FDA84F1C165E"
+				item: { count: 1, id: "curseofpandora:mini_beacon_resistance" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5092578931E76990"]
+			id: "50B3FE416BF650D4"
+			tasks: [{
+				id: "2C60D8A9C14B0CC2"
+				item: { count: 1, id: "curseofpandora:mini_beacon_regen" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"320622408653BF4B"
+				"55A3498EBEA8DAE3"
+				"1886149DCFC7D0AA"
+				"79A55BB0FA5485A8"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "614B0862076C6497"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D5DBDD1BCC8D2BD"
+				item: { count: 1, id: "curseofpandora:seal_of_swords" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["0A3C4BE41073BE0F"]
+			id: "4A451253A26578D5"
+			tasks: [{
+				id: "77DB7D8EAC62E1DB"
+				item: { count: 1, id: "curseofpandora:spell_singularity" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3D8D92A89D2CB12A"]
+			icon: {
+				id: "curseofpandora:abyssal_will"
+			}
+			id: "79A55BB0FA5485A8"
+			tasks: [
+				{
+					id: "7DA316A1BF70EEE5"
+					item: { count: 1, id: "curseofpandora:abyssal_treasure" }
+					type: "item"
+				}
+				{
+					id: "4DA5279BD2559A65"
+					item: { count: 1, id: "curseofpandora:abyssal_watcher" }
+					type: "item"
+				}
+				{
+					id: "15CAD28C2983324C"
+					item: { count: 1, id: "curseofpandora:abyssal_shell" }
+					type: "item"
+				}
+				{
+					id: "7CC7E8B3EE758D3B"
+					item: { count: 1, id: "curseofpandora:abyssal_crown" }
+					type: "item"
+				}
+				{
+					id: "0BF5DF35A67A5455"
+					item: { count: 1, id: "curseofpandora:abyssal_will" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["333600817CDED098"]
+			icon: {
+				id: "curseofpandora:void_overflow"
+			}
+			id: "320622408653BF4B"
+			tasks: [
+				{
+					id: "54CCE239559029A8"
+					item: { count: 1, id: "curseofpandora:shadow_core" }
+					type: "item"
+				}
+				{
+					id: "2D356816B8ED7C96"
+					item: { count: 1, id: "curseofpandora:shadow_convergence" }
+					type: "item"
+				}
+				{
+					id: "40F7E2D166F185DD"
+					item: { count: 1, id: "curseofpandora:shadow_consolidation" }
+					type: "item"
+				}
+				{
+					id: "56B53BC7C6B35F1E"
+					item: { count: 1, id: "curseofpandora:shadow_reformation" }
+					type: "item"
+				}
+				{
+					id: "1ACF88A43A0D4FDA"
+					item: { count: 1, id: "curseofpandora:void_overflow" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			hide_lock_icon: true
+			icon: {
+				id: "curseofpandora:evil_spirit_curse"
+			}
+			id: "5B2A30F9FA4747F0"
+			tasks: [
+				{
+					id: "416ED08363FB23AE"
+					item: { count: 1, id: "curseofpandora:evil_spirit_ritual" }
+					type: "item"
+				}
+				{
+					id: "5A64F042C78F2052"
+					item: { count: 1, id: "curseofpandora:evil_spirit_evoke" }
+					type: "item"
+				}
+				{
+					id: "190F5640A8BF7038"
+					item: { count: 1, id: "curseofpandora:evil_spirit_awakening" }
+					type: "item"
+				}
+				{
+					id: "1EFED9ED017A17FE"
+					item: { count: 1, id: "curseofpandora:evil_spirit_curse" }
+					type: "item"
+				}
+				{
+					id: "44A03E1F7F35276B"
+					item: { count: 1, id: "curseofpandora:evil_spirit_walk" }
+					type: "item"
+				}
+			]
+			x: -12.8d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2025610CD1663513"]
+			icon: {
+				id: "curseofpandora:primal_force"
+			}
+			id: "19A6EB47C7C46E34"
+			tasks: [
+				{
+					id: "1C6F4546F346F3DE"
+					item: { count: 1, id: "curseofpandora:barbaric_instinct" }
+					type: "item"
+				}
+				{
+					id: "7F30F48F3D5DC6E0"
+					item: { count: 1, id: "curseofpandora:barbaric_wrath" }
+					type: "item"
+				}
+				{
+					id: "6AF63CBB40351EAF"
+					item: { count: 1, id: "curseofpandora:barbaric_roar" }
+					type: "item"
+				}
+				{
+					id: "687F1B5468ECFF29"
+					item: { count: 1, id: "curseofpandora:barbaric_blade" }
+					type: "item"
+				}
+				{
+					id: "18E8815D431B66E9"
+					item: { count: 1, id: "curseofpandora:primal_force" }
+					type: "item"
+				}
+				{
+					id: "06C914E179C03BC8"
+					item: { count: 1, id: "curseofpandora:orb_of_prosecutor" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F412F134AD8CDB6"]
+			icon: {
+				id: "curseofpandora:crown_of_demon"
+			}
+			id: "55A3498EBEA8DAE3"
+			tasks: [
+				{
+					id: "680E02CBB95CCA7B"
+					item: { count: 1, id: "curseofpandora:hellfire_skull" }
+					type: "item"
+				}
+				{
+					id: "5E9762CA336E082A"
+					item: { count: 1, id: "curseofpandora:hellfire_reformation" }
+					type: "item"
+				}
+				{
+					id: "756492926632FAE0"
+					item: { count: 1, id: "curseofpandora:crown_of_demon" }
+					type: "item"
+				}
+				{
+					id: "307241EBE0129F5E"
+					item: { count: 1, id: "curseofpandora:eye_of_cursed_souls" }
+					type: "item"
+				}
+				{
+					id: "7AE17B583043EF12"
+					item: { count: 1, id: "curseofpandora:cursed_soul_crystal" }
+					type: "item"
+				}
+				{
+					id: "10E7CD511331D540"
+					item: { count: 1, id: "curseofpandora:orb_of_executor" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FC2D5B4EBA704C4"]
+			icon: {
+				id: "curseofpandora:angelic_punishment"
+			}
+			id: "1886149DCFC7D0AA"
+			tasks: [
+				{
+					id: "13E36D6B10197EEE"
+					item: { count: 1, id: "curseofpandora:angelic_wing" }
+					type: "item"
+				}
+				{
+					id: "1EB18B820D9271A9"
+					item: { count: 1, id: "curseofpandora:angelic_bless" }
+					type: "item"
+				}
+				{
+					id: "780A8F0658BC86A1"
+					item: { count: 1, id: "curseofpandora:angelic_descent" }
+					type: "item"
+				}
+				{
+					id: "0E9458BF06C29442"
+					item: { count: 1, id: "curseofpandora:angelic_protection" }
+					type: "item"
+				}
+				{
+					id: "65AB39B5A030148E"
+					item: { count: 1, id: "curseofpandora:angelic_punishment" }
+					type: "item"
+				}
+				{
+					id: "3D4A057D74E5F9FE"
+					item: { count: 1, id: "curseofpandora:orb_of_soulguard" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2DF3F4725FEB2C16"]
+			id: "29E2681D25FE25B0"
+			tasks: [{
+				id: "0A411609C2334AD2"
+				item: { count: 1, id: "curseofpandora:mini_beacon_base" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+	]
+}

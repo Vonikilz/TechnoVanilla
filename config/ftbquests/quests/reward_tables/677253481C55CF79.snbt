@@ -1,0 +1,94 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "oritech:item/super_ai_chip"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "677253481C55CF79"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "10CDA0F5AAC1B545"
+			item: {
+				count: 1
+				id: "oritech:nickel_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1F22D6F89BD24AB5"
+			item: {
+				count: 1
+				id: "oritech:platinum_ingot"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "7AD255942D9DB139"
+			item: {
+				count: 1
+				id: "oritech:biosteel_ingot"
+			}
+			weight: 3.0f
+		}
+		{ id: "5D80C82AD22E2533", item: { count: 1, id: "oritech:duratium_ingot" } }
+		{
+			id: "6845CD8C7A731EB2"
+			item: {
+				count: 1
+				id: "oritech:electrum_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "02BAEDC93EEAB07D"
+			item: {
+				count: 1
+				id: "oritech:energite_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "479DFAABDB302A1E"
+			item: {
+				count: 1
+				id: "oritech:adamant_ingot"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "0ECD90276CDCF87B"
+			item: {
+				count: 1
+				id: "oritech:steel_ingot"
+			}
+			weight: 9.0f
+		}
+		{
+			id: "4E8C41370D66407C"
+			type: "xp"
+			weight: 14.0f
+			xp: 1000
+		}
+		{
+			id: "05402FDFA24B15BF"
+			type: "xp"
+			weight: 16.0f
+			xp: 500
+		}
+		{
+			id: "4049E9EF95E5217B"
+			type: "xp"
+			weight: 18.0f
+			xp: 100
+		}
+		{
+			id: "77F5082D55F4C86F"
+			type: "xp"
+			weight: 20.0f
+			xp: 10
+		}
+	]
+}

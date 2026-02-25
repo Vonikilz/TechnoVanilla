@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3EC4BD9D339FF949"
+	group: "22A55EF50C26B34E"
+	icon: {
+		id: "minecraft:enchanted_golden_apple"
+	}
+	id: "3EC4BD9D339FF949"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C3E9C5F47C4BDDE"]
+			id: "2B39BBCA9F46AA7F"
+			rewards: [{
+				id: "1EBBEF26F512D061"
+				item: {
+					components: {
+						"minecraft:written_book_content": {
+							author: "VonlklLz"
+							pages: [
+								{
+									raw: "\"Имбирный чай:\\n- лимон — по вкусу;\\n- мёд — 30 мл;\\n- вода — 1 л;\\n- имбирь — по вкусу.\\n1. Очистить свежий имбирь, нарезать тонкими пластинками (не тереть — в пластинках больше аромата).\\n2. Залить имбирь литром воды в кастрюле, довести\""
+								}
+								{
+									raw: "\"до кипения и варить на среднем огне 10–15 минут.\\n3. Снять с огня, дать настояться 3–5 минут.\\n4. За это время нарезать лимон тонкими полукольцами.\\n5. Процедить отвар через сито в чайник или термос.\""
+								}
+								{
+									raw: "\"6. Добавить 2–3 кружочка лимона прямо в чайник, остальные оставить для подачи.\\n7. Мёд добавлять только в чашку с уже немного остывшим чаем (не выше 60°C), чтобы сохранить его полезные свойства.\""
+								}
+								{
+									raw: "\"Цитрусовый чай:\\n- грейпфрут — 1 шт.;\\n- апельсин — 1 шт.;\\n- лимон — 1 шт.;\\n- корица — 1 палочка (можно заменить молотой);\\n- мята — 3 веточки;\\n- чёрный или зелёный чай — 1 ст. л.;\\n- кипяток — 1 л;\\n- мёд — по вкусу.\""
+								}
+								{
+									raw: "\"1. Грейпфрут очистить от кожуры, разделить на дольки и очистить от плёнок.\\n2. Апельсин хорошо вымыть и нарезать на кружочки.\\n3. С лимона снять цедру (только жёлтую часть), а лимон нарезать на кружочки.\""
+								}
+								{
+									raw: "\"4. В заварочный чайник положить заварку, всыпать мяту.\\n5. Добавить нарезанные цитрусы, цедру и корицу.\\n6. Залить всё крутым кипятком и дать настояться 5 минут.\\n7. Разлить чай по чашкам и добавить мёд по вкусу.\""
+								}
+								{
+									raw: "\"Чай с облепихой:\\n- облепиха — 80 г;\\n- чёрный чай — 1 ст. ложка;\\n- вода — 800 мл;\\n- мята — по вкусу;\\n- сахар — 2 ч. ложки.\\n1. Взять свежую или замороженную облепиху, промыть её.\\n2. Воду довести до кипения.\\n\""
+								}
+								{
+									raw: "\"3. Листики свежей мяты ополоснуть водой.\\n4. Посуду для заваривания чая тщательно помыть и ополоснуть горячей водой, чтобы она согрелась.\\n5. Насыпать немного заварки чёрного чая в заварочную посуду и добавить мяту.\""
+								}
+								{
+									raw: "\"6. Залить содержимое кипятком, накрыть крышкой и оставить постоять на 3–5 минут.\""
+								}
+								{
+									raw: "\"Яблочно-ванильный чай:\\n- чёрный или зелёный чай без добавок;\\n- 100 г яблока;\\n- 50 г лимона;\\n- 1 палочка корицы;\\n- 50 мл ванильного сиропа;\\n- 400 мл кипятка.\\n1. Чайник ошпарить кипятком, засыпать чайную основу.\""
+								}
+								{
+									raw: "\"2. Нарезать фрукты небольшими кубиками, поместить в чайник.\\n3. Добавить ванильный сироп и палочку корицы.\\n4. Залить кипятком, настаивать 15 минут.\""
+								}
+							]
+							resolved: 1b
+							title: {
+								raw: "Рецепты ЧАЯ"
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:written_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000000000
+					id: "create:tea"
+				}
+				id: "179EF97CC713BC9F"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ftbquests:screen_1"
+			}
+			id: "3B91451768A72898"
+			repeat_cooldown: 500
+			rewards: [{
+				id: "764EB526E0C9CBEB"
+				item: {
+					count: 1
+					id: "ftbquests:screen_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21974121B2E91125"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/clock_00"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "160E8A7ADF8DB831"
+			rewards: [{
+				id: "698F0B11CB3A108A"
+				item: {
+					components: {
+						"minecraft:written_book_content": {
+							author: "VonlklLz"
+							pages: [
+								{
+									raw: "\"О, дорогой мой благодетель, позвольте мне в этот торжественный миг выразить всю глубину моейпризнательности за неоценимую помощь, которую Вы оказали. Словно луч света в кромешной тьме, Ваше участие осветило мой путь и наполнило сердце \""
+								}
+								{
+									raw: "\" теплом и надеждой.\\n\\nКаждое мгновение, проведённое в Вашей заботе, каждая минута внимания, уделенная мне, каждая капля Вашей доброты — всё это складывается в бесценный дар, который я буду хранить в своём сердце вечно.\""
+								}
+								{
+									raw: "\"Ваша готовность прийти на помощь, Ваша чуткость и понимание превзошли все мои ожидания. \\n\\nСловно весенний дождь питает иссушенную землю, так и Ваша поддержка оживила мои силы и дала мне крылья для полёта. В час, когда казалось, что мир\""
+								}
+								{
+									raw: "\"вокруг рушится, Вы стали той надёжной опорой, о которую разбиваются все невзгоды. Ваша вера в меня оказалась сильнее сомнений, а Ваша мудрость — путеводной звездой в тумане неопределённости.\\n\\nПозвольте мне выразить восхищение \""
+								}
+								{
+									raw: "\"широтой Вашей души, благородством помыслов и искренностью намерений. В мире, где порой так не хватает тепла и участия, Вы явились живым доказательством того, что человечность и доброта живы. Ваше сердце, открытое для\""
+								}
+								{
+									raw: "\"других, стало для меня примером истинной человечности. От всего сердца желаю Вам, чтобы каждое мгновение жизни было наполнено радостью и счастьем, чтобы судьба щедро одаривала Вас благами, а близкие люди окружали\""
+								}
+								{
+									raw: "\"заботой и любовью. Пусть Ваши добрые дела вернутся к Вам сторицей, а жизнь подарит столько же радости, сколько Вы дарите другим. \\n\\nБлагодарю Вас за то, что Вы есть, за то, что не прошли мимо чужой беды, за то, что сделали этот мир чуточку лучше.\""
+								}
+								{
+									raw: "\"Ваша доброта навсегда останется в моём сердце как пример истинного благородства и человечности.\\n\\nПодпишитесь на мой ТГ канал CreateALL.\""
+								}
+							]
+							resolved: 1b
+							title: {
+								raw: "Благодарность"
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:written_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "create:cuckoo_clock"
+				}
+				id: "70F2BC07B8BAEF62"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 2500000
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D017B34DAB91F26"]
+			hide_text_until_complete: true
+			icon: {
+				id: "create:handheld_worldshaper"
+			}
+			id: "332FE679CAF09C6A"
+			rewards: [{
+				id: "11DEA98E86D8131F"
+				item: {
+					count: 1
+					id: "create:handheld_worldshaper"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "7776B825C3D10AC6"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6C0001BF0664F067"
+				"55FF9EDFD2F91A5C"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "28FC1E1AC673C377"
+			rewards: [{
+				id: "70B8342637ED2B6D"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_induction_provider"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6508914D228192EE"
+				max_input: 1000000000L
+				type: "forge_energy"
+				value: 1000000000000L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6C0001BF0664F067"
+				"55FF9EDFD2F91A5C"
+			]
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "67629B6A00429C6E"
+			rewards: [{
+				id: "7A92931157F4FF92"
+				item: {
+					count: 1
+					id: "mekanism:creative_fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1
+					id: "create:potion"
+				}
+				id: "34117CC6F8663AE8"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B39BBCA9F46AA7F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "create:builders_tea"
+			}
+			id: "52371492F1B3A300"
+			repeat_cooldown: 500
+			rewards: [{
+				count: 16
+				id: "524EDE4FD2652EF3"
+				item: {
+					count: 1
+					id: "create:builders_tea"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "016908E9C736675F"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "67D89B51567E3ACF"
+			rewards: [
+				{
+					id: "712FB9A2A3F9B790"
+					item: {
+						count: 1
+						id: "farmersdelight:grilled_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "175AB8841950BCAD"
+					item: {
+						count: 1
+						id: "farmersdelight:salmon_roll"
+					}
+					type: "item"
+				}
+				{
+					id: "6E0B8D00E2EBB1DB"
+					item: {
+						count: 1
+						id: "farmersdelight:cooked_salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "562C80ED15AEA464"
+					item: {
+						count: 1
+						id: "farmersdelight:salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "754D332EA17DFADC"
+					item: {
+						count: 1
+						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "014A4BC02CCE7156"
+					item: {
+						count: 1
+						id: "minecraft:salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "319D2B00474E943C"
+					item: {
+						count: 1
+						id: "createfisheryindustry:salmon_steak"
+					}
+					type: "item"
+				}
+				{
+					id: "6ACDC079ABB22D19"
+					item: {
+						count: 1
+						id: "createfisheryindustry:cooked_salmon_steak"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "181250692EF8B390"
+				item: { count: 1, id: "duneons:salmon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48388EEDF6BBBF77"]
+			hide_until_deps_complete: true
+			id: "09B23E51EFED52BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "006ABBE86FC146A1"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "456FEB3A3AFFA3CF"
+				item: { count: 1, id: "enigmaticlegacyplus:redemption_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28B2C95138ADE001"]
+			id: "49558261BCD9B256"
+			rewards: [{
+				id: "39E6AC0AF55A5307"
+				item: {
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01902BE7E068E159"
+				item: { count: 1, id: "l2archery:void_bow" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07FA368632D7C5B6"]
+			hide_until_deps_complete: true
+			id: "1256A45A128C90AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16D0AAFB861E04A8"
+				table_id: 7454111902429728633L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "oritech:black_hole_block"
+				}
+				id: "49AA2F13729D2780"
+				observe_type: 0
+				timer: 0L
+				to_observe: "oritech:black_hole_block"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}
