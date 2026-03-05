@@ -59,6 +59,14 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/tellraw @p [\"\",{\"text\":\"ТГК CreateAll\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/+OP1eVZoFBXJlMWIy\"}}]"
+					icon: {
+						id: "minecraft:crafter"
+					}
+					id: "39A8C58BDB49EB72"
+					type: "command"
+				}
 			]
 			size: 2.0d
 			tasks: [{
@@ -66,7 +74,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -3.6d
 		}
 		{
 			dependencies: ["51BE7096BE4AEEA7"]
@@ -108,10 +116,7 @@
 			can_repeat: true
 			disable_toast: true
 			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:block/command_block_back"
-				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:oak_stairs"
 			}
 			id: "1DEB00BBA27F14D5"
 			require_sequential_tasks: false
@@ -125,8 +130,8 @@
 				id: "63A45E8ACA11355F"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["51BE7096BE4AEEA7"]
@@ -205,7 +210,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			icon: {
@@ -257,7 +262,29 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:crafter"
+			}
+			id: "3E36F1B61CBE4F4A"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"ТГК CreateAll\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/+OP1eVZoFBXJlMWIy\"}}]"
+				icon: {
+					id: "minecraft:crafter"
+				}
+				id: "745C00AF9CD13E31"
+				type: "command"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "5343D25542F4353D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.0d
 		}
 	]
 }

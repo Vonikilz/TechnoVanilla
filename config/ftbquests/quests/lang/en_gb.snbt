@@ -1,17 +1,17 @@
 {
-	chapter.049179086C8CDF1B.title: "&#FF9FA9Интересное&r"
-	chapter.0582B0B3F0B2DD28.title: "&dБоссы&r"
+	chapter.049179086C8CDF1B.title: "&#FF9FA9Interesting&r"
+	chapter.0582B0B3F0B2DD28.title: "&dBosses&r"
 	chapter.062F83E52545EED5.title: "&#C131FFCurse of Pandora&r"
-	chapter.1092B4BDD6EDE09E.title: "&#29FF69Логистика&r"
+	chapter.1092B4BDD6EDE09E.title: "&#29FF69Logistics&r"
 	chapter.126C33E4B5287B0B.title: "&#AA00AAEnigmatic Legacy+&r"
 	chapter.1718B1CECB5EB7AF.title: "&dMyths and Legends&r"
 	chapter.18953F4DDCC1B553.title: "&#CDFF33Mystical Agriculture&r"
-	chapter.1B52497B9987EC75.title: "&aНачало&r"
+	chapter.1B52497B9987EC75.title: "&aStart&r"
 	chapter.2676DF4352687254.title: "&#A181FFStellaris&r"
 	chapter.2843D35AC24BF1B9.title: "&#FF1010Mekanism&r"
-	chapter.32EA1BFEA8535335.title: "&#FF6B23Кулинарный мастер&r"
+	chapter.32EA1BFEA8535335.title: "&#FF6B23Culinary master&r"
 	chapter.373ED55A491F9E9E.title: "&#38012EDraconic Evolution&r"
-	chapter.3EC4BD9D339FF949.title: "&5Испытания&r"
+	chapter.3EC4BD9D339FF949.title: "&5Trials&r"
 	chapter.49966A225C9630F8.title: "&#FF5B0DOritech&r"
 	chapter.4B15B6686A5902F5.title: "&6Dungeons Content&r"
 	chapter.512154B70D57F8C5.title: "&bDeeper and Darker&r"
@@ -19,400 +19,400 @@
 	chapter.5F37A33FF27D8B0D.title: "&#efd108Create&r"
 	chapter.634C234270B0BBF6.title: "&#4c7f99NauTec&r"
 	chapter.704B93067DCCA906.title: "&#70FFFFApplied Energistics 2&r"
-	chapter.752A1E9125BCBEF9.title: "&4Враги&r"
+	chapter.752A1E9125BCBEF9.title: "&4Enemies&r"
 	chapter.75BDACC899BA86E1.title: "&#FF2063Bountiful Baubles:Reforked&r"
-	chapter_group.22A55EF50C26B34E.title: "&#48B15EПрочее&r"
-	chapter_group.2363E53A8E84B337.title: "&6Приключения&r"
-	chapter_group.74BE1C5C28E7AE94.title: "&eТехнологии&r"
+	chapter_group.22A55EF50C26B34E.title: "&#48B15EOther&r"
+	chapter_group.2363E53A8E84B337.title: "&6Adventures&r"
+	chapter_group.74BE1C5C28E7AE94.title: "&eTechnologies&r"
 	file.0000000000000001.title: "TechnoVanilla"
 	quest.00F1503E7A548DFC.quest_desc: [
-		"&aПередают&r максимум &c30.47 МFE&r/t."
-		"&4Отдают&r максимум &c46.96 MFE&r/t. "
-		"&2Хранят&r максимум &c64МFE&r."
-		"Можно &eподключить&r максимум &e4 кристалла&r."
+		"&aThey transmit&r a maximum of &c30.47 МFE&r/t."
+		"&4They give&r a maximum of &c46.96 MFE&r/t. "
+		"&2Store&r a maximum of &c64МFE&r."
+		"A maximum of &e4 crystals&r can be &econnected&r."
 		""
-		"&6Максимальная дальность связывания 110 блоков.&r"
+		"&6Maximum linking range is 110 blocks.&r"
 		""
-		"Расстояние не влияет на скорость передачи и отдачи FE, но количество FE на входе и количество входов и выходов влияют на скорость."
+		"Distance does not affect the transmission and output speed of FE, but the number of FE at the input and the number of inputs and outputs affect the speed."
 	]
-	quest.00F1503E7A548DFC.title: "Кристальная передача энергии 3"
-	quest.00F6E363B369290C.title: "Энергитический модуль 2"
-	quest.0107DEC76DD43435.quest_desc: ["Можно найти в пустынном храме"]
-	quest.0187F2D291AF6C65.quest_desc: ["Позводляет просматривать все закодированные шаблоны МЭ сети"]
+	quest.00F1503E7A548DFC.title: "Crystal Energy Transfer 3"
+	quest.00F6E363B369290C.title: "Energy Module 2"
+	quest.0107DEC76DD43435.quest_desc: ["Can be found in the desert temple"]
+	quest.0187F2D291AF6C65.quest_desc: ["Allows you to view all encoded ME network patterns"]
 	quest.0195520FFD13C490.quest_desc: [
-		"Для запуска потребуется &c500 MFE&r, которые надо передать залпом с помощью усилителя лазера через матрицу"
+		"To launch, you will need &c500 MFE&r, which must be transmitted in a salvo using a laser amplifier through the matrix"
 		""
-		"Строится в виде шестигранной полой сферы"
-		"Реакционная камера кладётся в реактор после его сборки"
-		"В качестве топлива используется тритий (газ) и дейтерий (газ)"
+		"It is constructed in the form of a hexagonal hollow sphere"
+		"The reaction chamber is placed into the reactor after its assembly"
+		"Tritium (gas) and deuterium (gas) are used as fuel"
 	]
-	quest.0195520FFD13C490.title: "Термоядерный реактор"
-	quest.01955D0F8D04D530.quest_desc: ["Портативная батарейка для зарядки снаряжения из мода"]
-	quest.019D63E751753074.title: "Модуль кормление 2"
-	quest.01B1A8885B71CB86.quest_desc: ["Генерирует редстоун сигнал взависимости от заполнености хранилища (можно настроить)"]
-	quest.01B25E48FD969B8F.title: "Слишком шумно"
-	quest.01B305FE575A2C91.quest_desc: ["Портал из этого мода спавнится в древнем городе."]
-	quest.01B305FE575A2C91.title: "Справка по &0The Afterdark&r"
-	quest.01D9DD55E4CC0004.title: "Ценный клиент"
-	quest.01DA0E5A569C4AA9.title: "Толстяк"
-	quest.026B66DBE200DD9D.quest_desc: ["Теперь ещё и полёт как в креативе"]
-	quest.026B66DBE200DD9D.title: "Модуль полёта 2"
-	quest.02821684BC0D481C.title: "Жареный трезубец"
-	quest.028CC9B9F19316BE.title: "Передача энергии 1"
-	quest.02D01838DDD7A285.quest_desc: ["Выбиваются с утопленников. Дают подводное дыхание, при вживлении в себя."]
-	quest.0379948637854333.quest_desc: ["Нужен для &aтрития&r и &3полония&r"]
-	quest.0379948637854333.title: "Сила солнца"
-	quest.039288BE06DFDF22.quest_desc: ["Хранилище МЭ ячеек"]
-	quest.03A22E3F85E798EA.quest_desc: ["С помощью бактерий можно делать фермы ванильных ресурсов"]
-	quest.03A22E3F85E798EA.title: "Получение бактерий"
-	quest.040749BE76C90113.quest_desc: ["Можно встретить в редстоун пешерах"]
-	quest.040749BE76C90113.title: "Редстоун чудовище"
-	quest.0460C663F961FA48.title: "Безопасный Кабум"
-	quest.0475C3C6AFC3B7FC.quest_desc: ["Хранит газы"]
-	quest.04A58B86B09F45B9.quest_desc: ["Используется для подключения МЭ сети. Имеет &a8 каналов&r."]
-	quest.04A58B86B09F45B9.title: "МЭ кабель"
-	quest.04C6E7072C9B4625.quest_desc: ["Очень полезный инструмент для взаимодействия с МЭ сетью"]
-	quest.0508167086E4BAC5.quest_desc: ["&6ИМБА!&r"]
-	quest.0508167086E4BAC5.title: "Далой ступеньки!"
-	quest.0512470A2FB61A79.title: "Я танк"
-	quest.052C55164D957F1D.quest_desc: ["Самая маленькая вмещает &6432М мВ&r. Она должна быть полой."]
-	quest.052C55164D957F1D.title: "Огромная цистерна"
-	quest.054043EFF4CE7042.quest_desc: ["Понижает сложность"]
-	quest.05B5CF28BE4A3BA8.quest_desc: ["Выдаёт редстоун сигнал при нахождении существа. Можно настроить. Требуется FE для работы."]
-	quest.05B5CF28BE4A3BA8.title: "Детектор существ"
-	quest.05D2DF7A79F8C24B.quest_desc: ["Улучшенная форсунка"]
-	quest.05DD47A0D2012666.title: "Лучше тыквы"
-	quest.05E477994D07CF1E.quest_desc: ["На нём есть жызнь! Даже слишком много"]
-	quest.05E477994D07CF1E.title: "Марс"
-	quest.05F3A262757D698C.title: "Гига Боньк"
-	quest.0624554BB69B1C0D.quest_desc: ["Выдаёт редстоун сигнал, в зависимости от погоды"]
-	quest.0624554BB69B1C0D.title: "Детектор дождя"
-	quest.063960D173642869.quest_desc: ["Вместо 100 карт памяти"]
-	quest.063960D173642869.title: "P2P инструмент"
+	quest.0195520FFD13C490.title: "Thermonuclear reactor"
+	quest.01955D0F8D04D530.quest_desc: ["Portable battery for charging equipment from the mod"]
+	quest.019D63E751753074.title: "Feeding module 2"
+	quest.01B1A8885B71CB86.quest_desc: ["Generates a redstone signal depending on how full the storage is (can be configured)"]
+	quest.01B25E48FD969B8F.title: "Too noisy"
+	quest.01B305FE575A2C91.quest_desc: ["The portal from this mod spawns in the ancient city."]
+	quest.01B305FE575A2C91.title: "Help for &0The Afterdark&r"
+	quest.01D9DD55E4CC0004.title: "Valuable client"
+	quest.01DA0E5A569C4AA9.title: "Fat Man"
+	quest.026B66DBE200DD9D.quest_desc: ["Now there's also a flight like in the creative"]
+	quest.026B66DBE200DD9D.title: "Flight Module 2"
+	quest.02821684BC0D481C.title: "Fried trident"
+	quest.028CC9B9F19316BE.title: "Energy Transfer 1"
+	quest.02D01838DDD7A285.quest_desc: ["Dropped from drowned victims. Grants underwater breathing when implanted."]
+	quest.0379948637854333.quest_desc: ["Needed for &tritium&r and &polonium&r"]
+	quest.0379948637854333.title: "The power of the sun"
+	quest.039288BE06DFDF22.quest_desc: ["ME Cell Storage"]
+	quest.03A22E3F85E798EA.quest_desc: ["You can use bacteria to make vanilla resource farms"]
+	quest.03A22E3F85E798EA.title: "Obtaining bacteria"
+	quest.040749BE76C90113.quest_desc: ["Can be found in redstone caves"]
+	quest.040749BE76C90113.title: "Redstone monster"
+	quest.0460C663F961FA48.title: "Safe Kaboom"
+	quest.0475C3C6AFC3B7FC.quest_desc: ["Stores gases"]
+	quest.04A58B86B09F45B9.quest_desc: ["Used to connect the ME network. Has &a8 channels&r."]
+	quest.04A58B86B09F45B9.title: "ME Cable"
+	quest.04C6E7072C9B4625.quest_desc: ["A very useful tool for interacting with the ME network"]
+	quest.0508167086E4BAC5.quest_desc: ["&6IMBA!&r"]
+	quest.0508167086E4BAC5.title: "Next Step!"
+	quest.0512470A2FB61A79.title: "I'm a Tank"
+	quest.052C55164D957F1D.quest_desc: ["The smallest one holds &6432M mB&r. It must be hollow."]
+	quest.052C55164D957F1D.title: "A huge cistern"
+	quest.054043EFF4CE7042.quest_desc: ["Reduces difficulty"]
+	quest.05B5CF28BE4A3BA8.quest_desc: ["Emits a redstone signal when a creature is detected. Configurable. Requires FE to function."]
+	quest.05B5CF28BE4A3BA8.title: "Creature detector"
+	quest.05D2DF7A79F8C24B.quest_desc: ["Improved nozzle"]
+	quest.05DD47A0D2012666.title: "Better than pumpkin"
+	quest.05E477994D07CF1E.quest_desc: ["There is life on it! Too much, even."]
+	quest.05E477994D07CF1E.title: "Mars"
+	quest.05F3A262757D698C.title: "Giga Bonk"
+	quest.0624554BB69B1C0D.quest_desc: ["Emits a redstone signal depending on the weather"]
+	quest.0624554BB69B1C0D.title: "Rain detector"
+	quest.063960D173642869.quest_desc: ["Instead of 100 memory cards"]
+	quest.063960D173642869.title: "P2P tool"
 	quest.0652F4489D736EFE.quest_desc: [
-		"Данный мод добавляет контент из игры &6Minecraft Dungeons&r. Мод ещё не доделан. Но работа уже проделана коласальная."
+		"This mod adds content from the game &6Minecraft Dungeons&r. It's not finished yet, but a tremendous amount of work has already been done."
 		"{@pagebreak}"
-		"На данный момент не доделаны только измерения и структуры. Сами боссы готовы, но легально можно сразится только с 3. С остальными можно сразится только если что-то баганёт или кто-то заспавнит их командой."
+		"Currently, only the dimensions and structures remain unfinished. The bosses themselves are ready, but only three can be fought legally. The rest can only be fought if something glitches or someone spawns them as a team."
 	]
-	quest.0652F4489D736EFE.title: "Вступление &6Dungeons Content&r"
-	quest.06714FCC8398774C.quest_desc: ["Ломает только те блоки, которые можно поместить в хранилище"]
-	quest.068BE66ED59E6440.quest_desc: ["Тотем бессмертия за энергию"]
-	quest.068BE66ED59E6440.title: "Модуль бессмертия"
-	quest.06C7A0F84F54E0CD.quest_desc: ["Получить можно в аду"]
-	quest.0731DEEBFCF4D788.quest_desc: ["С начала выбераете куда телепортировать потом кого"]
-	quest.0731DEEBFCF4D788.title: "Легальный /tp @e"
-	quest.07449929C519CB68.title: "Кража проклятий"
-	quest.075097D3F6D119EE.quest_desc: ["Извлекает цвета из предметов"]
-	quest.07804436CA4FCAA1.quest_desc: ["Чугунина)"]
-	quest.07804436CA4FCAA1.title: "Чугун"
-	quest.078F03F80E2D56E3.quest_desc: ["Бьёт тревогу при подаче редстоун сигнала "]
-	quest.078F03F80E2D56E3.title: "Тревога!"
-	quest.07934548511D6746.title: "Модуль щита 3"
+	quest.0652F4489D736EFE.title: "Introduction &6Dungeons Content&r"
+	quest.06714FCC8398774C.quest_desc: ["Breaks only those blocks that can be placed in storage"]
+	quest.068BE66ED59E6440.quest_desc: ["Totem of Immortality for Energy"]
+	quest.068BE66ED59E6440.title: "Immortality module"
+	quest.06C7A0F84F54E0CD.quest_desc: ["You can get it in hell"]
+	quest.0731DEEBFCF4D788.quest_desc: ["First, you choose where to teleport, then who"]
+	quest.0731DEEBFCF4D788.title: "Legal /tp @e"
+	quest.07449929C519CB68.title: "Stealing Curses"
+	quest.075097D3F6D119EE.quest_desc: ["Extracts colors from objects"]
+	quest.07804436CA4FCAA1.quest_desc: ["Chugunin :)"]
+	quest.07804436CA4FCAA1.title: "Cast iron"
+	quest.078F03F80E2D56E3.quest_desc: ["Sounds an alarm when a redstone signal is transmitted"]
+	quest.078F03F80E2D56E3.title: "Anxiety!"
+	quest.07934548511D6746.title: "Shield module 3"
 	quest.07FA368632D7C5B6.quest_desc: [
-		"Базовые материалы "
+		"Basic materials"
 		"{@pagebreak}"
-		"Все механизмы в моде, технически, считаются мультиблочными, а именно они состаят из самой машинки (например центрефуги), ядр машин и аддонов (улучшений). Ядра машин ставится на машинку (например центрефугу), а аддоны на ядро. Ядер как и аддонов может быть несколько. Для установки ядер надо кликнуть ПКМ ядром по машинке и ядро само поставится куда надо."
+		"All mechanisms in the mod are technically considered multi-block, meaning they consist of the machine itself (e.g., a centrifuge), a machine core, and add-ons (upgrades). Machine cores are installed on the machine (e.g., a centrifuge), and add-ons are installed on the core. There can be multiple cores and add-ons. To install cores, right-click the machine core, and the core will automatically install itself."
 	]
-	quest.07FA368632D7C5B6.title: "Начало &#FF5B0DOritech&r"
-	quest.0802987B9C1FC215.quest_desc: ["Данный мод добавляет еду из предметов и растений энда."]
-	quest.080DAB7398CF688F.quest_desc: ["Понижает точность стрельбы"]
-	quest.080DAB7398CF688F.title: "Модуль разброса выстрела"
-	quest.0835E333FD4BEF28.quest_desc: ["Нельзя применить более одного раза"]
-	quest.083B05EAB1CF0405.quest_desc: ["Работает с газами и жидкостями. Вмещает 16 вёдер."]
-	quest.083B05EAB1CF0405.title: "Пипетка"
-	quest.083FA733DD6462F5.quest_desc: ["Генерирует редстоун сигнал взависимости от заполнености хранилища (можно настроить)"]
-	quest.089541E22170D3D3.quest_desc: ["Я теперь знаю сложность"]
-	quest.0934F14B98678A72.title: "Модуль авто-стрельбы"
-	quest.093E1D796D157054.quest_desc: ["Работает на водороде"]
-	quest.09470FCAEDF59DB0.quest_desc: ["Выпадает с древнего стража. Даёт регенерацию, при вживлении в себя."]
-	quest.096D27659ABC7177.quest_desc: ["Позволяет не только следить за количеством предмета, но и взаимодействовать с ним"]
-	quest.09B640D4F26D8271.quest_desc: ["Основное место крафта"]
-	quest.09B640D4F26D8271.title: "Наполнение"
-	quest.0A026467BCC3954B.quest_desc: ["Реактивный ранец, работающий на газе"]
-	quest.0A026467BCC3954B.title: "Я лечу!"
-	quest.0A15019782E5DD5F.quest_desc: ["Огненный бросок"]
-	quest.0A3C4BE41073BE0F.title: "Сила проклятий"
-	quest.0A69FC3C2992456B.title: "Модуль урона удара 3"
-	quest.0A709DE738080F5E.title: "Модуль скорости 2"
-	quest.0AA8288E033BB394.quest_desc: ["Можно встретить в нагорье"]
-	quest.0AA8288E033BB394.title: "Голем бури"
-	quest.0AB6E0545A12B26C.quest_desc: ["Растворяет руду с помощью серной кислоты."]
-	quest.0ACD1BCF51874A50.quest_desc: ["Автоматически запрашивает (создаёт) недостающие предметы для крафта"]
-	quest.0ACD1BCF51874A50.title: "Оптимизация!"
-	quest.0AD81AEB087F5403.quest_desc: ["Это светофор для поездов"]
-	quest.0AD81AEB087F5403.title: "Светофор"
-	quest.0AE207E4BD88932D.title: "Высичение"
-	quest.0AED40C12EA135CF.title: "Модуль скорости полёта выстрела 3"
-	quest.0AF395CDD6A563D5.title: "Модуль ночного зрения"
-	quest.0BEA1761F828E5BF.quest_desc: ["Выпадает с обычных стражей. При вживлении в себя, позволяет стрелять лазером, наносящим 3 урона в тик. Не забудте назначить клавишу."]
-	quest.0C220F3FC7B3AB3C.title: "Слияние 3"
-	quest.0C23786107276F34.quest_desc: ["Логистический транспортёр с фильтром"]
+	quest.07FA368632D7C5B6.title: "Start &#FF5B0DOritech&r"
+	quest.0802987B9C1FC215.quest_desc: ["This mod adds food from end items and plants."]
+	quest.080DAB7398CF688F.quest_desc: ["Reduces shooting accuracy"]
+	quest.080DAB7398CF688F.title: "Shot dispersion module"
+	quest.0835E333FD4BEF28.quest_desc: ["Cannot be used more than once"]
+	quest.083B05EAB1CF0405.quest_desc: ["Works with gases and liquids. Holds 16 buckets."]
+	quest.083B05EAB1CF0405.title: "Pipette"
+	quest.083FA733DD6462F5.quest_desc: ["Generates a redstone signal depending on how full the storage is (can be configured)"]
+	quest.089541E22170D3D3.quest_desc: ["I now know the difficulty"]
+	quest.0934F14B98678A72.title: "Auto-shooting module"
+	quest.093E1D796D157054.quest_desc: ["Runs on hydrogen"]
+	quest.09470FCAEDF59DB0.quest_desc: ["Dropped by the Ancient Guardian. Grants regeneration when implanted."]
+	quest.096D27659ABC7177.quest_desc: ["Allows you not only to monitor the quantity of an item, but also to interact with it"]
+	quest.09B640D4F26D8271.quest_desc: ["Main place of crafting"]
+	quest.09B640D4F26D8271.title: "Filling"
+	quest.0A026467BCC3954B.quest_desc: ["Gas-powered jetpack"]
+	quest.0A026467BCC3954B.title: "I'm flying!"
+	quest.0A15019782E5DD5F.quest_desc: ["Fire Throw"]
+	quest.0A3C4BE41073BE0F.title: "The power of curses"
+	quest.0A69FC3C2992456B.title: "Impact Damage Module 3"
+	quest.0A709DE738080F5E.title: "Speed ​​module 2"
+	quest.0AA8288E033BB394.quest_desc: ["Can be found in the highlands"]
+	quest.0AA8288E033BB394.title: "Storm Golem"
+	quest.0AB6E0545A12B26C.quest_desc: ["Dissolves ore with sulfuric acid."]
+	quest.0ACD1BCF51874A50.quest_desc: ["Automatically requests (creates) missing items for crafting"]
+	quest.0ACD1BCF51874A50.title: "Optimization!"
+	quest.0AD81AEB087F5403.quest_desc: ["This is a traffic light for trains."]
+	quest.0AD81AEB087F5403.title: "Traffic light"
+	quest.0AE207E4BD88932D.title: "Highlighting"
+	quest.0AED40C12EA135CF.title: "Shot Speed ​​Module 3"
+	quest.0AF395CDD6A563D5.title: "Night vision module"
+	quest.0BEA1761F828E5BF.quest_desc: ["Dropped by regular guards. When implanted, it allows you to fire a laser that deals 3 damage per tick. Don't forget to assign it to a key."]
+	quest.0C220F3FC7B3AB3C.title: "Merger 3"
+	quest.0C23786107276F34.quest_desc: ["Logistics conveyor with filter"]
 	quest.0C2D3986B5D839D5.quest_desc: [
-		"&4Отдают&r максимум &c0 FE&r/t. "
-		"&2Хранят&r максимум &c4МFE&r."
+		"&4They give&r maximum &c0 FE&r/t."
+		"&2Stores&r maximum &c4MFE&r."
 		""
-		"Для &eбеспроводного&r связывания:"
-		"&aПередают&r &c32 kFE&r/t."
-		"Можно &eподключить&r максимум &e16 БЛОКОВ&r, способных принять &cэнергию&r."
-		"&6Не работает в разных измерениях.&r"
+		"For &ewireless&r pairing:"
+		"&aTransmit&r &c32 kFE&r/t."
+		"You can connect a maximum of 16 BLOCKS capable of receiving energy."
+		"&6Doesn't work across dimensions.&r"
 		"{@pagebreak}"
-		"Для &eобычного&r связывания:"
-		"&aПередают&r максимум &c3.36 МFE&r/t."
-		"Можно &eподключить&r максимум &e4 кристалла&r."
+		"For &enormal&r binding:"
+		"&aTransmit&r maximum &c3.36 MFE&r/t."
+		"You can connect a maximum of 4 crystals."
 		""
-		"&6Максимальная дальность связывания 33 блока.&r"
+		"&6Maximum binding range is 33 blocks.&r"
 		""
-		"Расстояние не влияет на скорость передачи и отдачи FE, но количество FE на входе и количество входов и выходов влияют на скорость."
+		"Distance does not affect the transmission and output speed of FE, but the number of FE at the input and the number of inputs and outputs affect the speed."
 	]
-	quest.0C2D3986B5D839D5.title: "Беспроводное кристальное реле"
-	quest.0C3E9C5F47C4BDDE.quest_desc: ["Теперь вам доступна большая часть рецептов. Включая &6ЧАЙ&r."]
-	quest.0C3E9C5F47C4BDDE.title: "Второй шаг"
+	quest.0C2D3986B5D839D5.title: "Wireless crystal relay"
+	quest.0C3E9C5F47C4BDDE.quest_desc: ["Most of the recipes are now available to you, including &6TEA&r."]
+	quest.0C3E9C5F47C4BDDE.title: "The second step"
 	quest.0C4A8D75F8BBAB77.quest_desc: [
-		"Ключ к новому &4опасному&r измерению. Покинуть данное измерение можно только найдя точно такойже портал, через который вы в него вошли или использовать любой другой способ телепортации между измерениями."
+		"The key to a new, dangerous dimension. You can only leave this dimension by finding the exact same portal you entered through or by using any other method of teleportation between dimensions."
 		""
-		"Само измерение представляет собой одну красивую и гиганскую пешеру с ванильными рудами."
+		"The dimension itself is one beautiful and gigantic cave with vanilla ores."
 	]
-	quest.0C4A8D75F8BBAB77.title: "Приключение на 5 минут"
+	quest.0C4A8D75F8BBAB77.title: "5-minute adventure"
 	quest.0C6649FD2E8319E8.quest_desc: [
-		"&aПередают&r максимум &c29.86 МFE&r/t."
-		"&4Отдают&r максимум &c0 FE&r/t. "
-		"&2Хранят&r максимум &c64МFE&r."
-		"Можно &eподключить&r максимум &e32 кристалла&r."
+		"&aTransmit&r maximum &c29.86 MFE&r/t."
+		"&4They give&r maximum &c0 FE&r/t."
+		"&2Store&r maximum &c64MFE&r."
+		"You can connect a maximum of 32 crystals."
 		""
-		"&6Максимальная дальность связывания 110 блоков.&r"
+		"&6Maximum linking range is 110 blocks.&r"
 		""
-		"Расстояние не влияет на скорость передачи и отдачи FE, но количество FE на входе и количество входов и выходов влияют на скорость."
+		"Distance does not affect the transmission and output speed of FE, but the number of FE at the input and the number of inputs and outputs affect the speed."
 	]
-	quest.0C6649FD2E8319E8.title: "Кристальное реле 3"
-	quest.0C6DDA9DF6E6C9FE.quest_desc: ["Гаечный ключ работает на блоках из других модов."]
-	quest.0C6DDA9DF6E6C9FE.title: "Базовое снаряжение"
-	quest.0C6DDFA2F6821875.quest_desc: ["Можно найти в подземелье"]
-	quest.0C7996F30DA987DE.quest_desc: ["Всем спать!"]
-	quest.0D0EC78A415796B1.quest_desc: ["Теперь есть возможность фильтрации"]
-	quest.0D0EC78A415796B1.title: "Эндер-модуль 2"
-	quest.0D2E75FAE2D7B7F6.quest_desc: ["Кваквапорт для поездов"]
-	quest.0D2E75FAE2D7B7F6.title: "Почта без писем"
-	quest.0DBFA704C34E42B2.quest_desc: ["Повышает максимальное количество хранимой энергии"]
-	quest.0DEC7D7AD22F351E.quest_desc: ["В ней варят"]
-	quest.0E299CA64FC071C5.quest_desc: ["Можно наполнить зельем"]
-	quest.0E30F6D53DC3D11C.quest_desc: ["Позволяет следить за количеством определённого предмета в МЭ сети"]
-	quest.0E7F84F4B9A32B44.quest_desc: ["Соединяется с корпусами ячеек и блоками создания"]
-	quest.0E97FD02ADBF1D72.quest_desc: ["Срубает дерево вместе с листвой"]
-	quest.0EB57A1517F7C294.quest_desc: ["Это помпа, особенность которой это возможность добычи &1тяжёлой воды&r."]
-	quest.0EF84C18EB9095E3.quest_desc: ["Рюкзак на минималках"]
-	quest.0F02A4B3B7688CA0.quest_desc: ["Хранит предметы. Не любит разнообразие предметов."]
-	quest.0F02A4B3B7688CA0.title: "Предметные ячейки"
-	quest.0F3D267B779E1544.quest_desc: ["Нужны для установления квантевой связи между МЭ системами. Они должны иметь одинаковое имя. Переименовать можно в наковальне."]
-	quest.0F3D267B779E1544.title: "Квантовая запутанность"
-	quest.0F457CEDD4347D53.title: "Модуль урона удара 2"
-	quest.0F5F7755AAFBE176.quest_desc: ["Для очистки жидкой руды"]
-	quest.0FA6AD057028BDAA.quest_desc: ["Имеет &a32 канала&r и показывает количество используемых &aканалов&r"]
-	quest.0FA6AD057028BDAA.title: "Непрозрачный МЭ умный кабель"
-	quest.0FB5A509F9179C37.quest_desc: ["В разработке"]
-	quest.0FB5A509F9179C37.title: "Бамбуковый лес"
-	quest.103F5F9DF533659B.quest_desc: ["Прокатывает материалы"]
-	quest.103F5F9DF533659B.title: "Станок"
-	quest.1043C061793C16AA.quest_desc: ["Очередная помпа"]
-	quest.104F7D748A854E2A.title: "Клогглер"
-	quest.1089C20BA309680D.quest_desc: ["Ускоряет рост кристаллов за энергию"]
-	quest.10F151348D05D5E3.quest_desc: ["Наград за квесты не будет, так как сама МЭ сеть уже награда"]
-	quest.10F151348D05D5E3.title: "Начало &#70FFFFApplied Energistics 2&r"
-	quest.10F47B2814E87388.quest_desc: ["Падает с ядовитого паука"]
-	quest.110031A07514E0CC.title: "Кладбище"
-	quest.116832EDEF77EB40.quest_desc: ["Обединяет авто-крафт МЭ сети со схемами и строительной пушкой"]
-	quest.116832EDEF77EB40.title: "МЭ стройка!"
-	quest.116E8937E14417C4.quest_desc: ["Для выгрузки опыта"]
-	quest.118CA82AC99A5B00.title: "Мозги"
-	quest.11B605E069CBB73D.quest_desc: ["Позволяет пробивать мобов насквозь"]
-	quest.11B605E069CBB73D.title: "Модуль пробития выстрела"
-	quest.11BCF33F4F318D29.title: "Гебура"
-	quest.11BEC07C72030E04.title: "Лагерь прошлого"
-	quest.1256A45A128C90AE.title: "Создайте чёрную дыру"
+	quest.0C6649FD2E8319E8.title: "Crystal Relay 3"
+	quest.0C6DDA9DF6E6C9FE.quest_desc: ["The wrench works on blocks from other mods."]
+	quest.0C6DDA9DF6E6C9FE.title: "Basic equipment"
+	quest.0C6DDFA2F6821875.quest_desc: ["Can be found in the dungeon"]
+	quest.0C7996F30DA987DE.quest_desc: ["Everybody go to bed!"]
+	quest.0D0EC78A415796B1.quest_desc: ["Now there is a filtering option"]
+	quest.0D0EC78A415796B1.title: "Ender Module 2"
+	quest.0D2E75FAE2D7B7F6.quest_desc: ["Quaquaport for trains"]
+	quest.0D2E75FAE2D7B7F6.title: "Mail without letters"
+	quest.0DBFA704C34E42B2.quest_desc: ["Increases the maximum amount of stored energy"]
+	quest.0DEC7D7AD22F351E.quest_desc: ["They cook in it"]
+	quest.0E299CA64FC071C5.quest_desc: ["Can be filled with potion"]
+	quest.0E30F6D53DC3D11C.quest_desc: ["Allows you to monitor the quantity of a certain item in the ME network"]
+	quest.0E7F84F4B9A32B44.quest_desc: ["Connects to cell bodies and creation blocks"]
+	quest.0E97FD02ADBF1D72.quest_desc: ["Cuts down a tree along with its leaves"]
+	quest.0EB57A1517F7C294.quest_desc: ["This is a pump, the special feature of which is the ability to extract &1heavy water&r."]
+	quest.0EF84C18EB9095E3.quest_desc: ["Backpack at the minimum"]
+	quest.0F02A4B3B7688CA0.quest_desc: ["Stores objects. Doesn't like a variety of objects."]
+	quest.0F02A4B3B7688CA0.title: "Subject cells"
+	quest.0F3D267B779E1544.quest_desc: ["These are needed to establish quantum communication between ME systems. They must have the same name. They can be renamed in the anvil."]
+	quest.0F3D267B779E1544.title: "Quantum entanglement"
+	quest.0F457CEDD4347D53.title: "Impact Damage Module 2"
+	quest.0F5F7755AAFBE176.quest_desc: ["For purification of liquid ore"]
+	quest.0FA6AD057028BDAA.quest_desc: ["Has &a32 channels&r and shows the number of used &achannels&r."]
+	quest.0FA6AD057028BDAA.title: "Opaque ME smart cable"
+	quest.0FB5A509F9179C37.quest_desc: ["In development"]
+	quest.0FB5A509F9179C37.title: "Bamboo forest"
+	quest.103F5F9DF533659B.quest_desc: ["Rolls materials"]
+	quest.103F5F9DF533659B.title: "Machine"
+	quest.1043C061793C16AA.quest_desc: ["Another pump"]
+	quest.104F7D748A854E2A.title: "Cloggler"
+	quest.1089C20BA309680D.quest_desc: ["Accelerates crystal growth for energy"]
+	quest.10F151348D05D5E3.quest_desc: ["There will be no rewards for quests, since the ME network itself is already a reward"]
+	quest.10F151348D05D5E3.title: "Start &#70FFFFApplied Energistics 2&r"
+	quest.10F47B2814E87388.quest_desc: ["Dropped by a poisonous spider"]
+	quest.110031A07514E0CC.title: "Cemetery"
+	quest.116832EDEF77EB40.quest_desc: ["Combines the ME network's auto-crafting with schematics and a construction gun"]
+	quest.116832EDEF77EB40.title: "ME construction!"
+	quest.116E8937E14417C4.quest_desc: ["To download experience"]
+	quest.118CA82AC99A5B00.title: "Brain"
+	quest.11B605E069CBB73D.quest_desc: ["Allows you to pierce through mobs"]
+	quest.11B605E069CBB73D.title: "Shot penetration module"
+	quest.11BCF33F4F318D29.title: "Geburah"
+	quest.11BEC07C72030E04.title: "Camp of the past"
+	quest.1256A45A128C90AE.title: "Create a black hole"
 	quest.12641F766B4DD7D4.quest_desc: [
-		"Добывается путём добычи кристалла призмарина с помощью способности кирки из аквариумной стали. "
+		"Obtained by mining a Prismarine Crystal using the Aquarium Steel Pickaxe ability."
 		""
-		"Чтобы снаряжение из аквариумной стали могли использовать свои способности их надо кинуть в EAS и подождать пока они впитают жидкость."
+		"In order for equipment made from aquarium steel to use its abilities, it must be thrown into the EAS and wait until it absorbs the liquid."
 	]
-	quest.12A307F51B33171C.quest_desc: ["Проводами запитать не получится. Нужно распологать блоки ввиде кольца. Принцип работы такой, создаёте 2 кольца, в кождом из которых разгоняете по частице, а при достижении нужной скорости сталкиваете частицы друг с другом. Подробние можно посмотреть на официальной вики &bhttps://moddedmc.wiki/ru/project/oritech/&r (Без VPN у вас не получится на неё зайти)."]
-	quest.12ADC24E1E605730.quest_desc: ["Падает с зимогора"]
-	quest.12BECF534D37A0A8.title: "Модуль контроллера щита 3"
-	quest.12CB9E8163310455.title: "Нефть!"
-	quest.12D0E00F04393D33.quest_desc: ["Для разделения/украшения кабелей"]
-	quest.13313081DB41EF7F.quest_desc: ["Карту можно открыть при нажатии Y или правой кнопкой мыши, держа её в руках. Она нужна для путишествий прямо как в оригинальной игре."]
-	quest.133ECC143227907A.quest_desc: ["Получается с шансом 1 к 1024 при сжигании скалка"]
-	quest.133ECC143227907A.title: "Кристалл Скалка"
+	quest.12A307F51B33171C.quest_desc: ["You can't power it with wires. You need to arrange the blocks in a ring. The principle is to create two rings, accelerate a particle into each, and when the desired speed is reached, the particles collide with each other. You can find more details on the official wiki: &bhttps://moddedmc.wiki/ru/project/oritech/&r."]
+	quest.12ADC24E1E605730.quest_desc: ["Falls from the winter mountain."]
+	quest.12BECF534D37A0A8.title: "Shield Controller Module 3"
+	quest.12CB9E8163310455.title: "Oil!"
+	quest.12D0E00F04393D33.quest_desc: ["For separating/decorating cables"]
+	quest.13313081DB41EF7F.quest_desc: ["The map can be opened by pressing Y or right-clicking while holding it. It's used for travel, just like in the original game."]
+	quest.133ECC143227907A.quest_desc: ["It occurs with a 1 in 1024 chance when burning a rolling pin"]
+	quest.133ECC143227907A.title: "Crystal Rolling Pin"
 	quest.138B06DF65DAB70A.quest_desc: [
-		"Используется для кодировки пустых шаблонов. Закодированные шаблоы нужны для авто-крафта. "
+		"Used to encode empty templates. Encoded templates are required for automatic item creation."
 		""
-		"&6Результат авто-кравта всегда надо забирать с помощью шины импорта.&r"
+		"&6The result of autocrafting must always be collected using the import bus.&r"
 	]
-	quest.138B06DF65DAB70A.title: "Авто-крафт"
-	quest.13B4B8F6DDDC1A18.quest_desc: ["Ячейки, сделанные из этого компонента, нужны для хранения пространства."]
-	quest.1403247F86C52F24.quest_desc: ["Ставит блоки"]
+	quest.138B06DF65DAB70A.title: "Autocraft"
+	quest.13B4B8F6DDDC1A18.quest_desc: ["The cells made from this component are needed to store space."]
+	quest.1403247F86C52F24.quest_desc: ["Puts up blocks"]
 	quest.14098EDF9A6C527E.quest_desc: [
-		"&aПередают&r максимум &c3.36 МFE&r/t."
-		"&4Отдают&r максимум &c0 FE&r/t. "
-		"&2Хранят&r максимум &c4МFE&r."
-		"Можно &eподключить&r максимум &e8 кристаллов&r."
+		"&aTransmit&r maximum &c3.36 MFE&r/t."
+		"&4They give&r maximum &c0 FE&r/t."
+		"&2Stores&r maximum &c4MFE&r."
+		"You can connect a maximum of 8 crystals."
 		""
-		"&6Максимальная дальность связывания 33 блока.&r"
+		"&6Maximum binding range is 33 blocks.&r"
 		""
-		"Расстояние не влияет на скорость передачи и отдачи FE, но количество FE на входе и количество входов и выходов влияют на скорость."
+		"Distance does not affect the transmission and output speed of FE, but the number of FE at the input and the number of inputs and outputs affect the speed."
 	]
-	quest.14098EDF9A6C527E.title: "Кристальное реле"
-	quest.145461B864C9A33D.title: "Совершенные материалы"
-	quest.148A645FDD385A72.title: "Модуль урона выстрела"
-	quest.149CE63224A42A3E.quest_desc: ["Потребуется минимум 2"]
-	quest.14B084BD5BEAB04E.quest_desc: ["Увеличивает количество бактерий. &4Вход&r энергии сверху и снизу."]
-	quest.14BB8C202296D9F6.quest_desc: ["Для создания озёр"]
-	quest.14C8AF9006461B90.quest_desc: ["Позволяет горелке всполоха работать на жидком топливе"]
-	quest.14DA1834D9B0FD31.quest_desc: ["Преобразует жидкости в газ и наоборот"]
-	quest.15E7D3D6509A15F7.quest_desc: ["Его логово в обычном мире. Это огромная башня. Вы её точно не пропустите."]
-	quest.15E7D3D6509A15F7.title: "Дракон!"
-	quest.15F31664094F305E.quest_desc: ["С него падает ценный лут"]
-	quest.15F31664094F305E.title: "Хранитель"
-	quest.160E8A7ADF8DB831.quest_desc: ["                  Кринжанул?"]
-	quest.160E8A7ADF8DB831.title: "Сколько!?"
-	quest.1626C3E1503ECD96.quest_desc: ["Телепортирует предметы в инвентарь в радиусе 32 блоков"]
-	quest.162B3C46CF9C2DE7.quest_desc: ["Для зелья"]
-	quest.1637CD5BE49A8DAA.quest_desc: ["Нужна для осушения малениких источников жидкости, например озёр. Если источник жидкости слишком велик, то жидкость будет выкачиваться бесконечно, благодаря чему можно сделать бесконечный источник лавы."]
-	quest.165241F2C7C20CA5.quest_desc: ["ФАРМ!"]
-	quest.166AD2E3FFFBA852.quest_desc: ["Благодаря нему штуковины могут ловить рыбу и собирать предметы. Так сказать даёт \"Сачёк\" штуковинам."]
-	quest.1683BCBE94C85245.title: "Модуль урона выстрела 3"
-	quest.17355DF0B9B13EF2.title: "Латуный век"
-	quest.1739B02FF32EBAF7.title: "Я стрелок"
-	quest.17501708E9874CA1.quest_desc: ["Я теперь ведьма"]
-	quest.176359EB00EB5794.title: "Основа всех механизмов"
-	quest.17717D1927B6685F.quest_desc: ["Можно найти в подземелье"]
-	quest.179C448365BE8128.title: "Энергитический модуль 4"
-	quest.17A408364B1D07A9.title: "Модуль ати-гравитации выстрела 2"
-	quest.17B38362F22FA8CE.quest_desc: ["Разделяет 5 мВ воды на 10 мВ водорода и 5 мВ кислорода"]
-	quest.17B3C76004B157CF.quest_desc: ["Позволяет числам датчиков и редстоуну взаимодействовать друг с другом"]
-	quest.17FCB83B40B5D4F3.quest_desc: ["КОПАТЬ! КОПАТЬ! КОПАТЬ! КОПАТЬ!"]
-	quest.17FCB83B40B5D4F3.title: "&4Уничтожение&r"
-	quest.181DDF9F731195D1.quest_desc: ["Требуется душа для работы"]
-	quest.181DDF9F731195D1.title: "Исскуственный спавнер"
-	quest.187937E3D82F9831.quest_desc: ["Этот босс накладывает тьму."]
-	quest.187937E3D82F9831.title: "Черный Чарро"
-	quest.1886149DCFC7D0AA.quest_desc: ["Станьте ангелом"]
-	quest.1886149DCFC7D0AA.title: "Благословение"
-	quest.1887E2B2C804C08A.title: "Беспроводной терминал запроса"
-	quest.188B0238D1526B0E.quest_desc: ["Стреляет едой"]
-	quest.188B0238D1526B0E.title: "Еда тоже оружие"
-	quest.189C32396069A145.quest_desc: ["Хранит 6.4 MFE"]
-	quest.18D6489703C9EBC7.quest_desc: ["Нож для разделки рыбы"]
-	quest.18D6489703C9EBC7.title: "Красивый"
-	quest.18E61ABB18CD55E1.title: "Слияние 2"
-	quest.18FBCCCFF3D1FAB6.quest_desc: ["Лук-лучок — золотая луковица!"]
-	quest.19096CA5486B71B6.quest_desc: ["Позволяет смотреть на статус изготовления текущего крафта. Подсоединяется в плотную к \"&eОЗУ&r\" МЭ сети."]
-	quest.19125D2EBC913D01.quest_desc: ["Кто его использует?"]
-	quest.19125D2EBC913D01.title: "Я перфекционист"
-	quest.192C368AF3F6F559.quest_desc: ["В разработке"]
-	quest.192C368AF3F6F559.title: "Редстоун пешеры"
-	quest.19827710C45D0A77.quest_desc: ["А где криперы?"]
-	quest.19827710C45D0A77.title: "Лес криперов"
-	quest.19A6EB47C7C46E34.quest_desc: ["Станьте диким"]
-	quest.19A6EB47C7C46E34.title: "Путь дикаря"
-	quest.19E003B51D6A2ACC.quest_desc: ["Ускоряет работу за счёт повышения затрат энергии"]
-	quest.1A054CA8EF6D6743.quest_desc: ["Для тех кто шарит за программирование на языке Lua. Благодаря аддонам, может взаимодействовать со складским тикером (складом из Create)."]
-	quest.1A08646021F0DFC4.title: "Передача предметов 1"
-	quest.1A2A03B9AF82D334.quest_desc: ["Электрический верстак"]
-	quest.1A70386EC125376E.quest_desc: ["Используется для \"встраивания\" улучшений в предметы"]
-	quest.1A70386EC125376E.title: "Улучшай"
-	quest.1AC1E7F2E3865AF0.quest_desc: ["Объединяет предметы"]
-	quest.1B0D9195D4FFB109.quest_desc: ["КАБУМ"]
-	quest.1B488219E0975834.quest_desc: ["Авто-увеличивающееся хранилище FE. В описании предмета написано какие блоки можно использовать в качестве ядра и какая у них эффективность. Максимум может хранить 500 GFE."]
-	quest.1B608B2069BD95D2.quest_desc: ["Их надо будет много"]
-	quest.1B608B2069BD95D2.title: "Базовые материалы"
-	quest.1BC80DC4E04AA52F.quest_desc: ["Позволяет за FE контролировать погоду"]
-	quest.1BC80DC4E04AA52F.title: "Контролёр погоды"
-	quest.1BDD62323F854223.quest_desc: ["Магнит для беспроводного терминала"]
-	quest.1BE58DE8D3067485.quest_desc: ["Сундук + верстак"]
-	quest.1C0E1D06D6841E6A.quest_desc: ["В разработке"]
-	quest.1C0E1D06D6841E6A.title: "Огненная кузня"
-	quest.1C399A00D4628181.quest_desc: ["Лучше обелисков"]
-	quest.1C399A00D4628181.title: "Порталы"
-	quest.1C66244534C37995.title: "Слияние 4"
-	quest.1C682B4F22F31761.title: "Улучшенная энергия солнца"
-	quest.1C8F38FFC493F25F.quest_desc: ["Просто лучше"]
-	quest.1C8F38FFC493F25F.title: "Скафандр 2"
-	quest.1CA1D0EEE7DF2290.quest_desc: ["Это газовый гигант. Если вы не умеете ставить блоки в воздухе или летать, то это 100% смерть."]
-	quest.1CA1D0EEE7DF2290.title: "Юпитер"
-	quest.1CC3656B22698A52.quest_desc: ["При попадании в блок, появляется верёвка, по которой можно поднятся"]
-	quest.1CFE2FE2B61B20B8.title: "Очередной \"Верстак\""
-	quest.1D1C8307BE25F66D.title: "Многоразовое зелье червоточины"
-	quest.1D2BD8E140658C16.quest_desc: ["Считывает редстоун инпульсы и в зависимости от их количества передаёт соответствующее число"]
-	quest.1D49898E5C9F3DD6.quest_desc: ["Рис сажают на землю со 100% влажностью."]
-	quest.1DD022C8FD9E9E86.quest_desc: ["Кликните пустой горелкой по всполоху или их спавнеру, чтобы наполнить её. Так же пустую горелку можно использовать в качестве декора или освещения."]
-	quest.1DD022C8FD9E9E86.title: "Третий шаг"
-	quest.1DDE8ECF0B459F8B.quest_desc: ["Безполезен в одиночной игре"]
-	quest.1DDE8ECF0B459F8B.title: "Стол охраны"
-	quest.1DE19B983041FAA6.quest_desc: ["Для настройки белого списка ячеек"]
+	quest.14098EDF9A6C527E.title: "Crystal Relay"
+	quest.145461B864C9A33D.title: "Perfect materials"
+	quest.148A645FDD385A72.title: "Shot Damage Module"
+	quest.149CE63224A42A3E.quest_desc: ["A minimum of 2 is required"]
+	quest.14B084BD5BEAB04E.quest_desc: ["Increases the number of bacteria. &4Energy input&r from above and below."]
+	quest.14BB8C202296D9F6.quest_desc: ["To create lakes"]
+	quest.14C8AF9006461B90.quest_desc: ["Allows the flash burner to operate on liquid fuel"]
+	quest.14DA1834D9B0FD31.quest_desc: ["Converts liquids to gases and vice versa"]
+	quest.15E7D3D6509A15F7.quest_desc: ["His lair is in the overworld. It's a huge tower. You definitely won't miss it."]
+	quest.15E7D3D6509A15F7.title: "Dragon!"
+	quest.15F31664094F305E.quest_desc: ["It drops valuable loot"]
+	quest.15F31664094F305E.title: "Warden"
+	quest.160E8A7ADF8DB831.quest_desc: ["                  Cringed?"]
+	quest.160E8A7ADF8DB831.title: "How many!?"
+	quest.1626C3E1503ECD96.quest_desc: ["Teleports items to your inventory within a 32 block radius"]
+	quest.162B3C46CF9C2DE7.quest_desc: ["For the potion"]
+	quest.1637CD5BE49A8DAA.quest_desc: ["It's needed to drain small sources of liquid, such as lakes. If the source is too large, the liquid will be pumped out indefinitely, allowing for an infinite source of lava."]
+	quest.165241F2C7C20CA5.quest_desc: ["FARM!"]
+	quest.166AD2E3FFFBA852.quest_desc: ["Thanks to it, the gizmos can catch fish and collect items. So to speak, it gives the gizmos a \"fishing net.\""]
+	quest.1683BCBE94C85245.title: "Shot Damage Module 3"
+	quest.17355DF0B9B13EF2.title: "Brass Age"
+	quest.1739B02FF32EBAF7.title: "I'm a shooter"
+	quest.17501708E9874CA1.quest_desc: ["I'm a witch now"]
+	quest.176359EB00EB5794.title: "The basis of all mechanisms"
+	quest.17717D1927B6685F.quest_desc: ["Can be found in the dungeon"]
+	quest.179C448365BE8128.title: "Energy Module 4"
+	quest.17A408364B1D07A9.title: "Ati-gravity shot module 2"
+	quest.17B38362F22FA8CE.quest_desc: ["Splits 5 mB of water into 10 mB of hydrogen and 5 mB of oxygen"]
+	quest.17B3C76004B157CF.quest_desc: ["Allows sensor numbers and redstone to interact with each other"]
+	quest.17FCB83B40B5D4F3.quest_desc: ["DIG! DIG! DIG! DIG!"]
+	quest.17FCB83B40B5D4F3.title: "&4Destruction&r"
+	quest.181DDF9F731195D1.quest_desc: ["It takes a soul to work"]
+	quest.181DDF9F731195D1.title: "Artificial spawner"
+	quest.187937E3D82F9831.quest_desc: ["This boss inflicts darkness."]
+	quest.187937E3D82F9831.title: "Black Charro"
+	quest.1886149DCFC7D0AA.quest_desc: ["Become an angel"]
+	quest.1886149DCFC7D0AA.title: "Blessing"
+	quest.1887E2B2C804C08A.title: "Wireless query terminal"
+	quest.188B0238D1526B0E.quest_desc: ["Shoots food"]
+	quest.188B0238D1526B0E.title: "Food is also a weapon"
+	quest.189C32396069A145.quest_desc: ["Stores 6.4 MFE"]
+	quest.18D6489703C9EBC7.quest_desc: ["Fish cutting knife"]
+	quest.18D6489703C9EBC7.title: "Beautiful"
+	quest.18E61ABB18CD55E1.title: "Merger 2"
+	quest.18FBCCCFF3D1FAB6.quest_desc: ["Onion-onion - golden onion!"]
+	quest.19096CA5486B71B6.quest_desc: ["Allows you to view the production status of the current craft. Connects directly to the \"&eRAM&r\" ME network."]
+	quest.19125D2EBC913D01.quest_desc: ["Who uses it?"]
+	quest.19125D2EBC913D01.title: "I am a perfectionist"
+	quest.192C368AF3F6F559.quest_desc: ["In development"]
+	quest.192C368AF3F6F559.title: "Redstone Caves"
+	quest.19827710C45D0A77.quest_desc: ["Where are the creepers?"]
+	quest.19827710C45D0A77.title: "Creeper Forest"
+	quest.19A6EB47C7C46E34.quest_desc: ["Go wild"]
+	quest.19A6EB47C7C46E34.title: "The Way of the Savage"
+	quest.19E003B51D6A2ACC.quest_desc: ["Speeds up work by increasing energy consumption"]
+	quest.1A054CA8EF6D6743.quest_desc: ["For those familiar with Lua programming. Add-ons allow interaction with the warehouse ticker (the warehouse from Create)."]
+	quest.1A08646021F0DFC4.title: "Transfer of items 1"
+	quest.1A2A03B9AF82D334.quest_desc: ["Electric workbench"]
+	quest.1A70386EC125376E.quest_desc: ["Used to \"embed\" improvements into items"]
+	quest.1A70386EC125376E.title: "Improve"
+	quest.1AC1E7F2E3865AF0.quest_desc: ["Combines objects"]
+	quest.1B0D9195D4FFB109.quest_desc: ["KABUM"]
+	quest.1B488219E0975834.quest_desc: ["Auto-expanding FE storage. The item description details which blocks can be used as a core and their efficiency. It can store a maximum of 500 GFE."]
+	quest.1B608B2069BD95D2.quest_desc: ["There will need to be a lot of them"]
+	quest.1B608B2069BD95D2.title: "Basic materials"
+	quest.1BC80DC4E04AA52F.quest_desc: ["Allows you to control the weather with FE"]
+	quest.1BC80DC4E04AA52F.title: "Weather Controller"
+	quest.1BDD62323F854223.quest_desc: ["Magnet for wireless terminal"]
+	quest.1BE58DE8D3067485.quest_desc: ["Chest + workbench"]
+	quest.1C0E1D06D6841E6A.quest_desc: ["In development"]
+	quest.1C0E1D06D6841E6A.title: "Fiery Forge"
+	quest.1C399A00D4628181.quest_desc: ["Better than obelisks"]
+	quest.1C399A00D4628181.title: "Portals"
+	quest.1C66244534C37995.title: "Merger 4"
+	quest.1C682B4F22F31761.title: "Enhanced solar energy"
+	quest.1C8F38FFC493F25F.quest_desc: ["Simply better"]
+	quest.1C8F38FFC493F25F.title: "Spacesuit 2"
+	quest.1CA1D0EEE7DF2290.quest_desc: ["It's a gas giant. If you can't place blocks in mid-air or fly, it's a sure-fire kill."]
+	quest.1CA1D0EEE7DF2290.title: "Jupiter"
+	quest.1CC3656B22698A52.quest_desc: ["When you hit a block, a rope appears that you can climb up"]
+	quest.1CFE2FE2B61B20B8.title: "Another \"Workbench\""
+	quest.1D1C8307BE25F66D.title: "Reusable Wormhole Potion"
+	quest.1D2BD8E140658C16.quest_desc: ["Reads redstone pulses and transmits the corresponding number depending on their quantity"]
+	quest.1D49898E5C9F3DD6.quest_desc: ["Rice is planted in soil with 100% humidity"]
+	quest.1DD022C8FD9E9E86.quest_desc: ["Click an empty torch on a flame or its spawner to refill it. An empty torch can also be used as decoration or lighting."]
+	quest.1DD022C8FD9E9E86.title: "The third step"
+	quest.1DDE8ECF0B459F8B.quest_desc: ["Useless in single player"]
+	quest.1DDE8ECF0B459F8B.title: "Security desk"
+	quest.1DE19B983041FAA6.quest_desc: ["To configure a whitelist of cells"]
 	quest.1DEB00BBA27F14D5.quest_desc: [
-		"Если вы не можете взбираться на полублоки, ступеньки, ковры и т.д."
+		"If you cannot climb half blocks, steps, carpets, etc."
 		""
 		"/attribute &b@s&r &eminecraft:generic.step_height&r base set &a0.6&r"
 		""
-		"&6Если кто-то знает более лучший способ решения, покажите мне его&r"
+		"&6If anyone knows a better solution, please show it to me&r"
 	]
-	quest.1DEF3077F05A5F95.quest_desc: ["Найдёт любую структуру, если вы знаете её название."]
-	quest.1DEF3077F05A5F95.title: "Поисковик структур"
-	quest.1E71637100941ECF.title: "Передача предметов 2"
-	quest.1E86ABCB3F90B72B.quest_desc: ["Благодаря ему, штуковины могут передавать жидкости"]
-	quest.1E86ABCB3F90B72B.title: "Перевозка жидкости"
-	quest.1E88470757AE2563.quest_desc: ["Ей нужен порох для работы"]
-	quest.1E92A93BF9BCF8BA.title: "Передача тепла 3"
-	quest.1EA4CAD805B4D3BE.quest_desc: ["Найти можно в бастионе"]
-	quest.1EA4CAD805B4D3BE.title: "Пустой амулет греха"
-	quest.1EA6CFBB186D22C5.title: "Жареный скалк"
-	quest.1EADEA6BB157696C.quest_desc: ["Дорого"]
-	quest.1EADEA6BB157696C.title: "Мощно"
-	quest.1EE3DFE4D7C347AC.title: "Передача тепла 1"
-	quest.1F005F3437F5DDEC.quest_desc: ["Воспринимает редстоун сигнал наоборот"]
-	quest.1F01968DCA6BA55A.quest_desc: ["Добавляет больше редстоун-функций для фабричных датчиков"]
-	quest.1F0D26C0CDD1E7A0.quest_desc: ["Котёл для варки порчиной еды"]
-	quest.1F387D69A67121B6.quest_desc: ["Реально удобно"]
-	quest.1F387D69A67121B6.title: "Удобный венилятор"
-	quest.1F3F777971A9AE7B.quest_desc: ["Без него щита у вас не будет"]
-	quest.1F3F777971A9AE7B.title: "Модуль контроллера щита"
-	quest.1F4789D00744E29F.quest_desc: ["Её можно найти не только в море, но и на суше"]
-	quest.1F4789D00744E29F.title: "Лодка"
-	quest.1FB3838F35AC30A9.title: "Модуль лесоруба 2"
-	quest.1FCF253180198682.title: "Модуль бессмертия 2"
-	quest.1FE7F14484C06029.quest_desc: ["Утилизирует деревянные предметы"]
-	quest.2025610CD1663513.quest_desc: ["Слишком много крафтов"]
-	quest.2025610CD1663513.title: "Основа всего"
-	quest.206409C8335D2781.quest_desc: ["Жаль, что не копает обсидиан"]
-	quest.206409C8335D2781.title: "&aКопать!&r"
-	quest.2087F9E5C02A083E.quest_desc: ["Станьте коробкой!"]
-	quest.2087F9E5C02A083E.title: "Я коробка?"
-	quest.20CD37682F3F41F2.title: "Улучшение чар"
-	quest.20D88C4B719D15EB.quest_desc: ["Дропают немного опыта при использовании"]
-	quest.20D88C4B719D15EB.title: "\"Опытные\" инструменты"
-	quest.21060BB7C39EEB75.quest_desc: ["Показывает статистику сети"]
-	quest.219B2F508B7BA62F.quest_desc: ["Медленно, но автоматически"]
-	quest.219B2F508B7BA62F.title: "Авто-стройка"
-	quest.21B8873A7CAA04BF.quest_desc: ["Зелёнка теперь не нужна"]
-	quest.21B8873A7CAA04BF.title: "Комплектных получилось только 2"
-	quest.21BFB45106C1EBE2.quest_desc: ["Терминал для удобного пользования МЭ заказчиками"]
-	quest.21FF9CA1010EF42D.quest_desc: ["В системе логистических транспортёров имеет самый маленький приоритет для передачи предметов."]
-	quest.225BD0AE1F9B0FB4.quest_desc: ["Кислотный бросок"]
-	quest.228AD70254FE9D18.quest_desc: ["Первый механизм"]
-	quest.228AD70254FE9D18.title: "Первые шаги"
-	quest.22BD28BA31B59D78.quest_desc: ["Экономия газов"]
-	quest.2300C8D879827B9C.quest_desc: ["Просто больше возможностей настройки"]
-	quest.2300C8D879827B9C.title: "Улучшенный детектор существ"
-	quest.23BB62F4F5FD3104.quest_desc: ["Главный инструмент"]
-	quest.23E201285A67A7E0.title: "Хождение по лаве"
-	quest.23ECC071DE4E21D5.title: "+Броня"
-	quest.23FE17D64CABB85A.quest_desc: ["Оставляет кратер в форме 6 конечной звезды радиусом 6X6 чанков"]
-	quest.23FE17D64CABB85A.title: "Малая ядерная бомба"
-	quest.24A384A75B8FD5D9.quest_desc: ["Стреляет блоками"]
-	quest.24A935CA8FDB7C7A.quest_desc: ["Переработчик мусора"]
-	quest.24BF6CAA968BC8D1.title: "Конец &#1DFFA6L2 Hostility&r"
-	quest.24DDAFD6C36BECAC.quest_desc: ["Для установки модулей в снаряжение"]
-	quest.24DDAFD6C36BECAC.title: "Модификация!"
-	quest.2504B6A44C76C322.quest_desc: ["Жизнь, как помидор…"]
+	quest.1DEF3077F05A5F95.quest_desc: ["Will find any structure if you know its name."]
+	quest.1DEF3077F05A5F95.title: "Structure search engine"
+	quest.1E71637100941ECF.title: "Transfer of items 2"
+	quest.1E86ABCB3F90B72B.quest_desc: ["Thanks to it, things can transmit liquids"]
+	quest.1E86ABCB3F90B72B.title: "Transportation of liquids"
+	quest.1E88470757AE2563.quest_desc: ["She needs gunpowder to work"]
+	quest.1E92A93BF9BCF8BA.title: "Heat Transfer 3"
+	quest.1EA4CAD805B4D3BE.quest_desc: ["Can be found in the bastion"]
+	quest.1EA4CAD805B4D3BE.title: "Empty amulet of sin"
+	quest.1EA6CFBB186D22C5.title: "Fried Skalk"
+	quest.1EADEA6BB157696C.quest_desc: ["Expensive"]
+	quest.1EADEA6BB157696C.title: "Powerful"
+	quest.1EE3DFE4D7C347AC.title: "Heat Transfer 1"
+	quest.1F005F3437F5DDEC.quest_desc: ["Perceives the redstone signal in reverse"]
+	quest.1F01968DCA6BA55A.quest_desc: ["Adds more redstone functionality to factory sensors"]
+	quest.1F0D26C0CDD1E7A0.quest_desc: ["A cauldron for cooking spoiled food"]
+	quest.1F387D69A67121B6.quest_desc: ["Really convenient"]
+	quest.1F387D69A67121B6.title: "Convenient fan"
+	quest.1F3F777971A9AE7B.quest_desc: ["Without it you won't have a shield"]
+	quest.1F3F777971A9AE7B.title: "Shield controller module"
+	quest.1F4789D00744E29F.quest_desc: ["It can be found not only in the sea, but also on land."]
+	quest.1F4789D00744E29F.title: "Boat"
+	quest.1FB3838F35AC30A9.title: "Lumberjack Module 2"
+	quest.1FCF253180198682.title: "Immortality Module 2"
+	quest.1FE7F14484C06029.quest_desc: ["Recycles wooden items"]
+	quest.2025610CD1663513.quest_desc: ["Too many crafts"]
+	quest.2025610CD1663513.title: "The basis of everything"
+	quest.206409C8335D2781.quest_desc: ["It's a pity that it doesn't dig obsidian."]
+	quest.206409C8335D2781.title: "&aDig!&r"
+	quest.2087F9E5C02A083E.quest_desc: ["Become a box!"]
+	quest.2087F9E5C02A083E.title: "Am I a box?"
+	quest.20CD37682F3F41F2.title: "Enchantment Improvement"
+	quest.20D88C4B719D15EB.quest_desc: ["Drops a little experience when used"]
+	quest.20D88C4B719D15EB.title: "\"Experienced\" tools"
+	quest.21060BB7C39EEB75.quest_desc: ["Shows network statistics"]
+	quest.219B2F508B7BA62F.quest_desc: ["Slowly but automatically"]
+	quest.219B2F508B7BA62F.title: "Auto-construction"
+	quest.21B8873A7CAA04BF.quest_desc: ["Green stuff is no longer needed"]
+	quest.21B8873A7CAA04BF.title: "There were only 2 complete ones"
+	quest.21BFB45106C1EBE2.quest_desc: ["Terminal for convenient use by ME customers"]
+	quest.21FF9CA1010EF42D.quest_desc: ["In the logistics transporter system, it has the lowest priority for transferring items."]
+	quest.225BD0AE1F9B0FB4.quest_desc: ["Acid throw"]
+	quest.228AD70254FE9D18.quest_desc: ["The first mechanism"]
+	quest.228AD70254FE9D18.title: "First steps"
+	quest.22BD28BA31B59D78.quest_desc: ["Gas savings"]
+	quest.2300C8D879827B9C.quest_desc: ["Just more customization options"]
+	quest.2300C8D879827B9C.title: "Improved Creature Detector"
+	quest.23BB62F4F5FD3104.quest_desc: ["The main tool"]
+	quest.23E201285A67A7E0.title: "Walking on lava"
+	quest.23ECC071DE4E21D5.title: "+Armor"
+	quest.23FE17D64CABB85A.quest_desc: ["Leaves a 6-pointed star-shaped crater with a radius of 6x6 chunks"]
+	quest.23FE17D64CABB85A.title: "Small nuclear bomb"
+	quest.24A384A75B8FD5D9.quest_desc: ["Shoots blocks"]
+	quest.24A935CA8FDB7C7A.quest_desc: ["Waste recycler"]
+	quest.24BF6CAA968BC8D1.title: "End of &#1DFFA6L2 Hostility&r"
+	quest.24DDAFD6C36BECAC.quest_desc: ["To install modules into equipment"]
+	quest.24DDAFD6C36BECAC.title: "Modification!"
+	quest.2504B6A44C76C322.quest_desc: ["Life is like a tomato..."]
 	quest.250A49AFC4FE8EE7.quest_desc: [
 		"Нужно МНОГО полония, а FE ещё больше"
 		""
