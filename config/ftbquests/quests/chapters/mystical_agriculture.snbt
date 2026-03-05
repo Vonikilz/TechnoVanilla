@@ -1,0 +1,379 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "74BE1C5C28E7AE94"
+	icon: {
+		components: {
+			"ftbquests:icon": "mysticalagriculture:item/inferium_essence"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "18953F4DDCC1B553"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FD8019AA0F2BAA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6916F10C7A4412A6"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "532F59F7CC54D3E5"
+				item: { components: { "cucumber:watering_can_filled": 1b }, count: 1, id: "mysticalagriculture:watering_can" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EC609A10D0805BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "mysticalagriculture:awakened_supremium_helmet"
+			}
+			id: "1EADEA6BB157696C"
+			rewards: [{
+				id: "08695F5C83C6A137"
+				item: {
+					count: 1
+					id: "mysticalagriculture:supremium_growth_accelerator"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C54175CFB259C72"
+					item: { count: 1, id: "mysticalagriculture:awakened_supremium_helmet" }
+					type: "item"
+				}
+				{
+					id: "7397A65C4A23FD4E"
+					item: { count: 1, id: "mysticalagriculture:awakened_supremium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "004513606B8F4F11"
+					item: { count: 1, id: "mysticalagriculture:awakened_supremium_leggings" }
+					type: "item"
+				}
+				{
+					id: "78B9F56297276F4F"
+					item: { count: 1, id: "mysticalagriculture:awakened_supremium_boots" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7FD8019AA0F2BAA3"
+				"6EC609A10D0805BC"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "632FED19CEF503C6"
+			rewards: [{
+				count: 4
+				id: "25E65BD718F78006"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F82F8A968C907F8"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_watering_can" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "72A862A38A0BDC24"
+			rewards: [{
+				id: "2F924F41F2419679"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prosperity_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "581E5B2EED09F7AA"
+					item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+					type: "item"
+				}
+				{
+					id: "5FA45B1D32B9591F"
+					item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+					type: "item"
+				}
+				{
+					id: "303ACD203123E544"
+					item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "mysticalagriculture:infusion_altar"
+			}
+			id: "09B640D4F26D8271"
+			rewards: [{
+				id: "08C144CF2BC27697"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67E448CF9418A375"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1375529F4A297C1B"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "mysticalagriculture:awakening_altar"
+			}
+			id: "6EC609A10D0805BC"
+			rewards: [{
+				id: "18E73992F74F4BBB"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CFD4DE4295352BC"
+					item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "59E6493334C15735"
+					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E28EB88E4981D6A"
+					item: { count: 1, id: "mysticalagriculture:essence_vessel" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			hide_until_deps_complete: true
+			id: "1A70386EC125376E"
+			rewards: [{
+				id: "2F5BE33AB6850786"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A3974F9D6CF7386"
+				item: { count: 1, id: "mysticalagriculture:tinkering_table" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			hide_until_deps_complete: true
+			id: "696EAF991AB0EB8A"
+			rewards: [{
+				id: "0DC5D31933BD3219"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07772CE583B0ECCD"
+				item: { count: 1, id: "mysticalagriculture:enchanter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			hide_until_deps_complete: true
+			id: "72D1B621548B4A13"
+			rewards: [{
+				id: "67AD87A4A8EFFAB1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "23F9F8422989E9E2"
+				item: { count: 1, id: "mysticalagriculture:machine_frame" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D1B621548B4A13"]
+			hide_until_deps_complete: true
+			id: "787B86307851DE08"
+			rewards: [{
+				id: "2C513C55C8795E79"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E341012B47C98F7"
+				item: { count: 1, id: "mysticalagriculture:seed_reprocessor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72D1B621548B4A13"]
+			hide_until_deps_complete: true
+			id: "306A96E63B280016"
+			rewards: [{
+				id: "13FC57EF5B26A9C5"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5D91D3AFCF841B"
+				item: { count: 1, id: "mysticalagriculture:furnace" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D1B621548B4A13"]
+			hide_until_deps_complete: true
+			id: "2DA3FAB4DF11332A"
+			rewards: [{
+				id: "4C64CEEC4097A23C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4594741E972615"
+				item: { count: 1, id: "mysticalagriculture:harvester" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72D1B621548B4A13"]
+			hide_until_deps_complete: true
+			id: "6695CC47C0EA5D45"
+			rewards: [{
+				id: "56BF488A1D8E7420"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30F09C5B66EE5CE4"
+				item: { count: 1, id: "mysticalagriculture:soul_extractor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72D1B621548B4A13"]
+			hide_until_deps_complete: true
+			id: "181DDF9F731195D1"
+			rewards: [{
+				id: "5FD815DE2502F1B7"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB3500DE72F062F"
+				item: { count: 1, id: "mysticalagriculture:soulium_spawner" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A862A38A0BDC24"]
+			id: "494366056D6966F1"
+			rewards: [{
+				id: "12AEDD01C8A80091"
+				item: {
+					count: 1
+					id: "mysticalagriculture:inferium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12BD97B3EDFEB0A6"
+				item: { count: 1, id: "mysticalagriculture:inferium_growth_accelerator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,1352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0582B0B3F0B2DD28"
+	group: "2363E53A8E84B337"
+	icon: {
+		id: "minecraft:dragon_head"
+	}
+	id: "0582B0B3F0B2DD28"
+	images: [
+		{
+			height: 2.0d
+			image: "duneons:textures/logo-.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "mythsandlegends:item/cursed_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "block_factorys_bosses:item/knight"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "undead_revamp2:item/toomuchtostomuch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "fdbosses:textures/entities/geburah/geburah_chain_trap.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "draconicevolution:item/info_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.1d
+			y: 3.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/title/minecraft.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.0d
+			y: -2.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "undead_revamp2:heavytooth"
+			}
+			id: "2AF436D84F5F65B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "600686F162E3385B"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CDA27713D940807"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CC28A8ED5CB3500"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C0736FDF87E6D12"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "undead_revamp2:theheavy"
+				id: "1F90DA67929B8C62"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "undead_revamp2:wincallerfan"
+			}
+			id: "2DF61A652524B986"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43EE183BD6507FF6"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1D5E426BD31965"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CFEDB1C456020C0"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CB11374CDAF7B0D"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "undead_revamp2:slaveman"
+				id: "29433C6CC13651C1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "undead_revamp2:cloggerupgrade"
+			}
+			id: "104F7D748A854E2A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "244AFC006A1655F7"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E7BA09B358E02D0"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA4FBF58AA8FCDD"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "176BB46658CDF7DB"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "undead_revamp2:deadclogger"
+				id: "57639DA02475322C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"088C42593ACC292A"
+				"110031A07514E0CC"
+			]
+			icon: {
+				id: "mythsandlegends:umbras_whisper"
+			}
+			id: "187937E3D82F9831"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7057CD8C4992BB8C"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18822034E3BB0B64"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6530C579169EB577"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193D39C5B463872C"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "mythsandlegends:black_charro"
+				id: "2FDF7C5FFC74DAE8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -1.6d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:sandworm_spawn_egg"
+			}
+			id: "43277050BA6936F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F34A8C89401DA27"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "600E5523B0760FD0"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FCCD96DEE4E5F36"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64AE40EAC7B97554"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:sandworm"
+					id: "5C607FB36129A5C0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:suspicious_sand"
+					}
+					id: "5ACE3A699999E3C9"
+					structure: "block_factorys_bosses:sandworm_nest"
+					type: "structure"
+				}
+			]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			}
+			id: "15E7D3D6509A15F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41226A1D58795ABD"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41CA226CC04872E2"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17413C092C073E2C"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BDE1AA7AF1D5398"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "2399CB42A437FD60"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "block_factorys_bosses:wall_torch"
+					}
+					id: "46E290C9543BFAC0"
+					structure: "block_factorys_bosses:dragon_tower"
+					type: "structure"
+				}
+			]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:yeti_spawn_egg"
+			}
+			id: "7126D45C55E8D4A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "142AEA4EA85208BE"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41571D997063412D"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB021FCA943D96B"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F394EE666570E50"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:yeti"
+					id: "4678F883C25E1AF9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:snow_block"
+					}
+					id: "1D3B73F557959642"
+					structure: "block_factorys_bosses:yeti_hideout"
+					type: "structure"
+				}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["78F0823043CB403D"]
+			icon: {
+				id: "block_factorys_bosses:underworld_knight_spawn_egg"
+			}
+			id: "61CAA2CD7EB3A323"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66E3A3E681AB2C25"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EE528235463CF90"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CD6868C25EF4571"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47ED9189EFC4A17F"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "5A0A023730BCD24A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "block_factorys_bosses:underwold_wall_torch"
+					}
+					id: "2F9043C5C76A45F1"
+					structure: "block_factorys_bosses:underworld_arena"
+					type: "structure"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "15F31664094F305E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A2E4859E11AFBD5"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D19D9D22AA5090"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76D87BCD59578004"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03982F9A49E97D07"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "50BF6F4DB833A342"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["384197AF5BA0D114"]
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:block/squall_golem_stand"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0AA8288E033BB394"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AFDBB7A6977467F"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197DF898079CF0B9"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FAC4462F59CCA4E"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FFC24A0A1E46962"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:tempestgolemsleep"
+				id: "4B5C7AFD62DA7A05"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F11FC1BFF2DA8BB"]
+			icon: {
+				id: "duneons:namelessskull"
+			}
+			id: "529B3C0724375C9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F32D6A24D93823C"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F1ED12473E95740"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EDB43A8D1A97B0A"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17D0F0E2846A40D9"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:namelessup"
+				id: "6F846F1ADEB6604A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["343E0962C8344399"]
+			icon: {
+				id: "duneons:cauidron"
+			}
+			id: "6F3BA43827020930"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F37D3544BDEC7BD"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09FFE72569DFC328"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B83E786A1B46F9"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E02AB58993EB6C3"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:cauldron"
+				id: "63FCF3D35D61395D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C0122965466CE80"]
+			icon: {
+				id: "duneons:perfect_formhead"
+			}
+			id: "2D11815AD1466EED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16C9E37527C4E2A9"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A2C9C44CA2B5004"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9BF909B8E87651"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17277F3C3A7892A1"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "duneons:heartvengeful"
+					id: "6904646B426F9AA7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "duneons:voidblock"
+					}
+					id: "3914C6DF91AF6871"
+					structure: "duneons:abyssal_monument_boss"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59CB8510EBCA8A39"]
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:block/guardian_stone"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "33D6933D79B1387B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FC15269605D69E8"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E7730CC66A2FF6B"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10A7EDC966D297CA"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27298DB7501E6FC2"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:ancientguardian"
+				id: "0FC53E0D4B383DDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FB5A509F9179C37"]
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:block/jungle_bush"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "44A9E4B5094CEEDC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F972D27EB5EFB40"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "582D054C1AFC3436"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B54202C22FDDA1"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1354BF5616A77C"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:jungleabomination"
+				id: "00D5A394CFFD75BC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FC81D619DF37032"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/eidolon/wraith.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "321B786215A0045B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39258514A6AD4B08"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A795D31FFC69B3"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ADC908D28DDC622"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "680DDEB3B1993540"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:wickedwraith"
+				id: "199A1033E4575CFA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:block/big_mushroom"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79E42DDC2DFD2ECC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6950445AA785BB26"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E86B0635F07BF1C"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52FC08A18BD01721"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E870C7CD3A3CF6"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:mushroommonstrosity"
+				id: "5F8DA8C07FDBB479"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C0E1D06D6841E6A"]
+			icon: {
+				id: "duneons:red_stonecrystal_2"
+			}
+			id: "040749BE76C90113"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32CD46583AB44854"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "479D39977909FC86"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04815C93A9D58F0B"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C13B08E344EC194"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:monstrosity"
+				id: "03FF623321A95035"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "duneons:red_stone_golem_skull"
+			}
+			id: "7F0C7BC4A5CB09FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A374739B1C2F7AD"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EC36B5B329D097"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D96E93D4324D7D3"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C33E993A92816B"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:redstonegolem"
+				id: "22DF2A89F8B20B88"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:item/arch_icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4CACAF4752F4C146"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FB77AEB7F575335"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C8E951E9B7EA453"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "267657B73BA86F7D"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3273558CDE994F43"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:archillager"
+				id: "3DDDD707B6A4017E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "duneons:textures/entities/vengefulheartofender_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67811A54EA91A698"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F7860AE95A6806"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080B9CF357FF8844"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12D7DE33DED03AE7"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7311C87167732CEE"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BF1EAE97666AF6C"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "duneons:enderavatarspider"
+				id: "717412ED204A9FBB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78F0823043CB403D"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "4243E0A9786B8124"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C6CB79DF3812FDB"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2893048D1EA83A82"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D5D4178B95D8A47"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37CEB5419BD690DD"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "53938D9A0D1BC74A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C0122965466CE80"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "5B4A980EA1B65235"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25F585F117B20530"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4DE0D547E399EF"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E88047DD2DDD556"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A5EA04845A279A"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "03A2AC616C59B48E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "fdbosses:malkuth_trophy"
+			}
+			id: "3A1C9A4E22F9C62D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "625A89D6467795B6"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44C12CFB09E49AEB"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01121D96C08F98DD"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "644D87541CA1D180"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "fdbosses:malkuth"
+					icon: {
+						id: "fdbosses:malkuth_trophy"
+					}
+					id: "03BBFFA73DCD4639"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "fdbosses:justicestone_bricks"
+					}
+					id: "51252E3584E64354"
+					structure: "fdbosses:malkuth_arena"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "fdbosses:chesed_trophy"
+			}
+			id: "3AD8512D50072114"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59D3C78586F58ED6"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53613A057A79D3CD"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B895EBF8B7EF940"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C4B02534690511"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "fdbosses:chesed"
+					id: "69AA225A566131BA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "fdbosses:chiseled_justicestone_bricks"
+					}
+					id: "0154451DEFB11967"
+					structure: "fdbosses:chesed_arena"
+					type: "structure"
+				}
+			]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C0122965466CE80"]
+			icon: {
+				id: "draconicevolution:chaos_shard"
+			}
+			id: "3D017B34DAB91F26"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B94C2DCC5F562CD"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BE81A020AAF4D1E"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "168C268DC644FB3B"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8A8E322BBAF472"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "244E3400AE12084E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.1d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4C0122965466CE80"]
+			icon: {
+				id: "fdbosses:geburah_trophy"
+			}
+			id: "11BCF33F4F318D29"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "fdbosses:geburah"
+					id: "49903FF1056DD85D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "fdbosses:justicestone_beam"
+					}
+					id: "042E08E204A2C04E"
+					structure: "fdbosses:geburah_arena"
+					type: "structure"
+				}
+			]
+			x: 10.0d
+			y: 9.85d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mythsandlegends:item/warborn_aegis"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B8017C91BFD18D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "519EDD6AEEA87124"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3594ED0AB8523168"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B667DCFCA9C546"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31D6FA3BE4A4860E"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "mythsandlegends:warborn_aegis"
+				id: "040AF106054EA98A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.6d
+		}
+	]
+}

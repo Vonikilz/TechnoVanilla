@@ -1,0 +1,311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "049179086C8CDF1B"
+	group: "22A55EF50C26B34E"
+	icon: {
+		id: "royalvariations:royal_bomb"
+	}
+	id: "049179086C8CDF1B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24A384A75B8FD5D9"
+			tasks: [{
+				id: "5C1698A53E8D664F"
+				item: { count: 1, id: "supplementaries:slingshot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "7A617A1CDAFFED98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60E74699DA15A024"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FCAE629B88E46EA"
+				item: { count: 1, id: "volex_vitality_crystals:vitality_crystal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A617A1CDAFFED98"]
+			hide_until_deps_complete: true
+			id: "393908585340ADF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45127FA7035BE485"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35A65C550C19862D"
+				item: { count: 1, id: "volex_vitality_crystals:life_berry" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"393908585340ADF8"
+				"78F0823043CB403D"
+			]
+			hide_until_deps_complete: true
+			id: "65AFA0512EA6F2E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7640A6A91411CE3C"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0702C41D10A2B3C5"
+				item: { count: 1, id: "volex_vitality_crystals:spectre_soul" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "4E9DDDD8E4012A7F"
+			tasks: [{
+				id: "30F678A1FE6D7CE1"
+				item: { components: { "supplementaries:charges": 200 }, count: 1, id: "supplementaries:bubble_blower" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "7924B7F3C04FF9B3"
+			tasks: [{
+				id: "115F7737122A0039"
+				item: { count: 1, id: "supplementaries:confetti_popper" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "supplementaries:cannon"
+			}
+			id: "1E88470757AE2563"
+			tasks: [
+				{
+					id: "471011178F8694DA"
+					item: { count: 1, id: "supplementaries:cannon" }
+					type: "item"
+				}
+				{
+					id: "3D6D41441495B74B"
+					item: { count: 1, id: "supplementaries:cannonball" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C0122965466CE80"]
+			id: "708BDAA79484DD4D"
+			tasks: [{
+				id: "07FAC615220C46BC"
+				item: { count: 1, id: "amendments:dragon_charge" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "3D5AE412B0802EB8"
+			tasks: [{
+				id: "06C43FE6E0C50622"
+				item: { count: 1, id: "supplementaries:bomb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1B0D9195D4FFB109"
+			tasks: [{
+				id: "13B7929EF8503DFD"
+				item: { count: 1, id: "supplementaries:bomb_blue" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "1CC3656B22698A52"
+			tasks: [{
+				id: "0D21AD201536811C"
+				item: { count: 1, id: "supplementaries:rope_arrow" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "0C7996F30DA987DE"
+			tasks: [{
+				id: "53F60C9CFA86A684"
+				item: { count: 1, id: "undead_revamp2:sleepingsmokebomb" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "6FB26DB178B28022"
+			tasks: [{
+				id: "5D2DDEEF1643B0E9"
+				item: { count: 1, id: "royalvariations:royal_bomb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "6558231BE220B9FC"
+			tasks: [{
+				id: "6CFE7ED7A19C2604"
+				item: { count: 1, id: "mekanismadditions:obsidian_tnt" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "0E299CA64FC071C5"
+			tasks: [{
+				id: "4FE8FAD8B79B2CB4"
+				item: { count: 1, id: "supplementaries:bamboo_spikes" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "503997CEAD97714D"
+			tasks: [{
+				id: "477A1512EBD6EDF0"
+				item: { count: 1, id: "comforts:rope_and_nail" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "34E6743DE5FF3581"
+			tasks: [{
+				id: "34BCA68F92758694"
+				item: { count: 1, id: "handcrafted:hammer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "648AE38CE12FD0B9"
+			tasks: [{
+				id: "7C276F508C091B0D"
+				item: { count: 1, id: "royalvariations:royal_staff" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "225BD0AE1F9B0FB4"
+			tasks: [{
+				id: "1345E9067DEC576D"
+				item: { count: 1, id: "undead_revamp2:acidsack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["225BD0AE1F9B0FB4"]
+			id: "0A15019782E5DD5F"
+			tasks: [{
+				id: "1245F3C24F42D1D9"
+				item: { count: 1, id: "undead_revamp2:f_iresack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "3605303610DB7E90"
+			tasks: [{
+				id: "39B66F081471E94B"
+				item: { count: 1, id: "undead_revamp2:queenbeeperfume" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "0624554BB69B1C0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E9D5C6FC60853F"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D4B974A84B5C1BE"
+				item: { count: 1, id: "draconicevolution:rain_sensor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F2E58A97D68C2B4"]
+			id: "23FE17D64CABB85A"
+			tasks: [{
+				id: "5ABF9BC2E1B50D1A"
+				item: { count: 1, id: "oritech:low_yield_nuke" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F2E58A97D68C2B4"]
+			id: "50CA786985093027"
+			tasks: [{
+				id: "33CC9B8B421895DE"
+				item: { count: 1, id: "oritech:nuke" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57F6B758F732EE78"]
+			id: "15B29F32CAA11E5B"
+			tasks: [{
+				id: "37AFCE244FC65356"
+				item: { count: 1, id: "oritech:weed_killer" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+	]
+}

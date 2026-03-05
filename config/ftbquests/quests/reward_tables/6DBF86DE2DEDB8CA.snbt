@@ -1,0 +1,79 @@
+{
+	icon: {
+		id: "bountifulbaubles:treasure_bag"
+	}
+	id: "6DBF86DE2DEDB8CA"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			id: "7F54E967FBD3DBF9"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "682CB3B4620D9D4B"
+			item: {
+				count: 1
+				id: "bountifulbaubles:potion_wormhole"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "6A71B8AA08C01880"
+			item: {
+				count: 1
+				id: "bountifulbaubles:potion_recall"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 5
+			id: "727E91E88FDBA22D"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 45.0f
+		}
+		{
+			count: 10
+			id: "052EB7929473D78C"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 20
+			id: "58C20CEB8EEA94E0"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 32
+			id: "3F47DA9623B976CB"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 64
+			id: "4F33283B47E101AE"
+			item: {
+				count: 1
+				id: "bountifulbaubles:resplendent_token"
+			}
+			weight: 5.0f
+		}
+	]
+}

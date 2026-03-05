@@ -1,0 +1,1074 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bountiful_baublesreforked"
+	group: "2363E53A8E84B337"
+	icon: {
+		id: "bountifulbaubles:broken_heart"
+	}
+	id: "75BDACC899BA86E1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4108AA4AF84253CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C491D8983CEDE19"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21C91B8A2DF037EB"
+				item: { count: 1, id: "bountifulbaubles:shulker_heart" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "12ADC24E1E605730"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "352001D9F62BE0BC"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BCB50A391F74AD3"
+				item: { count: 1, id: "bountifulbaubles:ring_overclocking" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "396B962412DCE89E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45D593714CDBF742"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B4FEC962B22858B"
+				item: { count: 1, id: "bountifulbaubles:black_dragon_scale" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "10F47B2814E87388"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C78B4A37E2DA3A"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "793DC5318FE0C493"
+				item: { count: 1, id: "bountifulbaubles:bezoar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"10F47B2814E87388"
+				"396B962412DCE89E"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "268D04F52A110EBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EA7863B4D38FCDF"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74F8A0151F4A4900"
+				item: { count: 1, id: "bountifulbaubles:mixed_dragon_scale" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"12ADC24E1E605730"
+				"4108AA4AF84253CA"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "1D1D2611F98DC511"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EB7365C27C7407F"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32A2B1C5EC70417C"
+				item: { count: 1, id: "bountifulbaubles:ring_free_action" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "5AABE41885D33AF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "744F6BC669C6CA07"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B8080F151104D57"
+				item: { count: 1, id: "bountifulbaubles:vitamins" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "72AE5A28421E9227"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31485640AC21E620"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6327DD338AEF79D4"
+				item: { count: 1, id: "bountifulbaubles:apple" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3E43ECA2896EDA44"
+				"5AABE41885D33AF5"
+				"1D1D2611F98DC511"
+				"268D04F52A110EBD"
+				"72AE5A28421E9227"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "558F9D324DEB8FF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52EA0036ED7D6FAF"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "700722A6CA28442A"
+				item: { count: 1, id: "bountifulbaubles:ankh_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "3E43ECA2896EDA44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C352772345B7B33"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1959E6EEA7AD1BC3"
+				item: { count: 1, id: "bountifulbaubles:sunglasses" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "0C6DDFA2F6821875"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5549126339DD6A3A"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EF88B8FE8834759"
+				item: { count: 1, id: "bountifulbaubles:cobalt_shield" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7272EAE2F1BC91E7"
+				"0C6DDFA2F6821875"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "6EAC2C34320D5BCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446F1368FC6D9578"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F2F22E665DA32C9"
+				item: { count: 1, id: "bountifulbaubles:obsidian_shield" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "7272EAE2F1BC91E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A02F2F2B56E247A"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "404EBE81DE1C2CE3"
+				item: { count: 1, id: "bountifulbaubles:obsidian_skull" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EAC2C34320D5BCD"
+				"558F9D324DEB8FF9"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "605F3C0A702F89A2"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79012FE66087D2FF"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6904AB631E7E2800"
+				item: { count: 1, id: "bountifulbaubles:ankh_shield" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F8AAE63772DFEED"]
+			hide_until_deps_complete: true
+			id: "733D227FE50BBC1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B5870770B7C65DC"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "140D6FFA33395DB2"
+				item: { count: 1, id: "bountifulbaubles:phylactery_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "3F8AAE63772DFEED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EAB866A861982AB"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0936BE4AA94EA2C7"
+				item: { count: 1, id: "bountifulbaubles:broken_heart" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "0107DEC76DD43435"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD2D9FF0E7136C6"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3317F939302F1B04"
+				item: { count: 1, id: "bountifulbaubles:lucky_horseshoe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17717D1927B6685F"
+				"0107DEC76DD43435"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "09F56FCE93650AC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074916B94C52C38E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4752D194A1C82CEB"
+				item: { count: 1, id: "bountifulbaubles:horseshoe_balloon" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "17717D1927B6685F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE8C5984761EAE6"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "580AC3AC5F47FD1B"
+				item: { count: 1, id: "bountifulbaubles:balloon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "27F5C0E94696C0C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7707D449C4F5CF4E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2227FBAF29ECEA80"
+				item: { count: 1, id: "bountifulbaubles:bottled_cloud" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "2E10B0F46CB1EE7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "121C86A9920AB2DF"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "718CA35F432FDDF1"
+				item: { count: 1, id: "bountifulbaubles:cross_necklace" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "095A18629F1F291E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DBA76704813D528"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43EBA98DE2CE3524"
+				item: { count: 1, id: "bountifulbaubles:ember" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "15E78D2528B7524C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "082DE2E53B9A6D85"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E328FDE7608AE16"
+				item: { count: 1, id: "bountifulbaubles:dark_dagger" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "27425349E0E51E18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67A2358A9C26E632"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CCE9BEC50797FC0"
+				item: { count: 1, id: "bountifulbaubles:infinite_totem_of_undying" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "61BAA24D45C1A881"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "609CA35CBE485420"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0553CDB4B486B75C"
+				item: { count: 1, id: "bountifulbaubles:ruby_heart" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "6A29599865EB434C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367DF88578A1E883"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12B4F94DA56F5796"
+				item: { count: 1, id: "bountifulbaubles:oxalis" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "0160A40895E86577"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3373371927F98F"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E43E899F2DCD3C7"
+				item: { count: 1, id: "bountifulbaubles:karma" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "48647BCE288C27B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DFB8B874A900101"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73578797E28AC64A"
+				item: { count: 1, id: "bountifulbaubles:butchers_cleaver" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "4E6F9C3FD29EF1F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "736F21A05375EA8E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "6D9275E9225FD9C2"
+				item: { count: 1, id: "bountifulbaubles:golden_skull" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "6DA46575955E450A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1380E568FEF1250C"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D64678D7EE59C46"
+				item: { count: 1, id: "bountifulbaubles:rock_candy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "19B496A40E54BDD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F8CEE101F579C1F"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24651D302F82BDE6"
+				item: { count: 1, id: "bountifulbaubles:curious_knuckles" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "67E035C304A72573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41761837F540D372"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "272077ECC3314C17"
+				item: { count: 1, id: "bountifulbaubles:curious_crown" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "1372CB69B37D3E63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4489E7C2A56139"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "479F4DB9F2F99A1F"
+				item: { count: 1, id: "bountifulbaubles:curious_amulet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "01DDEA8743C14A7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1755D7A5D4F4B14E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CE7A0673A08A7E2"
+				item: { count: 1, id: "bountifulbaubles:curious_ring" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "447FADC22A27DDA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF5C59B98B37220"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7686EE2AC70A3034"
+				item: { count: 1, id: "bountifulbaubles:turtle_shell" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "34A2B21B922049D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7133F26FB08B5DB5"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51CF2ACD7EFBD48F"
+				item: { count: 1, id: "bountifulbaubles:glory_shards" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "3E4E415E1A55B59E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29ECFAB7CC335413"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DFAEF023B98B8C8"
+				item: { count: 1, id: "bountifulbaubles:auto_torch" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "5DCB864217C915F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F8BEA7C22A23055"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62FF5B331DEFF1B6"
+				item: { count: 1, id: "bountifulbaubles:vampiric_glove" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "5EF02636A78ACF87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B860297BAB7F113"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D7FB4E752919823"
+				item: { count: 1, id: "bountifulbaubles:minds_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "76C3573A533DBCBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "457E2641D14D2CFC"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49EEE0DBC8B389A8"
+				item: { count: 1, id: "bountifulbaubles:blaze_heart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "1C3E9DFCD76D787A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57A504A961938460"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55944CA56548FD9F"
+				item: { count: 1, id: "bountifulbaubles:gauntlets_dexterity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "61F959FAC7990801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "077EFEF4CB98ED83"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59001BFA7D31A036"
+				item: { count: 1, id: "bountifulbaubles:luck_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "0FA9079BD7F8ADF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B6119A680313C7E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B2561EEA99ACA65"
+				item: { count: 1, id: "bountifulbaubles:serpent_tooth" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "377F707B4D3EEBAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4163729062E6F450"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42505C73ED22349C"
+				item: { count: 1, id: "bountifulbaubles:wither_nail" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "2C7382056DADA4D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BCB472A45D54EA2"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36247BD06F79CC28"
+				item: { count: 1, id: "bountifulbaubles:dragon_breath" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "66DE882E4EEF2968"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22C8D54411777AB3"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "253710BF7A3F7CD0"
+				item: { count: 1, id: "bountifulbaubles:ice_shard" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "6CCD5AD3B97F25C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2247C7BD8A4DE69E"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E308B284B7A922D"
+				item: { count: 1, id: "bountifulbaubles:starfish" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "497BCCF8E6939550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "006957908C0C69FA"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22CC54907F2F929A"
+				item: { count: 1, id: "bountifulbaubles:golden_melon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "187A389C18D6585A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ACD8C07E2C7552C"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "081FC90003622D0F"
+				item: { count: 1, id: "bountifulbaubles:fire_mind" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "29E0D960C3CF0622"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BAC5809F40FD9B4"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "626275E97BEEC822"
+				item: { count: 1, id: "bountifulbaubles:book_o_enchanting" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "7D0582689A9F97C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00DF0D3F39FEBAC4"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55EF01ADD4FBA521"
+				item: { count: 1, id: "bountifulbaubles:drop_spindle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "74B26EFFED99BF94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F332166641A1B6"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DAEB3558FB8F249"
+				item: { count: 1, id: "bountifulbaubles:tha_wizard" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "4B0B62A39AAFB11E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "482B91E60D3501E6"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DCB3D950A0A924D"
+				item: { count: 1, id: "bountifulbaubles:creepo" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "7E5690A7BF97BCEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "795D6FBF5AC53A34"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39C20F8959CB5E0E"
+				item: { count: 1, id: "bountifulbaubles:tha_spider" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "7CBE23DECED48D9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DE6723B20165F5B"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05951C6620137536"
+				item: { count: 1, id: "bountifulbaubles:dark_egg" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "551B7FFECB8DA773"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "756A129EABADAA27"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "508B13947CDB487E"
+				item: { count: 1, id: "bountifulbaubles:mossy_ring" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "2619482EE50422C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5376DDC6FB3E0A5D"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AC25695C44B7D10"
+				item: { count: 1, id: "bountifulbaubles:mossy_belt" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "63D6F1DC88446029"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "226F8E88DF9E65F9"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46F2B003317E56D6"
+				item: { count: 1, id: "bountifulbaubles:warm_void" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "5AC71378C0221601"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7C49540E576523"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78C478F0B08CCB09"
+				item: { count: 1, id: "bountifulbaubles:mad_aura" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "1EA4CAD805B4D3BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "782EF8541E941795"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B27F95A3672024F"
+				item: { count: 1, id: "bountifulbaubles:amulet_sin_empty" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EA4CAD805B4D3BE"]
+			hide_until_deps_complete: true
+			id: "63EB503EF2CECECF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60519CF424F90FC7"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7258C2111A07F494"
+				item: { count: 1, id: "bountifulbaubles:gluttony_pendant" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EA4CAD805B4D3BE"]
+			hide_until_deps_complete: true
+			id: "7249C316F55A300E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428B1A565EF4E591"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19B058C08AA18817"
+				item: { count: 1, id: "bountifulbaubles:wrath_pendant" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA4CAD805B4D3BE"]
+			hide_until_deps_complete: true
+			id: "5CA128688845BEF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4F60EEFEC4ABBD"
+				table_id: 7908187759497296074L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64A73D3433FAD722"
+				item: { count: 1, id: "bountifulbaubles:pride_pendant" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+}
