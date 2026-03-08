@@ -122,6 +122,9 @@
 			require_sequential_tasks: false
 			rewards: [{
 				command: "/attribute @s minecraft:generic.step_height base set 0.6"
+				icon: {
+					id: "minecraft:oak_stairs"
+				}
 				id: "2621CBF4B8104F46"
 				type: "command"
 			}]
@@ -130,8 +133,8 @@
 				id: "63A45E8ACA11355F"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["51BE7096BE4AEEA7"]
@@ -270,6 +273,7 @@
 				id: "minecraft:crafter"
 			}
 			id: "3E36F1B61CBE4F4A"
+			repeat_cooldown: 1
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"ТГК CreateAll\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/+OP1eVZoFBXJlMWIy\"}}]"
 				icon: {
@@ -284,6 +288,29 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:packager"
+			}
+			id: "6F4D367FBA1E9609"
+			repeat_cooldown: 1
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"GitHub Vonikilz\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Vonikilz\"}}]"
+				icon: {
+					id: "create:packager"
+				}
+				id: "36D46F2334D4A0EB"
+				type: "command"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "5FD68E433B493BC6"
+				type: "checkmark"
+			}]
+			x: 1.5d
 			y: -5.0d
 		}
 	]

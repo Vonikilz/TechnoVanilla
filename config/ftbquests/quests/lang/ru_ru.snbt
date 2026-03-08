@@ -651,6 +651,7 @@
 	quest.3DB2DF7B1D1A6830.title: "Модуль щита"
 	quest.3DC2B8C66E71C818.quest_desc: ["Его нужно ОЧЕНЬ много. Блоки этого слитка можно использовать вместо книжных полок, для чародейского стола."]
 	quest.3DCF9307C935F9DE.quest_desc: ["Наполняет предметы энергией. &4Не заряжает!&r"]
+	quest.3E36F1B61CBE4F4A.quest_desc: ["Ссылка на мой ТКГ CreateAll. В нём я делюсь своими наработками, а именно сборками, механизмами, кодом."]
 	quest.3E36F1B61CBE4F4A.title: "ТКГ"
 	quest.3E43ECA2896EDA44.quest_desc: ["Можно найти в заброшенной шахте"]
 	quest.3E4E415E1A55B59E.quest_desc: ["Слишком много факелов"]
@@ -974,7 +975,7 @@
 	quest.58CE3C22CBBA9F13.title: "Тратуар достаточно широкий"
 	quest.594904D5993E259D.quest_desc: ["102.4 MFE"]
 	quest.59629118AD41A07A.quest_desc: [
-		"У меня в ТГК есть текстур пак TechnoVanilla RU с переводами модов ниже. Прошу сообщать, при нахождении бага."
+		"В сборке есть текстур пак TechnoVanilla RU с переводами модов ниже на русский. Прошу сообщать, при нахождении бага."
 		""
 		"- &dMyths and Legends&r"
 		"- &#4c7f99NauTec&r"
@@ -1149,6 +1150,8 @@
 	quest.6F3BA43827020930.title: "Испорченный котёл"
 	quest.6F419AB38D69BB53.quest_desc: ["Позволяет штуковинам передовать энергию"]
 	quest.6F419AB38D69BB53.title: "Перевозка энергии"
+	quest.6F4D367FBA1E9609.quest_desc: ["Ссылка на мой профиль GitHub"]
+	quest.6F4D367FBA1E9609.title: "GitHub"
 	quest.6F9BE98428EF1A10.quest_desc: ["Собирает опыт вокруг в бак, на котором стоит"]
 	quest.6F9BE98428EF1A10.title: "Магнит опыта"
 	quest.6FB26DB178B28022.quest_desc: ["Святая граната!"]
@@ -1356,6 +1359,8 @@
 	quest.7F867548F1E7849D.quest_desc: ["Плавит предметы за энергию"]
 	quest.7FD8019AA0F2BAA3.quest_desc: ["Бесконечная костная мука"]
 	quest.7FD8019AA0F2BAA3.title: "Я фермер"
+	reward.2621CBF4B8104F46.title: "Команда для починки step height"
+	reward.36D46F2334D4A0EB.title: "Ссылка на мой профиль GitHub"
 	reward.39A8C58BDB49EB72.title: "ТКГ CreateAll"
 	reward.745C00AF9CD13E31.title: "ТКГ CreateAll"
 	reward_table.517C54789A069F6F.title: "Награда за мобов"
