@@ -179,12 +179,12 @@
     "curseForgeHash": 1612804075,
     "modrinthHash": "e91af996b413bb498e276bf410d0deff52a34a74"
   },
-  "block_factorys_bosses-2.0.6-neo-1.21.1.jar": {
-    "jarName": "block_factorys_bosses-2.0.6-neo-1.21.1.jar",
+  "block_factorys_bosses-2.0.9-neo-1.21.1.jar": {
+    "jarName": "block_factorys_bosses-2.0.9-neo-1.21.1.jar",
     "modId": "block_factorys_bosses",
-    "version": "2.0.6",
-    "curseForgeHash": 481655694,
-    "modrinthHash": "9110e32beae5aba3c9dd8fb0073885ad51ce4ed8"
+    "version": "2.0.9",
+    "curseForgeHash": 1074012147,
+    "modrinthHash": "d189f34ff6789e0c62690b218f9f9045635573df"
   },
   "blueprint-1.21.1-8.0.8.jar": {
     "jarName": "blueprint-1.21.1-8.0.8.jar",
@@ -987,12 +987,12 @@
     "curseForgeHash": 1349676972,
     "modrinthHash": "3a8af912935df1c69f4b3eec29a6d6ecd8c57171"
   },
-  "l2hostility-3.0.16.jar": {
-    "jarName": "l2hostility-3.0.16.jar",
+  "l2hostility-3.0.17.jar": {
+    "jarName": "l2hostility-3.0.17.jar",
     "modId": "l2hostility",
-    "version": "3.0.16",
-    "curseForgeHash": 2101081057,
-    "modrinthHash": "7e5c66db828f9609bab9d99943f089eaf65ae045"
+    "version": "3.0.17",
+    "curseForgeHash": 204628272,
+    "modrinthHash": "2a9c6bbd47774c19b01b6d15c7762dbafeb473c1"
   },
   "l2library-3.0.8.jar": {
     "jarName": "l2library-3.0.8.jar",
@@ -1022,12 +1022,12 @@
     "curseForgeHash": 3624945467,
     "modrinthHash": "b67f700bb76d44fbc7161a3466e1db85d60edec7"
   },
-  "lithium-neoforge-0.15.2+mc1.21.1.jar": {
-    "jarName": "lithium-neoforge-0.15.2+mc1.21.1.jar",
+  "lithium-neoforge-0.15.3+mc1.21.1.jar": {
+    "jarName": "lithium-neoforge-0.15.3+mc1.21.1.jar",
     "modId": "lithium",
-    "version": "0.15.2+mc1.21.1",
-    "curseForgeHash": 732281701,
-    "modrinthHash": "54457ba68b0066a5b6034655f8d31a29a3e5e6b1"
+    "version": "0.15.3+mc1.21.1",
+    "curseForgeHash": 1666655641,
+    "modrinthHash": "9fd5fa9076044180ae7f51672de74669196ec72e"
   },
   "logical-iframes-1.1.1.jar": {
     "jarName": "logical-iframes-1.1.1.jar",
@@ -1127,12 +1127,12 @@
     "curseForgeHash": 2766306746,
     "modrinthHash": "44eb03cdc526dc4233d6d9ad02a7cb48ef2eb008"
   },
-  "Mini-boss Boss Bars 1.21.1 1.0.16.jar": {
-    "jarName": "Mini-boss Boss Bars 1.21.1 1.0.16.jar",
+  "Mini-boss Boss Bars 1.21.1 1.0.18.jar": {
+    "jarName": "Mini-boss Boss Bars 1.21.1 1.0.18.jar",
     "modId": "mr_mini_bossbossbars",
-    "version": "1.0.16",
-    "curseForgeHash": 1766904609,
-    "modrinthHash": "b474b8cd8c7141974fe261f2aee0773423437045"
+    "version": "1.0.17",
+    "curseForgeHash": 823542938,
+    "modrinthHash": "b0a206f7d684d144daacf35e982191fb5f9f82b5"
   },
   "modelfix-1.21-1.10.jar": {
     "jarName": "modelfix-1.21-1.10.jar",
@@ -1309,12 +1309,12 @@
     "curseForgeHash": 2600609908,
     "modrinthHash": "14f2f6cc7c834c12de8c3ff2cfb62a5ffd8eee2a"
   },
-  "Patchouli-1.21.1-92-NEOFORGE.jar": {
-    "jarName": "Patchouli-1.21.1-92-NEOFORGE.jar",
+  "Patchouli-1.21.1-93-NEOFORGE.jar": {
+    "jarName": "Patchouli-1.21.1-93-NEOFORGE.jar",
     "modId": "patchouli",
-    "version": "1.21.1-92-NEOFORGE",
-    "curseForgeHash": 3695038968,
-    "modrinthHash": "97ae42096ee4a0a242cd8468dde293017f3cc39c"
+    "version": "1.21.1-93-NEOFORGE",
+    "curseForgeHash": 203243708,
+    "modrinthHash": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140"
   },
   "player-animation-lib-forge-2.0.4+1.21.1.jar": {
     "jarName": "player-animation-lib-forge-2.0.4+1.21.1.jar",
@@ -1554,12 +1554,12 @@
     "curseForgeHash": 3154950983,
     "modrinthHash": "2f2c5e27e0f3ce382dee5a91ed6f872b0061b8e6"
   },
-  "sophisticatedcore-1.21.1-1.4.6.1506.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.6.1506.jar",
+  "sophisticatedcore-1.21.1-1.4.7.1515.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.7.1515.jar",
     "modId": "sophisticatedcore",
-    "version": "1.4.6",
-    "curseForgeHash": 3138180520,
-    "modrinthHash": "b388bd9a2ac8f6b47612fdf73c973e56b49874a5"
+    "version": "1.4.7",
+    "curseForgeHash": 1931621544,
+    "modrinthHash": "83e00bbee26d53230ecf73ef2bad187cf1e47574"
   },
   "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar": {
     "jarName": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
