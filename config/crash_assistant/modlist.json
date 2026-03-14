@@ -179,12 +179,12 @@
     "curseForgeHash": 1612804075,
     "modrinthHash": "e91af996b413bb498e276bf410d0deff52a34a74"
   },
-  "block_factorys_bosses-2.0.9-neo-1.21.1.jar": {
-    "jarName": "block_factorys_bosses-2.0.9-neo-1.21.1.jar",
+  "block_factorys_bosses-2.0.10-neo-1.21.1.jar": {
+    "jarName": "block_factorys_bosses-2.0.10-neo-1.21.1.jar",
     "modId": "block_factorys_bosses",
-    "version": "2.0.9",
-    "curseForgeHash": 1074012147,
-    "modrinthHash": "d189f34ff6789e0c62690b218f9f9045635573df"
+    "version": "2.0.10",
+    "curseForgeHash": 3390764481,
+    "modrinthHash": "516aeb7a115b24fe7659757b570ded2e27b33e5f"
   },
   "blueprint-1.21.1-8.0.8.jar": {
     "jarName": "blueprint-1.21.1-8.0.8.jar",
@@ -471,12 +471,12 @@
     "curseForgeHash": 652419624,
     "modrinthHash": "fc4081b062cdbd84f89cefdaa7cdf0806001630a"
   },
-  "createrailwaysnavigator-neoforge-1.21.1-beta-0.8.5.jar": {
-    "jarName": "createrailwaysnavigator-neoforge-1.21.1-beta-0.8.5.jar",
+  "createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar": {
+    "jarName": "createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
     "modId": "createrailwaysnavigator",
-    "version": "1.21.1-beta-0.8.5",
-    "curseForgeHash": 2581911433,
-    "modrinthHash": "e24db63cec8d7cb1f35c569a5ca85d03ed34de9b"
+    "version": "1.21.1-alpha-0.9.0-C6",
+    "curseForgeHash": 197166410,
+    "modrinthHash": "50cafde2da86ee5d881c1fb87f4ff2e1fdb9aa11"
   },
   "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": {
     "jarName": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -554,6 +554,13 @@
     "version": "3.1.4.632",
     "curseForgeHash": 202707168,
     "modrinthHash": "77ed9323c815433ca99c35b9d0f653d1efc36af5"
+  },
+  "dragonlib-neoforge-1.21.1-beta-3.0.23.jar": {
+    "jarName": "dragonlib-neoforge-1.21.1-beta-3.0.23.jar",
+    "modId": "dragonlib",
+    "version": "1.21.1-beta-3.0.23",
+    "curseForgeHash": 1359500684,
+    "modrinthHash": "e356d84e59d05acfe7e6d7f190834815c339bc08"
   },
   "dummmmmmy-1.21-2.0.11-neoforge.jar": {
     "jarName": "dummmmmmy-1.21-2.0.11-neoforge.jar",
@@ -954,6 +961,13 @@
     "curseForgeHash": 473206733,
     "modrinthHash": "efd3a1e2e05589338f976764270ae98fc62f4e1f"
   },
+  "jei-1.21.1-neoforge-19.27.0.340.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.27.0.340.jar",
+    "modId": "jei",
+    "version": "19.27.0.340",
+    "curseForgeHash": 828156772,
+    "modrinthHash": "27d0d85e7e32e926fc3664ab6815df5cdabb7941"
+  },
   "konkrete_neoforge_1.9.9_MC_1.21.jar": {
     "jarName": "konkrete_neoforge_1.9.9_MC_1.21.jar",
     "modId": "konkrete",
@@ -1169,12 +1183,12 @@
     "curseForgeHash": 2950806711,
     "modrinthHash": "99f9973f69460a772a4e8beccb9ca3f69e0a1291"
   },
-  "moreculling-neoforge-1.21.1-1.0.6.jar": {
-    "jarName": "moreculling-neoforge-1.21.1-1.0.6.jar",
+  "moreculling-neoforge-1.21.1-1.0.7.jar": {
+    "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
     "modId": "moreculling",
-    "version": "1.0.6",
-    "curseForgeHash": 4200989793,
-    "modrinthHash": "f6f43344e0622ac05ad7aca5378ec35aad31ac30"
+    "version": "1.0.7",
+    "curseForgeHash": 3317811947,
+    "modrinthHash": "834cc35294be3bb514bc0ba571ab7337961af383"
   },
   "MouseTweaks-neoforge-mc1.21-2.26.1.jar": {
     "jarName": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
@@ -1554,12 +1568,12 @@
     "curseForgeHash": 3154950983,
     "modrinthHash": "2f2c5e27e0f3ce382dee5a91ed6f872b0061b8e6"
   },
-  "sophisticatedcore-1.21.1-1.4.7.1515.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.7.1515.jar",
+  "sophisticatedcore-1.21.1-1.4.8.1520.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.8.1520.jar",
     "modId": "sophisticatedcore",
-    "version": "1.4.7",
-    "curseForgeHash": 1931621544,
-    "modrinthHash": "83e00bbee26d53230ecf73ef2bad187cf1e47574"
+    "version": "1.4.8",
+    "curseForgeHash": 3871915136,
+    "modrinthHash": "a9703e9f779fd88e9c705e2dca1f3e421c42b425"
   },
   "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar": {
     "jarName": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
@@ -1673,12 +1687,12 @@
     "curseForgeHash": 2624406211,
     "modrinthHash": "9072f8876708636eccc1012c88b78d88dadcdf8f"
   },
-  "waystones-neoforge-1.21.1-21.1.28.jar": {
-    "jarName": "waystones-neoforge-1.21.1-21.1.28.jar",
+  "waystones-neoforge-1.21.1-21.1.29.jar": {
+    "jarName": "waystones-neoforge-1.21.1-21.1.29.jar",
     "modId": "waystones",
-    "version": "21.1.28",
-    "curseForgeHash": 1281913430,
-    "modrinthHash": "dae6c9c647e13f97602d51ce29d7069769dbb1a7"
+    "version": "21.1.29",
+    "curseForgeHash": 352766314,
+    "modrinthHash": "7bd06fb7dfd6904a0f4ec5b9b46da2325e247aa3"
   },
   "xaerominimap-neoforge-1.21.1-25.3.10.jar": {
     "jarName": "xaerominimap-neoforge-1.21.1-25.3.10.jar",
