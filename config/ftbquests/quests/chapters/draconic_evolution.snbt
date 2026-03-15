@@ -154,7 +154,6 @@
 				"3DCF9307C935F9DE"
 				"464BA836CFAA1822"
 			]
-			hide_until_deps_complete: true
 			id: "325A3FB440DE2CFF"
 			rewards: [{
 				exclude_from_claim_all: true
