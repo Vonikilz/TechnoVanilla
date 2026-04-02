@@ -109,7 +109,7 @@ enableStructureSpecificDatapack = true
 	disableHostilityLootCurioRequirement = false
 	# Default: 50
 	# Range: 0 ~ 1000
-	bottleOfCurseLevel = 50
+	bottleOfCurseLevel = 100
 	# Default: 200
 	# Range: 20 ~ 10000
 	witchChargeMinDuration = 200
@@ -121,13 +121,13 @@ enableStructureSpecificDatapack = true
 	flameThornTime = 100
 	# Default: 16
 	# Range: 1 ~ 256
-	ringOfReflectionRadius = 16
+	ringOfReflectionRadius = 128
 	# Default: 4
 	# Range: 1 ~ 100
-	witchWandFactor = 4
+	witchWandFactor = 16
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	ringOfCorrosionFactor = 0.2
+	ringOfCorrosionFactor = 0.25
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	ringOfCorrosionPenalty = 0.1
@@ -155,13 +155,13 @@ enableStructureSpecificDatapack = true
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
 	gluttonyBottleDropRate = 0.02
-	# Default: 0.05
+	# Default: 0.02
 	# Range: 0.0 ~ 1.0
 	wrathDamageBonus = 0.05
-	# Default: 0.02
+	# Default: 0.005
 	# Range: 0.0 ~ 1.0
 	prideDamageBonus = 0.02
-	# Default: 0.02
+	# Default: 0.005
 	# Range: 0.0 ~ 1.0
 	prideHealthBonus = 0.02
 	# Default: 0.5
@@ -173,7 +173,7 @@ enableStructureSpecificDatapack = true
 	# Default: 100
 	# Range: 0 ~ 1000
 	nidhoggurExtraLevel = 100
-	# Default: 0.01
+	# Default: 0.005
 	# Range: 0.0 ~ 10.0
 	nidhoggurDropFactor = 0.01
 	nidhoggurCapAtItemMaxStack = true
@@ -186,78 +186,78 @@ enableStructureSpecificDatapack = true
 	enableCurioCheckFilter = true
 	# Default: 10
 	# Range: 1 ~ 1000
-	removeTraitCheckInterval = 10
+	removeTraitCheckInterval = 20
 	# Default: 5
 	# Range: 1 ~ 1000
-	auraEffectApplicationInterval = 5
+	auraEffectApplicationInterval = 10
 	# Default: 200
 	# Range: 1 ~ 1000
-	selfEffectApplicationInterval = 200
+	selfEffectApplicationInterval = 150
 
 [traits]
 	# Default: 0.2
 	# Range: 0.0 ~ 1000.0
-	tankHealth = 0.2
+	tankHealth = 0.3
 	# Default: 4.0
 	# Range: 0.0 ~ 1000.0
-	tankArmor = 4.0
+	tankArmor = 5.0
 	# Default: 4.0
 	# Range: 0.0 ~ 1000.0
-	tankTough = 4.0
+	tankTough = 5.0
 	# Default: 0.2
 	# Range: 0.0 ~ 1000.0
-	speedy = 0.2
+	speedy = 0.3
 	# Default: 0.01
 	# Range: 0.0 ~ 1000.0
-	regen = 0.01
+	regen = 0.02
 	# Default: 0.5
 	# Range: 0.0 ~ 1000.0
-	adaptFactor = 0.5
+	adaptFactor = 1.0
 	# Default: 0.1
 	# Range: 0.0 ~ 1000.0
 	reflectFactor = 0.1
 	# Default: 200
 	# Range: 1 ~ 60000
-	dispellTime = 200
+	dispellTime = 250
 	# Default: 5
 	# Range: 0 ~ 3000
-	fieryTime = 5
+	fieryTime = 10
 	# Default: 200
 	# Range: 0 ~ 3000
-	weakTime = 200
+	weakTime = 250
 	# Default: 160
 	# Range: 0 ~ 3000
-	slowTime = 160
+	slowTime = 250
 	# Default: 200
 	# Range: 0 ~ 3000
-	poisonTime = 200
+	poisonTime = 250
 	# Default: 200
 	# Range: 0 ~ 3000
-	witherTime = 200
+	witherTime = 250
 	# Default: 100
 	# Range: 0 ~ 3000
-	levitationTime = 100
+	levitationTime = 150
 	# Default: 200
 	# Range: 0 ~ 3000
-	blindTime = 200
+	blindTime = 250
 	# Default: 160
 	# Range: 0 ~ 3000
-	confusionTime = 160
+	confusionTime = 250
 	# Default: 60
 	# Range: 0 ~ 3000
-	soulBurnerTime = 60
+	soulBurnerTime = 100
 	# Default: 100
 	# Range: 0 ~ 3000
-	freezingTime = 100
+	freezingTime = 150
 	# Default: 200
 	# Range: 0 ~ 3000
-	curseTime = 200
+	curseTime = 250
 	# Default: 100
 	# Range: 0 ~ 3000
-	teleportDuration = 100
+	teleportDuration = 250
 	# Default: 16
 	# Range: 0 ~ 64
-	teleportRange = 16
+	teleportRange = 12
 	# Default: 10
 	# Range: 0 ~ 64
 	repellRange = 10
@@ -266,7 +266,7 @@ enableStructureSpecificDatapack = true
 	repellStrength = 0.15
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	corrosionDurability = 0.1
+	corrosionDurability = 0.15
 	# Default: 0.25
 	# Range: 0.0 ~ 1.0
 	corrosionDamage = 0.25
@@ -278,52 +278,52 @@ enableStructureSpecificDatapack = true
 	erosionDamage = 0.25
 	# Default: 20
 	# Range: 1 ~ 1000
-	ragnarokTime = 20
+	ragnarokTime = 10
 	ragnarokSealBackpack = false
 	ragnarokSealSlotAdder = false
 	# Default: 6
 	# Range: 1 ~ 10000
-	killerAuraDamage = 6
+	killerAuraDamage = 8
 	# Default: 6
 	# Range: 1 ~ 32
-	killerAuraRange = 6
+	killerAuraRange = 8
 	# Default: 120
 	# Range: 1 ~ 10000
-	killerAuraInterval = 120
+	killerAuraInterval = 150
 	# Default: 40
 	# Range: 1 ~ 10000
-	shulkerInterval = 40
+	shulkerInterval = 50
 	# Default: 60
 	# Range: 1 ~ 10000
-	explodeShulkerInterval = 60
+	explodeShulkerInterval = 100
 	# Default: 0.1
 	# Range: 0.0 ~ 100.0
-	drainDamage = 0.1
+	drainDamage = 0.15
 	# Default: 0.5
 	# Range: 0.0 ~ 100.0
 	drainDuration = 0.5
 	# Default: 1200
 	# Range: 0 ~ 10000
-	drainDurationMax = 1200
+	drainDurationMax = 1500
 	# Default: 100
 	# Range: 0 ~ 3000
 	counterStrikeDuration = 100
 	# Default: 6
 	# Range: 0 ~ 64
-	counterStrikeRange = 6
+	counterStrikeRange = 12
 	# Default: 10
 	# Range: 0 ~ 64
-	pullingRange = 10
+	pullingRange = 12
 	# Default: 0.15
 	# Range: 0.0 ~ 10.0
-	pullingStrength = 0.15
+	pullingStrength = 0.25
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	reprintDamage = 0.02
+	reprintDamage = 0.03
 	# Default: 10
 	# Range: 0 ~ 10000
 	reprintBypass = 10
-	#Damage Bonus Factor for dispell-affected damage
+	#Damage Bonus Factor for enchantment bypassing damage
 	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
@@ -340,13 +340,34 @@ enableStructureSpecificDatapack = true
 	grenadeDamageFactor = 0.25
 	# Default: 10
 	# Range: 0 ~ 100
-	gravityRange = 10
+	gravityRange = 12
 	# Default: 10
 	# Range: 0 ~ 100
-	moonwalkRange = 10
+	moonwalkRange = 12
 	# Default: 24
 	# Range: 0 ~ 100
-	arenaRange = 24
+	arenaRange = 32
+	#Damage Bonus Factor for killer aura damage
+	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	killerAuraDamageFactor = 0.5
+	#Damage Reduction Base for Dispell
+	#Non-Magic damage will take a log with base of this config number
+	#Example: 1.1 means 100 -> 48, 1000 -> 72
+	#Example: 2 means 16 -> 4, 1024 -> 10
+	#Example: 10 means 100 -> 2, 1000000 -> 6
+	# Default: 2.0
+	# Range: 1.01 ~ 100.0
+	dispellDamageReductionBase = 2.0
+	#Damage Reduction Base for Dementor
+	#Magic damage will take a log with base of this config number
+	#Example: 1.1 means 100 -> 48, 1000 -> 72
+	#Example: 2 means 16 -> 4, 1024 -> 10
+	#Example: 10 means 100 -> 2, 1000000 -> 6
+	# Default: 2.0
+	# Range: 1.01 ~ 100.0
+	dementorDamageReductionBase = 2.0
 
 [toggle]
 	allow_tank = true

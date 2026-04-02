@@ -1,5 +1,6 @@
 enableEntitySpecificDatapack = true
 enableStructureSpecificDatapack = true
+enableEquipmentDatapack = true
 
 [scaling]
 	# Default: 0.03
@@ -40,10 +41,10 @@ enableStructureSpecificDatapack = true
 	allowExtraEnchantments = true
 	# Default: 20
 	# Range: 0 ~ 1000
-	defaultLevelBase = 0
+	defaultLevelBase = 50
 	# Default: 16.0
 	# Range: 0.0 ~ 1000.0
-	defaultLevelVar = 20.0
+	defaultLevelVar = 10.0
 	# Default: 1.5
 	# Range: 0.0 ~ 10.0
 	defaultLevelScale = 1.4
@@ -67,7 +68,7 @@ enableStructureSpecificDatapack = true
 	#Max number of traits on mobs
 	# Default: 9
 	# Range: 1 ~ 100
-	maxTraitCount = 5
+	maxTraitCount = 10
 
 [difficulty]
 	# Default: 2000
@@ -78,16 +79,16 @@ enableStructureSpecificDatapack = true
 	maxMobLevel = 9999
 	# Default: 30
 	# Range: 1 ~ 100000
-	killsPerLevel = 50
+	killsPerLevel = 20
 	# Default: 0.8
 	# Range: 0.0 ~ 2.0
-	playerDeathDecay = 1.0
+	playerDeathDecay = 0.0
 	keepInventoryRuleKeepDifficulty = false
 	deathDecayDimension = true
 	deathDecayTraitCap = false
 	# Default: 48
 	# Range: 0 ~ 128
-	newPlayerProtectRange = 32
+	newPlayerProtectRange = 16
 
 [orb_and_spawner]
 	allowHostilityOrb = true
@@ -102,7 +103,7 @@ enableStructureSpecificDatapack = true
 	hostilitySpawnCount = 12
 	# Default: 2
 	# Range: 1 ~ 10000
-	hostilitySpawnLevelFactor = 2
+	hostilitySpawnLevelFactor = 5
 
 [items]
 	banBottles = false
@@ -197,7 +198,7 @@ enableStructureSpecificDatapack = true
 [traits]
 	# Default: 0.2
 	# Range: 0.0 ~ 1000.0
-	tankHealth = 0.3
+	tankHealth = 0.5
 	# Default: 4.0
 	# Range: 0.0 ~ 1000.0
 	tankArmor = 5.0
@@ -215,7 +216,7 @@ enableStructureSpecificDatapack = true
 	adaptFactor = 1.0
 	# Default: 0.1
 	# Range: 0.0 ~ 1000.0
-	reflectFactor = 0.1
+	reflectFactor = 0.15
 	# Default: 200
 	# Range: 1 ~ 60000
 	dispellTime = 250
@@ -283,10 +284,10 @@ enableStructureSpecificDatapack = true
 	ragnarokSealSlotAdder = false
 	# Default: 6
 	# Range: 1 ~ 10000
-	killerAuraDamage = 8
+	killerAuraDamage = 10
 	# Default: 6
 	# Range: 1 ~ 32
-	killerAuraRange = 8
+	killerAuraRange = 10
 	# Default: 120
 	# Range: 1 ~ 10000
 	killerAuraInterval = 150

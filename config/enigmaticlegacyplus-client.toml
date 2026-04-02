@@ -1,4 +1,8 @@
 etheriumShieldRenderLayer = true
+quoteSubtitles = true
+# Default: 60
+# Range: 0 ~ 100
+deathQuoteChance = 50
 
 [magnetButton]
 	# Default: 0

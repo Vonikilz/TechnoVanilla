@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "stellaris"
-	group: "74BE1C5C28E7AE94"
+	group: "0FA3A6CC6E4863EB"
 	icon: {
 		id: "stellaris:earth_globe"
 	}
 	id: "2676DF4352687254"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

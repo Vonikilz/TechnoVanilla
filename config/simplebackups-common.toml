@@ -56,6 +56,8 @@ noPlayerBackupCount = 1
 # Default: 0
 # Range: > 0
 noPlayerBackupTimer = 0
+#Should log lines written to logs/latest.log during backup be stored inside the backup archive as latest.log?
+captureLatestLog = true
 
 #WARNING Please check your configuration before using permanently.
 #The backup system will ignore these paths and files.

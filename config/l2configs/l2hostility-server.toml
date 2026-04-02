@@ -68,13 +68,14 @@ enableEquipmentDatapack = true
 	# Default: 9
 	# Range: 1 ~ 100
 	maxTraitCount = 10
+	enableAdaptiveLeveling = true
 
 [difficulty]
 	# Default: 2000
-	# Range: 100 ~ 100000
+	# Range: 1 ~ 100000
 	maxPlayerLevel = 6666
 	# Default: 3000
-	# Range: 100 ~ 100000
+	# Range: 1 ~ 100000
 	maxMobLevel = 9999
 	# Default: 30
 	# Range: 1 ~ 100000

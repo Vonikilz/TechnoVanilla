@@ -85,6 +85,14 @@
 		# Range: 0.0 ~ 1.0
 		specialDamageBoost = 0.25
 
+	[cursedItems.guardianHeart]
+		# Default: 24.0
+		# Range: 4.0 ~ 64.0
+		effectiveRange = 24.0
+		# Default: 200
+		# Range: 100 ~ 600
+		cooldown = 200
+
 [else]
 	freezingBoost = true
 
@@ -157,6 +165,9 @@
 		# Range: 4.0 ~ 64.0
 		effectiveRange = 16.0
 
+	[else.storageCrystal]
+		enable = true
+
 [abyssItems]
 	# Default: 5
 	# Range: 1 ~ 10
@@ -205,6 +216,7 @@
 		# Default: 15
 		# Range: 0 ~ 100
 		lifeSteal = 15
+		keepInventory = true
 
 	[spellstone.voidPearl]
 		# Default: 16.0

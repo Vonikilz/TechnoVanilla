@@ -41,8 +41,8 @@
 				id: "2FD057D31A955AAA"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["34245546594077FA"]
@@ -300,8 +300,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:eye_of_nebula" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1CFE2FE2B61B20B8"]
@@ -317,8 +317,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:golem_heart" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1CFE2FE2B61B20B8"]
@@ -334,8 +334,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:blazing_core" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1CFE2FE2B61B20B8"]
@@ -647,7 +647,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["34245546594077FA"]
+			dependencies: ["45C7D8FBC1ECEB71"]
 			id: "5C823DE79BD5A1E6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -660,8 +660,8 @@
 				item: { components: { "enigmaticlegacyplus:wormhole_uuid": "27206041-a2da-4f24-ba0c-a71db8bcb9eb" }, count: 1, id: "enigmaticlegacyplus:wormhole_potion" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34245546594077FA"]
@@ -1220,8 +1220,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:soul_compass" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2E1940CAF25EDB83"]
@@ -1488,8 +1488,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:cursed_scroll" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2E1940CAF25EDB83"]
@@ -1621,6 +1621,159 @@
 			}]
 			x: 3.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["1CFE2FE2B61B20B8"]
+			id: "26A1F2CFC168D7E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74D1844BB8C7FD7D"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12F4464DB6536B14"
+				item: { count: 1, id: "enigmaticlegacyplus:illusion_lantern" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34245546594077FA"]
+			id: "4AAF0597885121E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E7BAE2C9F8D3058"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A86AEB632385DA9"
+				item: { count: 1, id: "enigmaticlegacyplus:void_tome" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45C7D8FBC1ECEB71"]
+			id: "11329DFB94B97DE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052105933379A0E7"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B54C50304C844B3"
+				item: { count: 1, id: "enigmaticlegacyplus:twisted_potion" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CC49A9E75BC81A1"]
+			id: "48032119683B7094"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A43C16E192FA5E5"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "325EA78CFE0BDAD7"
+				item: { count: 1, id: "enigmaticlegacyplus:scorched_charm" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["788B3D5710B2CD11"]
+			id: "4DB0F5233E23FA08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4141769A9BFFCCE0"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FBB70E24F0BF4D0"
+				item: { count: 1, id: "enigmaticlegacyplus:survival_scroll" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["788B3D5710B2CD11"]
+			id: "732399CD4B7DD69C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B9D67037E7105B"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DD488CCB311B9B9"
+				item: { count: 1, id: "enigmaticlegacyplus:explorer_scroll" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FFC427262213D8C"]
+			id: "1481017EF0B34FD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "238F816011D3AE9C"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B5F1E0C2F239455"
+				item: { components: { "enigmaticlegacyplus:eldritch_timer": 0.0f }, count: 1, id: "enigmaticlegacyplus:violence_scroll" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E14590048010FEC"]
+			id: "684D63B8BDDF5766"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFC683347248A45"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59F241AE33203938"
+				item: { count: 1, id: "enigmaticlegacyplus:thunder_scroll" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34245546594077FA"]
+			id: "57AA5C67CC39D949"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B938DAEBCB9B7D2"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4851193A01DD525F"
+				item: { count: 1, id: "enigmaticlegacyplus:guardian_heart" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
 		}
 	]
 }

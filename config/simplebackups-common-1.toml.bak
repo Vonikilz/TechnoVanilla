@@ -3,7 +3,7 @@ enabled = true
 #Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #Defines the backup type.
 #- FULL_BACKUPS - always creates full backups
-#- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup
+#- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup !!! You need to adjust fullBackupTimer properly, otherwise you may lose a lot of your backup (or use the experimental setting) !!!
 #- MODIFIED_SINCE_FULL - saves all files which changed after the last full backup
 #Allowed Values: FULL_BACKUPS, MODIFIED_SINCE_LAST, MODIFIED_SINCE_FULL
 backupType = "FULL_BACKUPS"
@@ -17,14 +17,14 @@ fullBackupTimer = 525960
 #The max amount of backup files to keep.
 # Default: 10
 # Range: 1 ~ 32767
-backupsToKeep = 10
+backupsToKeep = 5
 #The time between two backups in minutes
 #5 = each 5 minutes
 #60 = each hour
 #1440 = each day
 # Default: 120
 # Range: 1 ~ 32767
-timer = 120
+timer = 60
 #Compression level:
 #  0  = no compression (low CPU usage, larger files)
 #  9  = maximum compression (high CPU usage, smaller files)
@@ -33,7 +33,7 @@ timer = 120
 # Range: -1 ~ 9
 compressionLevel = -1
 #Should message be sent when backup is in the making?
-sendMessages = true
+sendMessages = false
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
@@ -48,6 +48,14 @@ createSubDirs = true
 #Use an internal tick counter instead of the real world time. The value of the timer will be converted to ticks. When the timer is over, the backup will be created.
 #Keep in mind that lagging servers will result in larger gaps between two backups, e.g. 10 FPS in average will result in double the time set between backups.
 useTickCounter = false
+#How many backups should be created after the last player left? Set to 0 to disable.
+# Default: 1
+# Range: > 0
+noPlayerBackupCount = 1
+#The time between two backups when no player is online. 0 means the same as the "timer" setting.
+# Default: 0
+# Range: > 0
+noPlayerBackupTimer = 0
 
 #WARNING Please check your configuration before using permanently.
 #The backup system will ignore these paths and files.

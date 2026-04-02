@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02E9FCF468F7AC52"
+	group: "0FA3A6CC6E4863EB"
+	icon: {
+		id: "minecraft:diamond"
+	}
+	id: "02E9FCF468F7AC52"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "67D89B51567E3ACF"
+		rewards: [
+			{
+				id: "712FB9A2A3F9B790"
+				item: {
+					count: 1
+					id: "farmersdelight:grilled_salmon"
+				}
+				type: "item"
+			}
+			{
+				id: "175AB8841950BCAD"
+				item: {
+					count: 1
+					id: "farmersdelight:salmon_roll"
+				}
+				type: "item"
+			}
+			{
+				id: "6E0B8D00E2EBB1DB"
+				item: {
+					count: 1
+					id: "farmersdelight:cooked_salmon_slice"
+				}
+				type: "item"
+			}
+			{
+				id: "562C80ED15AEA464"
+				item: {
+					count: 1
+					id: "farmersdelight:salmon_slice"
+				}
+				type: "item"
+			}
+			{
+				id: "754D332EA17DFADC"
+				item: {
+					count: 1
+					id: "minecraft:cooked_salmon"
+				}
+				type: "item"
+			}
+			{
+				id: "014A4BC02CCE7156"
+				item: {
+					count: 1
+					id: "minecraft:salmon"
+				}
+				type: "item"
+			}
+			{
+				id: "319D2B00474E943C"
+				item: {
+					count: 1
+					id: "createfisheryindustry:salmon_steak"
+				}
+				type: "item"
+			}
+			{
+				id: "6ACDC079ABB22D19"
+				item: {
+					count: 1
+					id: "createfisheryindustry:cooked_salmon_steak"
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "181250692EF8B390"
+			item: { count: 1, id: "duneons:salmon" }
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+}

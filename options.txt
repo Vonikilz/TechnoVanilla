@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:1.0
 graphicsMode:0
 guiScale:4
@@ -127,11 +127,11 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-key_zume.zoom:key.keyboard.unknown
+key_zume.zoom:key.keyboard.z
 key_zume.zoom_in:key.keyboard.equal
 key_zume.zoom_out:key.keyboard.minus
 key_supplementaries.keybind.quiver:key.keyboard.v
-key_key.block_factorys_bosses.dodge_roll:key.keyboard.x
+key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
 key_key.curios.open.desc:key.keyboard.g
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
@@ -259,6 +259,8 @@ key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
 key_key.immersive_aircraft.dismount:key.keyboard.r
 key_key.immersive_aircraft.boost:key.keyboard.b
 key_key.sophisticatedcore.sort:key.mouse.middle
+key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
@@ -274,7 +276,7 @@ key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.carry.desc:key.keyboard.p
+key_key.carry.desc:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.mekanismadditions.voice:key.keyboard.u
 key_key.deeperdarker.boost:key.keyboard.b
@@ -298,10 +300,10 @@ key_key.draconicevolution.dislocator_blink:key.keyboard.unknown
 key_key.draconicevolution.dislocator_gui:key.keyboard.unknown
 key_key.draconicevolution.dislocator_up:key.keyboard.unknown
 key_key.draconicevolution.dislocator_down:key.keyboard.unknown
-key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
 key_key.golemoverhaul.netherite_golem_summon:key.keyboard.r
+key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.oritech.augment_screen:key.keyboard.g
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.stellaris.jetsuit_mode:key.keyboard.v
 key_key.stellaris.freeze_planet_menu:key.keyboard.x
 key_key.stellaris.tablet_info:key.keyboard.n
