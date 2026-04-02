@@ -13,8 +13,8 @@
 			image: "mythsandlegends:item/cursed_core"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: -3.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			height: 1.0d
@@ -22,39 +22,39 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: 5.5d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
 			image: "undead_revamp2:item/toomuchtostomuch"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: 0.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
 			image: "fdbosses:textures/entities/geburah/geburah_chain_trap.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: 6.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
 			image: "draconicevolution:item/info_tablet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.1d
-			y: 3.2d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/gui/title/minecraft.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 16.0d
-			y: -2.5d
+			x: 14.0d
+			y: -1.0d
 		}
 	]
 	order_index: 6
@@ -99,8 +99,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			icon: {
@@ -141,8 +141,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -183,8 +183,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -229,8 +229,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -1.6d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -282,7 +282,7 @@
 				}
 			]
 			x: 1.0d
-			y: 8.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -334,7 +334,7 @@
 				}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -386,7 +386,7 @@
 				}
 			]
 			x: 3.0d
-			y: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["78F0823043CB403D"]
@@ -439,7 +439,7 @@
 				}
 			]
 			x: 5.0d
-			y: 8.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -480,8 +480,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["78F0823043CB403D"]
@@ -523,8 +523,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.0d
-			y: -1.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C0122965466CE80"]
@@ -566,8 +566,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.0d
-			y: 1.0d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -621,8 +621,8 @@
 					type: "structure"
 				}
 			]
-			x: 9.0d
-			y: 8.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -673,8 +673,8 @@
 					type: "structure"
 				}
 			]
-			x: 11.0d
-			y: 8.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4C0122965466CE80"]
@@ -716,8 +716,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.1d
-			y: 5.0d
+			x: 14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4C0122965466CE80"]
@@ -743,8 +743,8 @@
 					type: "structure"
 				}
 			]
-			x: 10.0d
-			y: 9.85d
+			x: 3.0d
+			y: 7.85d
 		}
 		{
 			icon: {
@@ -788,8 +788,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.0d
-			y: -1.6d
+			x: 10.0d
+			y: 2.0d
 		}
 	]
 }

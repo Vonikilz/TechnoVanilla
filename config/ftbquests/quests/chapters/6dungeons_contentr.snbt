@@ -25,7 +25,7 @@
 			id: "709A920AA34A2837"
 			tasks: [{
 				icon: {
-					id: "duneons:tower_wooded_door"
+					id: "duneons:towerdoor"
 				}
 				id: "251509A95ACAB135"
 				structure: "duneons:tower"
@@ -43,7 +43,7 @@
 			tasks: [{
 				dimension: "duneons:forestcreeper"
 				icon: {
-					id: "duneons:creeperforestpatch"
+					id: "duneons:glowmelonroot"
 				}
 				id: "44EDDCA7B4D72659"
 				type: "dimension"
@@ -64,7 +64,7 @@
 				item: { count: 1, id: "duneons:poketmap" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -79,8 +79,8 @@
 				id: "33EDBF6563376CA6"
 				type: "checkmark"
 			}]
-			x: 5.25d
-			y: -1.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["19827710C45D0A77"]
@@ -91,15 +91,18 @@
 			rewards: [{
 				id: "2CF8BF5B912DED9F"
 				item: {
+					components: {
+						"ftbquests:missing_item": "duneons:dungeonsmalltablebook"
+					}
 					count: 1
-					id: "duneons:dungeonsmalltablebook"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					icon: {
-						id: "duneons:gravestonecreepermoss"
+						id: "duneons:gravestonecreeper"
 					}
 					id: "015C30841F112A9E"
 					structure: "duneons:gravestone"
@@ -168,7 +171,7 @@
 		{
 			dependencies: ["1F4789D00744E29F"]
 			icon: {
-				id: "duneons:canyonterracotta"
+				id: "duneons:continenttabledeserttemple"
 			}
 			id: "3CFF66474300F5DE"
 			tasks: [{
@@ -190,6 +193,12 @@
 			id: "5F11FC1BFF2DA8BB"
 			tasks: [{
 				dimension: "duneons:desertcaves"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "578CEBAEB1A2D48B"
 				type: "dimension"
 			}]
@@ -265,7 +274,7 @@
 		}
 		{
 			icon: {
-				id: "duneons:bamboostonebricks"
+				id: "duneons:bamboograss"
 			}
 			id: "0FB5A509F9179C37"
 			tasks: [{
@@ -383,7 +392,10 @@
 				}
 				{
 					icon: {
-						id: "duneons:voidblock"
+						components: {
+							"ftbquests:missing_item": "duneons:voidblock"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "3914C6DF91AF6871"
 					structure: "duneons:abyssal_monument_boss"
@@ -837,6 +849,82 @@
 			}]
 			x: 1.0d
 			y: -8.0d
+		}
+		{
+			id: "67D89B51567E3ACF"
+			rewards: [
+				{
+					id: "712FB9A2A3F9B790"
+					item: {
+						count: 1
+						id: "farmersdelight:grilled_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "175AB8841950BCAD"
+					item: {
+						count: 1
+						id: "farmersdelight:salmon_roll"
+					}
+					type: "item"
+				}
+				{
+					id: "6E0B8D00E2EBB1DB"
+					item: {
+						count: 1
+						id: "farmersdelight:cooked_salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "562C80ED15AEA464"
+					item: {
+						count: 1
+						id: "farmersdelight:salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "754D332EA17DFADC"
+					item: {
+						count: 1
+						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "014A4BC02CCE7156"
+					item: {
+						count: 1
+						id: "minecraft:salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "319D2B00474E943C"
+					item: {
+						count: 1
+						id: "createfisheryindustry:salmon_steak"
+					}
+					type: "item"
+				}
+				{
+					id: "6ACDC079ABB22D19"
+					item: {
+						count: 1
+						id: "createfisheryindustry:cooked_salmon_steak"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "181250692EF8B390"
+				item: { count: 1, id: "duneons:salmon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
 		}
 	]
 }

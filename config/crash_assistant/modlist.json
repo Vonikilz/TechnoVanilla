@@ -930,21 +930,21 @@
     "curseForgeHash": 1958225968,
     "modrinthHash": "a48e54edeacc59aaba29a1b627799c052112ee0b"
   },
-  "ftb-library-neoforge-2101.1.30.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.30.jar",
+  "ftb-library-neoforge-2101.1.31.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.31.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.30",
-    "curseForgeHash": 2894733965,
-    "modrinthHash": "1d9d1dbcdc5a9de7e5353694a69bc506af5609ef"
+    "version": "2101.1.31",
+    "curseForgeHash": 2049429281,
+    "modrinthHash": "686d4e784c28c14f7760cc22b2de6a8573b56b74"
   },
-  "ftb-quests-neoforge-2101.1.21.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.21.jar",
+  "ftb-quests-neoforge-2101.1.23.jar": {
+    "jarName": "ftb-quests-neoforge-2101.1.23.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2101.1.21",
-    "curseForgeHash": 3122237457,
-    "modrinthHash": "33cd484029425a8f7a0b75e80790402f1d04d144"
+    "version": "2101.1.23",
+    "curseForgeHash": 1228057399,
+    "modrinthHash": "49ead4db72ab59c129021f0f0b532263650f819e"
   },
   "ftb-teams-neoforge-2101.1.9.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.9.jar",
@@ -954,13 +954,13 @@
     "curseForgeHash": 2109677839,
     "modrinthHash": "328e04bf1a445870aacea8fe7637670f84272a8f"
   },
-  "ftb-xmod-compat-neoforge-21.1.7.jar": {
-    "jarName": "ftb-xmod-compat-neoforge-21.1.7.jar",
+  "ftb-xmod-compat-neoforge-21.1.8.jar": {
+    "jarName": "ftb-xmod-compat-neoforge-21.1.8.jar",
     "modId": "ftbxmodcompat",
     "name": "FTB XMod Compat",
-    "version": "21.1.7",
-    "curseForgeHash": 2530383542,
-    "modrinthHash": "32bef47834dd829bfa94a7c8922be50d544f333b"
+    "version": "21.1.8",
+    "curseForgeHash": 697946099,
+    "modrinthHash": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6"
   },
   "FTBQuestsOptimizer-neoforge-3.2.0-1.21.1.jar": {
     "jarName": "FTBQuestsOptimizer-neoforge-3.2.0-1.21.1.jar",
@@ -1343,13 +1343,13 @@
     "curseForgeHash": 708006837,
     "modrinthHash": "e618e28647fcbf931143f81bcd905d7c9c61f27b"
   },
-  "moonlight-1.21-2.29.23-neoforge.jar": {
-    "jarName": "moonlight-1.21-2.29.23-neoforge.jar",
+  "moonlight-1.21-2.29.26-neoforge.jar": {
+    "jarName": "moonlight-1.21-2.29.26-neoforge.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21-2.29.23",
-    "curseForgeHash": 1479041480,
-    "modrinthHash": "0425f3f15ba59d1bbd48fff8dfddda645543c79d"
+    "version": "1.21-2.29.26",
+    "curseForgeHash": 2423368223,
+    "modrinthHash": "639e4cab7b5e178412b4b64920a290e34035111e"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -1527,14 +1527,6 @@
     "curseForgeHash": 533269171,
     "modrinthHash": "05be8ddcc78532b9a5520c718edc6c971cd0057c"
   },
-  "PlayerAnimationLibNeoforge-1.1.4+mc.1.21.1.jar": {
-    "jarName": "PlayerAnimationLibNeoforge-1.1.4+mc.1.21.1.jar",
-    "modId": "player_animation_library",
-    "name": "Player Animation Library",
-    "version": "1.1.4+mc.1.21.1",
-    "curseForgeHash": 2628186825,
-    "modrinthHash": "034b576197859d2b8f94f9fb1edcdc012ff844fa"
-  },
   "polymorph-neoforge-1.1.0+1.21.1.jar": {
     "jarName": "polymorph-neoforge-1.1.0+1.21.1.jar",
     "modId": "polymorph",
@@ -1599,13 +1591,13 @@
     "curseForgeHash": 2758508790,
     "modrinthHash": "a7d1be8891b939cc69db4b22f392a35f145df8a5"
   },
-  "reskillable-2.3.3-1.21.1.jar": {
-    "jarName": "reskillable-2.3.3-1.21.1.jar",
+  "reskillable-3.2.2-1.21.1.jar": {
+    "jarName": "reskillable-3.2.2-1.21.1.jar",
     "modId": "reskillable",
     "name": "Reskillable",
-    "version": "2.3.3-1.21.1",
-    "curseForgeHash": 1925014798,
-    "modrinthHash": "1acfd1f7597d6de1ec44eb57fcbe9a74853a4dd2"
+    "version": "3.2.2-1.21.1",
+    "curseForgeHash": 2094665204,
+    "modrinthHash": "2826bba1e9bc7fe1fc83968bf760b4b09b0b226b"
   },
   "resourcefulconfig-neoforge-1.21-3.0.11.jar": {
     "jarName": "resourcefulconfig-neoforge-1.21-3.0.11.jar",

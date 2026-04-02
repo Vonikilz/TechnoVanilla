@@ -2084,7 +2084,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "duneons:item/heart"
+					"ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/full.png"
 				}
 				id: "ftbquests:custom_icon"
 			}

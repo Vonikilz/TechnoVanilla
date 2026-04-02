@@ -1593,177 +1593,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["1B608B2069BD95D2"]
-			id: "60BEA7900E49B6CE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3628C95E0B26055C"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "65BDFC095C85CA21"
-				item: { count: 1, id: "stellaris:cable" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["60BEA7900E49B6CE"]
-			id: "0866DD4061493695"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2588AC921AC29E36"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "70F99C6F4936C315"
-				item: { count: 1, id: "stellaris:cable_t2" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0866DD4061493695"]
-			id: "64C7F5EBD97E01A6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "56098DA73CC4DA59"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "674724290D1655E6"
-				item: { count: 1, id: "stellaris:cable_t3" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4B5E7BEB9AFB9FD9"]
-			hide_until_deps_complete: true
-			id: "4A5D8FF2E35DF280"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F890D5890CF7152"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "181754CE400AA097"
-				item: { count: 1, id: "stellaris:pipe_t1" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4A5D8FF2E35DF280"]
-			id: "7C70881ED93195B9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60CD6FD68A77C8F1"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4E72E66837FD0B98"
-				item: { count: 1, id: "stellaris:pipe_t2" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7C70881ED93195B9"]
-			id: "2C6A7D1C3813ACCE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "53BE5331DC97A3A0"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6651657B13A4C3E7"
-				item: { count: 1, id: "stellaris:pipe_t3" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["066FAB02580E9C26"]
-			id: "06DA1FA993363502"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33E42AF312270E07"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2C7EC1771B73C956"
-				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:t1_tank" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["06DA1FA993363502"]
-			id: "539DD0F4F6A3BDC6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58FA610DFC2B7DC1"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "53834FB5D7CE3B93"
-				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:t2_tank" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["539DD0F4F6A3BDC6"]
-			id: "033CA65FC0BAF1CB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "362420367C06E6FB"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7FC9B42C2C4FB435"
-				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:t3_tank" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["033CA65FC0BAF1CB"]
-			id: "1DA152F3A7509BE3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "355AFFA2144A04BE"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "79F6A897F7E93FF7"
-				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:t4_tank" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 11.5d
-		}
-		{
 			dependencies: ["17355DF0B9B13EF2"]
 			dependency_requirement: "one_completed"
 			id: "6B892D6C3A77FC88"
@@ -1845,7 +1674,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["07FA368632D7C5B6"]
@@ -1866,7 +1695,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7E40DAF2D9ED925C"]
@@ -1883,7 +1712,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["74C53703A028F911"]
@@ -1900,7 +1729,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 11.5d
+			y: 7.0d
 		}
 	]
 }

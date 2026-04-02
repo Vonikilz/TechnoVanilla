@@ -42,14 +42,6 @@
 		}
 		{
 			height: 1.0d
-			image: "stellaris:block/earth_globe"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.72d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
 			image: "mythsandlegends:item/cursed_core"
 			rotation: 0.0d
 			width: 1.0d
@@ -1081,108 +1073,6 @@
 			}]
 			x: 7.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["5ECCE536CA285EE7"]
-			id: "30B74D85B35630AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4ED65F95A390D86F"
-				table_id: 5871660891141218159L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "stellaris:alien_zombie"
-				id: "76CA8ACA8DC4E949"
-				type: "kill"
-				value: 1L
-			}]
-			x: -4.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["7503E9B1CBC70B54"]
-			id: "43DF9036EA0045BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "50E51DB81069573A"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "stellaris:pygro"
-				id: "41CEE78E51F45669"
-				type: "kill"
-				value: 1L
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7503E9B1CBC70B54"]
-			id: "5F09EC1F0750E77A"
-			tasks: [{
-				entity: "stellaris:pygro_brute"
-				id: "66A642AAC8D68353"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7503E9B1CBC70B54"]
-			id: "6944F242143FB1B1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1A3E839C66F29051"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "stellaris:mogler"
-				id: "5E29B81F2E6FBF28"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["05E477994D07CF1E"]
-			id: "7E23B578D7F278E5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E82CACC09983B2E"
-				table_id: 5871660891141218159L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "stellaris:martian_raptor"
-				id: "1065B75A52072CB3"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5ECCE536CA285EE7"]
-			id: "24A8608BEC77383B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6015A41164FE162F"
-				table_id: 5871660891141218159L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "stellaris:star_crawler"
-				id: "0CB8B501FD9A11E0"
-				type: "kill"
-				value: 1L
-			}]
-			x: -5.5d
-			y: 7.0d
 		}
 	]
 }

@@ -313,5 +313,27 @@
 			x: 1.5d
 			y: -5.0d
 		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "resourcefulconfig:textures/gui/sprites/icons/clipboard_list.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "457A7DCBC1CEF0E8"
+			rewards: [{
+				id: "53B96B67983A88C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "heart"
+			size: 1.4d
+			tasks: [{
+				id: "576EC48908DE80F9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
 	]
 }

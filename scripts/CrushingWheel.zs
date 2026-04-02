@@ -209,3 +209,12 @@ addCreateCrushing("minecraft:compass","mekanism:dust_iron",4,400);
 addCreateCrushing("minecraft:clock","mekanism:dust_gold",4,300);
 //Переработка подзорной трубы
 addCreateCrushing("minecraft:spyglass","mekanism:dust_copper",2,200);
+//Переработка стальной руды из Stellaris
+furnace.removeByName("stellaris:misc/steel_ingot_from_smelting_raw_steel_ingot");
+blastFurnace.removeByName("stellaris:misc/steel_ingot_from_blasting_raw_steel_ingot");
+<recipetype:create:crushing>.addJsonRecipe("raw_steel_crushing", {
+    "type": "create:crushing",
+    "ingredients": [{"item": "stellaris:raw_steel_ingot"}],
+    "processing_time": 400,
+    "results": [{"id": "mekanism:dust_steel"}, {"chance": 0.75, "id": "create:experience_nugget"}]
+});

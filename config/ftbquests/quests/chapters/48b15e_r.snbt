@@ -193,24 +193,6 @@
 			y: 1.5d
 		}
 		{
-			id: "18D6489703C9EBC7"
-			rewards: [{
-				id: "153EC4F2AA38F109"
-				item: {
-					count: 1
-					id: "aquaculturedelight:fish_and_chips"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D65BF42F3EC6A20"
-				item: { count: 1, id: "aquaculturedelight:neptunium_knife" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4C0122965466CE80"]
 			id: "423E182D6C9F0210"
 			rewards: [{
@@ -223,7 +205,7 @@
 				item: { count: 1, id: "endersdelight:endstone_stove" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -239,7 +221,7 @@
 				item: { count: 1, id: "endersdelight:shulker_bowl" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -260,8 +242,8 @@
 				item: { count: 1, id: "dungeonsdelight:dungeon_stove" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7571CE46BBFB1902"]
