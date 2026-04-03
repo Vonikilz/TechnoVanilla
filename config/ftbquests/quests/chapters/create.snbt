@@ -1611,42 +1611,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3B2817E53844247E"]
-			id: "0025E283B87B7F7B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2FB5FD9D05270F63"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			tasks: [{
-				id: "697BE96FF8DB6568"
-				item: { count: 1, id: "man_of_many_planes:economy_plane" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0025E283B87B7F7B"]
-			id: "7F9E5BC438A20FD6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C830C006853E8E5"
-				table_id: 8219706238716003891L
-				type: "random"
-			}]
-			shape: "heart"
-			size: 1.2d
-			tasks: [{
-				id: "314A38770A67BEE1"
-				item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["1DD022C8FD9E9E86"]
 			icon: {
 				id: "create_connected:empty_fan_catalyst"
@@ -1711,7 +1675,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6D39783337C889CB"]
