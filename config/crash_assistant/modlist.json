@@ -101,13 +101,13 @@
     "curseForgeHash": 3540321749,
     "modrinthHash": "d637429a0c8bb70edcbec40d295d87ad00e06340"
   },
-  "athena-neoforge-1.21-4.0.2.jar": {
-    "jarName": "athena-neoforge-1.21-4.0.2.jar",
+  "athena-neoforge-1.21-4.0.3.jar": {
+    "jarName": "athena-neoforge-1.21-4.0.3.jar",
     "modId": "athena",
     "name": "Athena",
-    "version": "4.0.2",
-    "curseForgeHash": 2534472933,
-    "modrinthHash": "069f397f1b3a30b3d5f5a98cac76304dfe345d76"
+    "version": "4.0.3",
+    "curseForgeHash": 1119485805,
+    "modrinthHash": "f18bdfe934b6416d9d5f2360b4cb89e4a0a67925"
   },
   "attributefix-neoforge-1.21.1-21.1.3.jar": {
     "jarName": "attributefix-neoforge-1.21.1-21.1.3.jar",
@@ -514,13 +514,13 @@
     "curseForgeHash": 1312818210,
     "modrinthHash": "18e0cf6cd07d223062135675ad8a152418647cff"
   },
-  "createfisheryindustry-5.0.0.jar": {
-    "jarName": "createfisheryindustry-5.0.0.jar",
+  "createfisheryindustry-5.0.1.jar": {
+    "jarName": "createfisheryindustry-5.0.1.jar",
     "modId": "createfisheryindustry",
     "name": "Create: Fishery Industry",
-    "version": "5.0.0",
-    "curseForgeHash": 4266808652,
-    "modrinthHash": "2d390dc101c003c5efd03b1b201f1ff0701a63b3"
+    "version": "5.0.1",
+    "curseForgeHash": 3319476114,
+    "modrinthHash": "2a46fa91a0e979a6750077395a29047177be8e70"
   },
   "createframed-1.21.1-1.7.3.jar": {
     "jarName": "createframed-1.21.1-1.7.3.jar",
@@ -738,13 +738,13 @@
     "curseForgeHash": 328672829,
     "modrinthHash": "0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c"
   },
-  "emiforcreatestock-1.0.4.jar": {
-    "jarName": "emiforcreatestock-1.0.4.jar",
+  "emiforcreatestock-1.0.4-fix.jar": {
+    "jarName": "emiforcreatestock-1.0.4-fix.jar",
     "modId": "emiforcreatestock",
     "name": "EMI For Create Stock",
     "version": "1.0.4",
-    "curseForgeHash": 578803696,
-    "modrinthHash": "bd3c22c510f16db142a3941335055abd5830a26e"
+    "curseForgeHash": 2986810481,
+    "modrinthHash": "3d33efe5eeb60227bec0d3dad335f8399b2f752a"
   },
   "EMIProfessions-neoforge-1.21.1-1.0.3.jar": {
     "jarName": "EMIProfessions-neoforge-1.21.1-1.0.3.jar",
@@ -1119,13 +1119,13 @@
     "curseForgeHash": 1541094029,
     "modrinthHash": "52e251699d693123ae8ff5a29a3de45ed53c9b12"
   },
-  "l2backpack-3.1.2.jar": {
-    "jarName": "l2backpack-3.1.2.jar",
+  "l2backpack-3.1.3.jar": {
+    "jarName": "l2backpack-3.1.3.jar",
     "modId": "l2backpack",
     "name": "L2Backpack",
-    "version": "3.1.2",
-    "curseForgeHash": 3940112291,
-    "modrinthHash": "c068cdab864eae1560123936756178b6e2c73f87"
+    "version": "3.1.3",
+    "curseForgeHash": 2220191265,
+    "modrinthHash": "fa8139b1d106b6b95ccc9cb608d6d31bda8dbd2d"
   },
   "l2complements-3.1.2.jar": {
     "jarName": "l2complements-3.1.2.jar",
@@ -1295,13 +1295,13 @@
     "curseForgeHash": 3686721333,
     "modrinthHash": "22c87905f348dc4cbe6ef69d1d877d4e6ebcadee"
   },
-  "Mini-boss Boss Bars 1.21.1 1.0.22.jar": {
-    "jarName": "Mini-boss Boss Bars 1.21.1 1.0.22.jar",
+  "Mini-boss Boss Bars 1.21.1 1.0.23.jar": {
+    "jarName": "Mini-boss Boss Bars 1.21.1 1.0.23.jar",
     "modId": "mr_mini_bossbossbars",
     "name": "§a§o§lMini-boss Boss Bars",
-    "version": "1.0.22",
-    "curseForgeHash": 3832967668,
-    "modrinthHash": "4f989692c10a0f449f7b674a49192cf5916a79a8"
+    "version": "1.0.23",
+    "curseForgeHash": 2536300396,
+    "modrinthHash": "f3ab054f36236a1e99a395e415a7e501772f193c"
   },
   "modelfix-1.21-1.10.jar": {
     "jarName": "modelfix-1.21-1.10.jar",
@@ -1767,13 +1767,13 @@
     "curseForgeHash": 730671972,
     "modrinthHash": "f1a77629ce889dcb19c8a36f1caa3fd337e7bf98"
   },
-  "sophisticatedcore-1.21.1-1.4.14.1584.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.14.1584.jar",
+  "sophisticatedcore-1.21.1-1.4.18.1629.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.18.1629.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.14",
-    "curseForgeHash": 1093450842,
-    "modrinthHash": "50c9a9405847f605ab5bdd72576cee1e31eb3b9e"
+    "version": "1.4.18",
+    "curseForgeHash": 1441456309,
+    "modrinthHash": "59dba20632413d28a43075d509f467fcbc876b34"
   },
   "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar": {
     "jarName": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
@@ -1807,13 +1807,13 @@
     "curseForgeHash": 692928508,
     "modrinthHash": "b61e8454f99d4e18730ac3e2a2c51c618c4c548a"
   },
-  "supplementaries-1.21-3.5.27-neoforge.jar": {
-    "jarName": "supplementaries-1.21-3.5.27-neoforge.jar",
+  "supplementaries-1.21-3.5.31-neoforge.jar": {
+    "jarName": "supplementaries-1.21-3.5.31-neoforge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21-3.5.26",
-    "curseForgeHash": 2242650581,
-    "modrinthHash": "ddc7007ca224ec367d9ffe0516d0f9978c0e6d18"
+    "version": "1.21-3.5.31",
+    "curseForgeHash": 3389746361,
+    "modrinthHash": "4d17bcb804faeea80e52b2ca9a41a6fad42de20d"
   },
   "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": {
     "jarName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -1887,13 +1887,13 @@
     "curseForgeHash": 2848339676,
     "modrinthHash": "439a90a9eb660822af3ec0fc7af8d3770bbc40af"
   },
-  "voicechat-neoforge-1.21.1-2.6.14.jar": {
-    "jarName": "voicechat-neoforge-1.21.1-2.6.14.jar",
+  "voicechat-neoforge-1.21.1-2.6.15.jar": {
+    "jarName": "voicechat-neoforge-1.21.1-2.6.15.jar",
     "modId": "voicechat",
     "name": "Simple Voice Chat",
-    "version": "1.21.1-2.6.14",
-    "curseForgeHash": 288632455,
-    "modrinthHash": "617b3b4e39f119974dc6439caeb1b39c362e4467"
+    "version": "1.21.1-2.6.15",
+    "curseForgeHash": 2329701174,
+    "modrinthHash": "e02c36889b0cd5be3dda3b5955fec3abb447ddfa"
   },
   "volex_vitality_crystals-1.0.1-neoforge-1.21.1.jar": {
     "jarName": "volex_vitality_crystals-1.0.1-neoforge-1.21.1.jar",
