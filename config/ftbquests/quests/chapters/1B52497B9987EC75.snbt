@@ -134,7 +134,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51BE7096BE4AEEA7"]
@@ -213,7 +213,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -333,7 +333,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -7.0d
 		}
 	]
 }

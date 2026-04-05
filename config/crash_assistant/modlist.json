@@ -125,13 +125,13 @@
     "curseForgeHash": 3053351722,
     "modrinthHash": "1461d8e46391efd32a3085150e86094c9f6f5c9d"
   },
-  "baguettelib-1.21.1-NeoForge-1.1.6.jar": {
-    "jarName": "baguettelib-1.21.1-NeoForge-1.1.6.jar",
+  "baguettelib-1.21.1-NeoForge-2.0.3.jar": {
+    "jarName": "baguettelib-1.21.1-NeoForge-2.0.3.jar",
     "modId": "baguettelib",
     "name": "BaguetteLib",
-    "version": "1.1.6",
-    "curseForgeHash": 465144228,
-    "modrinthHash": "dddf0f4454bf013d05d5eaa600e5a6eef555d67a"
+    "version": "2.0.3",
+    "curseForgeHash": 664412636,
+    "modrinthHash": "e01709c880b0602b7a306201a25866e76c44f5c0"
   },
   "balm-neoforge-1.21.1-21.0.56.jar": {
     "jarName": "balm-neoforge-1.21.1-21.0.56.jar",
@@ -1807,13 +1807,13 @@
     "curseForgeHash": 692928508,
     "modrinthHash": "b61e8454f99d4e18730ac3e2a2c51c618c4c548a"
   },
-  "supplementaries-1.21-3.5.31-neoforge.jar": {
-    "jarName": "supplementaries-1.21-3.5.31-neoforge.jar",
+  "supplementaries-1.21-3.5.32-neoforge.jar": {
+    "jarName": "supplementaries-1.21-3.5.32-neoforge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21-3.5.31",
-    "curseForgeHash": 3389746361,
-    "modrinthHash": "4d17bcb804faeea80e52b2ca9a41a6fad42de20d"
+    "version": "1.21-3.5.32",
+    "curseForgeHash": 428613812,
+    "modrinthHash": "0866a6e5512622a474567900d1486efe12ddf1a5"
   },
   "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": {
     "jarName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
