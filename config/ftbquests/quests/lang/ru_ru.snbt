@@ -657,8 +657,8 @@
 	quest.3DB2DF7B1D1A6830.title: "Модуль щита"
 	quest.3DC2B8C66E71C818.quest_desc: ["Его нужно ОЧЕНЬ много. Блоки этого слитка можно использовать вместо книжных полок, для чародейского стола."]
 	quest.3DCF9307C935F9DE.quest_desc: ["Наполняет предметы энергией. &4Не заряжает!&r"]
-	quest.3E36F1B61CBE4F4A.quest_desc: ["Ссылка на мой ТКГ CreateAll. В нём я делюсь своими наработками, а именно сборками, механизмами, кодом."]
-	quest.3E36F1B61CBE4F4A.title: "ТКГ"
+	quest.3E36F1B61CBE4F4A.quest_desc: ["Ссылка на мой ТГК CreateAll. В нём я делюсь своими наработками, а именно сборками, механизмами, кодом."]
+	quest.3E36F1B61CBE4F4A.title: "ТГК"
 	quest.3E43ECA2896EDA44.quest_desc: ["Можно найти в заброшенной шахте"]
 	quest.3E4E415E1A55B59E.quest_desc: ["Слишком много факелов"]
 	quest.3E79927778502E65.quest_desc: ["Востанавливает 20 голода и 24 насыщения"]
@@ -946,7 +946,7 @@
 	quest.519AB815E8B3B7F3.quest_desc: ["В этом моде вместо обычной деревянной миски исользуется эта"]
 	quest.519AB815E8B3B7F3.title: "Миска из шалкера"
 	quest.51BE7096BE4AEEA7.quest_desc: [
-		"Приветствую на сборке &6Techno&r&2Vanilla&r 1.1.6. Для обратной связи есть ТГ канал (&l&bhttps://t.me/CreateVoni&r&r) в нём есть много полезных ссылок, а также новости про сборку. &l&aПриятной игры!&r&r"
+		"Приветствую на сборке &6Techno&r&2Vanilla&r 1.1.7. Для обратной связи есть ТГ канал (&l&bhttps://t.me/CreateVoni&r&r) в нём есть много полезных ссылок, а также новости про сборку. &l&aПриятной игры!&r&r"
 		"{@pagebreak}"
 		"&6Большую часть&r квестов не видно до тех пор пока не бутдет выполнена хотябы &aодна&r из их зависимостей. Это сделано для того, чтобы квесты не отталкивали своим объёмом."
 	]
@@ -1418,8 +1418,7 @@
 	quest.7FD8019AA0F2BAA3.title: "Я фермер"
 	reward.2621CBF4B8104F46.title: "Команда для починки step height"
 	reward.36D46F2334D4A0EB.title: "Ссылка на мой профиль GitHub"
-	reward.39A8C58BDB49EB72.title: "ТКГ CreateAll"
-	reward.745C00AF9CD13E31.title: "ТКГ CreateAll"
+	reward.745C00AF9CD13E31.title: "ТГК CreateAll"
 	reward_table.517C54789A069F6F.title: "Награда за мобов"
 	reward_table.660742B68CE9DEEF.title: "Награда &#AA00AAEnigmatic Legacy&r"
 	reward_table.677253481C55CF79.title: "Награда за технологии &#FF5B0DOritech&r"

@@ -454,7 +454,7 @@
 [sevenCurses]
 	# Default: 200
 	# Range: 100 ~ 500
-	painMultiplier = 250
+	painMultiplier = 200
 	# Default: 24.0
 	# Range: 4.0 ~ 100.0
 	neutralAngerRange = 36.0

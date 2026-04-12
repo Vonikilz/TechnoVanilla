@@ -6,7 +6,7 @@
       "perkAttribute": "neoforge:swim_speed",
       "icon": "reskillable:textures/gui/custom_skills/swimming.png",
       "perkOperation": "ADDITION",
-      "perkAmountPerStep": 0.1,
+      "perkAmountPerStep": 0.0,
       "perkStep": 5
     },
     {
