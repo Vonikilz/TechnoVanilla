@@ -788,8 +788,8 @@
 				item: { count: 1, id: "create:redstone_link" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -0.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["103F5F9DF533659B"]
@@ -959,8 +959,8 @@
 				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DD022C8FD9E9E86"]
@@ -1119,8 +1119,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 2.0d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B2817E53844247E"]
