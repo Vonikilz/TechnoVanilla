@@ -59,6 +59,14 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/tellraw @p [\"\",{\"text\":\"ТГК CreateAll\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/+OP1eVZoFBXJlMWIy\"}}]"
+					icon: {
+						id: "minecraft:crafter"
+					}
+					id: "39A8C58BDB49EB72"
+					type: "command"
+				}
 			]
 			size: 2.0d
 			tasks: [{

@@ -15,17 +15,14 @@
 			rewards: [{
 				id: "153EC4F2AA38F109"
 				item: {
-					components: {
-						"ftbquests:missing_item": "aquaculturedelight:fish_and_chips"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "aquaculturedelight:fish_and_chips"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0D65BF42F3EC6A20"
-				item: { components: { "ftbquests:missing_item": "aquaculturedelight:neptunium_knife" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "aquaculturedelight:neptunium_knife" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -42,7 +39,7 @@
 			}]
 			tasks: [{
 				id: "697BE96FF8DB6568"
-				item: { components: { "ftbquests:missing_item": "man_of_many_planes:economy_plane" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "man_of_many_planes:economy_plane" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -61,7 +58,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "314A38770A67BEE1"
-				item: { components: { "ftbquests:missing_item": "man_of_many_planes:scarlet_biplane" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
 				type: "item"
 			}]
 			x: 2.5d

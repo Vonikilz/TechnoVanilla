@@ -1731,5 +1731,25 @@
 			x: 0.5d
 			y: 7.0d
 		}
+		{
+			dependencies: ["308418A2299F32A8"]
+			icon: {
+				id: "simulated:auger_shaft"
+			}
+			id: "1CE01A45DB7D7914"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F106F680CD18659"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1090E2CD950F8157"
+				item: { components: { "ftbfiltersystem:filter": "or(item(simulated:auger_shaft)item(simulated:auger_cog))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
 	]
 }

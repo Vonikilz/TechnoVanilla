@@ -596,8 +596,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B34C4ADBC7E4113"]
@@ -613,8 +613,8 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3B34C4ADBC7E4113"]
@@ -630,8 +630,8 @@
 				item: { count: 1, id: "create:item_drain" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3B34C4ADBC7E4113"]
@@ -647,8 +647,8 @@
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["17355DF0B9B13EF2"]
@@ -788,8 +788,8 @@
 				item: { count: 1, id: "create:redstone_link" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["103F5F9DF533659B"]
@@ -1316,8 +1316,8 @@
 				item: { count: 1, id: "create_sa:copper_exoskeleton_chestplate" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6D39783337C889CB"]
@@ -1893,6 +1893,393 @@
 			}]
 			x: 7.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["48A31F622215CB57"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "simulated:honey_glue"
+			}
+			id: "1773E4E1D3C7E818"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20926FA9E9DE575E"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					id: "43B13C9CE483E709"
+					item: { count: 1, id: "simulated:honey_glue" }
+					type: "item"
+				}
+				{
+					id: "3A05C34574C70C32"
+					item: { count: 1, id: "simulated:physics_assembler" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "606AC2C33F72E6C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "703D1F548A78935F"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54002E0E7E565784"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "3FF990D61CD970D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "622BEE4402B19355"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BC87DBA92F47987"
+				item: { count: 1, id: "simulated:plunger_launcher" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "1592ED87417D7C20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F2D7CD631E75A1C"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "546DFA571186E16B"
+				item: { count: 1, id: "simulated:swivel_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "434C50639665256F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6657FE6173564265"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43037D86BB28FE49"
+				item: { count: 1, id: "simulated:redstone_magnet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "6BBE5C5BCE749391"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22C5D0C6B9C7177B"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60CFF97EE0CC9B4C"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "711ACEA85B61AC0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E517BE120A2CF34"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "401B0237377D3118"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "77A44DCC68AEB90F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48686C3F39ED87B3"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3416A9C65E82EF0F"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "50660F675D4E5A64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "756780DD6E23A306"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AFFA8989799AE68"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50660F675D4E5A64"]
+			id: "61B305AB0A4C2495"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB25D13794B0B45"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "368E52C4ED21C654"
+				item: { components: { "ftbfiltersystem:filter": "or(item(simulated:white_nameplate)item(simulated:orange_nameplate)item(simulated:magenta_nameplate)item(simulated:light_blue_nameplate)item(simulated:yellow_nameplate)item(simulated:pink_nameplate)item(simulated:gray_nameplate)item(simulated:light_gray_nameplate)item(simulated:cyan_nameplate)item(simulated:purple_nameplate)item(simulated:blue_nameplate)item(simulated:brown_nameplate)item(simulated:green_nameplate)item(simulated:red_nameplate)item(simulated:black_nameplate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74795F89FE446134"]
+			id: "0DA995EA50E4D2D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D64CB8EA91D716"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49EB89738CBFD967"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			id: "6CB70E88220CC83C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F3E351B5F947C7"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "171262EE3A43668A"
+				item: { count: 1, id: "simulated:torsion_spring" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50660F675D4E5A64"]
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "2BC163BC0B00692C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57139978C337CB78"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "73A773896E963FF9"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "463AC8179C149828"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2BC163BC0B00692C"]
+			id: "7D373D0A4CB0E0A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08148C9FF6148CC2"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E59F516F07477B7"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50660F675D4E5A64"]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "4C19312B3E5693C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3400AFC7BEF494DF"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2D393C249F71C9B8"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					id: "33A6768FBF100E57"
+					item: { components: { "ftbfiltersystem:filter": "or(item(aeronautics:smart_propeller)item(aeronautics:andesite_propeller)item(aeronautics:wooden_propeller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50660F675D4E5A64"]
+			icon: {
+				id: "aeronautics:gyroscopic_propeller_bearing"
+			}
+			id: "286E3520F46DD1BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3980EA4901D5FC4D"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "148EEA72965897D3"
+					item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+					type: "item"
+				}
+				{
+					id: "6CAEB22C09DA89E9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(aeronautics:smart_propeller)item(aeronautics:andesite_propeller)item(aeronautics:wooden_propeller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C19312B3E5693C6"]
+			id: "45C543E68BB1F535"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AFEF08E97EFAFBB"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0493C4FA8A24875A"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["711ACEA85B61AC0A"]
+			icon: {
+				id: "offroad:wheel_mount"
+			}
+			id: "15F63A1DB6215286"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D547C0C66523DB3"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "26CF6477D3669238"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					id: "57F518FF5B77147E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(offroad:small_tire)item(offroad:tire)item(offroad:large_tire)item(offroad:monstrous_tire))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1773E4E1D3C7E818"]
+			icon: {
+				id: "offroad:rockcutting_wheel"
+			}
+			id: "22B2B46D4CB0EE2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AC7B7852BC3C4BB"
+				table_id: 8219706238716003891L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4500D256E3E838E3"
+					item: { count: 1, id: "offroad:borehead_bearing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0377EC9BC26ACACA"
+					item: { count: 1, id: "offroad:rockcutting_wheel" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.0d
 		}
 	]
 }

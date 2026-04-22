@@ -1,5 +1,7 @@
 {
   "skillLocks": {
+    "offroad:rockcutting_wheel":["mining:12","Сбор:12"],
+    "simulated:red_portable_engine":["building:20"],
     "dungeonsdelight:golden_cleaver":["agility:5"],
     "dungeonsdelight:flint_cleaver":["agility:8"],
     "bountifulbaubles:potion_wormhole":["magic:16"],

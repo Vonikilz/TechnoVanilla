@@ -20,18 +20,12 @@
 	quests: [
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:towerdoor"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:towerdoor"
 			}
 			id: "709A920AA34A2837"
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "duneons:towerdoor"
-					}
-					id: "ftbquests:missing_item"
+					id: "duneons:towerdoor"
 				}
 				id: "251509A95ACAB135"
 				structure: "duneons:tower"
@@ -43,19 +37,13 @@
 		{
 			dependencies: ["709A920AA34A2837"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:glowmelonroot"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:glowmelonroot"
 			}
 			id: "19827710C45D0A77"
 			tasks: [{
 				dimension: "duneons:forestcreeper"
 				icon: {
-					components: {
-						"ftbquests:missing_item": "duneons:glowmelonroot"
-					}
-					id: "ftbquests:missing_item"
+					id: "duneons:glowmelonroot"
 				}
 				id: "44EDDCA7B4D72659"
 				type: "dimension"
@@ -73,7 +61,7 @@
 			}]
 			tasks: [{
 				id: "78225B581B546DF0"
-				item: { components: { "ftbquests:missing_item": "duneons:poketmap" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "duneons:poketmap" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -97,10 +85,7 @@
 		{
 			dependencies: ["19827710C45D0A77"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:villagercage"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:villagercage"
 			}
 			id: "67E4BDFB87B1DE3A"
 			rewards: [{
@@ -117,10 +102,7 @@
 			tasks: [
 				{
 					icon: {
-						components: {
-							"ftbquests:missing_item": "duneons:gravestonecreeper"
-						}
-						id: "ftbquests:missing_item"
+						id: "duneons:gravestonecreeper"
 					}
 					id: "015C30841F112A9E"
 					structure: "duneons:gravestone"
@@ -139,19 +121,13 @@
 		{
 			dependencies: ["67E4BDFB87B1DE3A"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:swampgrassside"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:swampgrassside"
 			}
 			id: "343E0962C8344399"
 			tasks: [{
 				dimension: "duneons:swamp_soggy"
 				icon: {
-					components: {
-						"ftbquests:missing_item": "duneons:mosssoggydirt"
-					}
-					id: "ftbquests:missing_item"
+					id: "duneons:mosssoggydirt"
 				}
 				id: "5512208F6234ECDE"
 				type: "dimension"
@@ -162,19 +138,13 @@
 		{
 			dependencies: ["6F3BA43827020930"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:mossdirtpumpkin"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:mossdirtpumpkin"
 			}
 			id: "4BE45705C7DF0C99"
 			tasks: [{
 				dimension: "duneons:pumpkinpasture"
 				icon: {
-					components: {
-						"ftbquests:missing_item": "duneons:mossdirtpumpkin"
-					}
-					id: "ftbquests:missing_item"
+					id: "duneons:mossdirtpumpkin"
 				}
 				id: "6483C1B4F61899AB"
 				type: "dimension"
@@ -184,10 +154,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:continenttablecacti"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:continenttablecacti"
 			}
 			id: "1F4789D00744E29F"
 			tasks: [{
@@ -204,19 +171,13 @@
 		{
 			dependencies: ["1F4789D00744E29F"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:continenttabledeserttemple"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:continenttabledeserttemple"
 			}
 			id: "3CFF66474300F5DE"
 			tasks: [{
 				dimension: "duneons:canyon_cacti"
 				icon: {
-					components: {
-						"ftbquests:missing_item": "duneons:cactimoss"
-					}
-					id: "ftbquests:missing_item"
+					id: "duneons:cactimoss"
 				}
 				id: "055965534CF15C37"
 				type: "dimension"
@@ -227,10 +188,7 @@
 		{
 			dependencies: ["1F4789D00744E29F"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:testblock"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:testblock"
 			}
 			id: "5F11FC1BFF2DA8BB"
 			tasks: [{
@@ -249,10 +207,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:snowgrass"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:snowgrass"
 			}
 			id: "4FC81D619DF37032"
 			tasks: [{
@@ -265,10 +220,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:charredstone"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:charredstone"
 			}
 			id: "1C0E1D06D6841E6A"
 			tasks: [{
@@ -283,10 +235,7 @@
 			dependencies: ["1C0E1D06D6841E6A"]
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:arenaeyeblock"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:arenaeyeblock"
 			}
 			id: "657BDFDAE6729753"
 			tasks: [{
@@ -299,10 +248,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:sandrise"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:sandrise"
 			}
 			id: "59CB8510EBCA8A39"
 			tasks: [{
@@ -315,10 +261,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:highlandgrass"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:highlandgrass"
 			}
 			id: "384197AF5BA0D114"
 			tasks: [{
@@ -331,10 +274,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:bamboograss"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:bamboograss"
 			}
 			id: "0FB5A509F9179C37"
 			tasks: [{
@@ -347,10 +287,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:redstonecrystal_3"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:redstonecrystal_3"
 			}
 			id: "192C368AF3F6F559"
 			tasks: [{
@@ -415,10 +352,7 @@
 		{
 			dependencies: ["4C0122965466CE80"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:perfect_formhead"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:perfect_formhead"
 			}
 			id: "2D11815AD1466EED"
 			rewards: [
@@ -474,10 +408,7 @@
 		{
 			dependencies: ["5F11FC1BFF2DA8BB"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:namelessskull"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:namelessskull"
 			}
 			id: "529B3C0724375C9F"
 			rewards: [
@@ -610,10 +541,7 @@
 		{
 			dependencies: ["343E0962C8344399"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:cauidron"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:cauidron"
 			}
 			id: "6F3BA43827020930"
 			rewards: [
@@ -748,10 +676,7 @@
 		{
 			dependencies: ["1C0E1D06D6841E6A"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:red_stonecrystal_2"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:red_stonecrystal_2"
 			}
 			id: "040749BE76C90113"
 			rewards: [
@@ -793,10 +718,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "duneons:red_stone_golem_skull"
-				}
-				id: "ftbquests:missing_item"
+				id: "duneons:red_stone_golem_skull"
 			}
 			id: "7F0C7BC4A5CB09FE"
 			rewards: [
@@ -998,7 +920,7 @@
 			]
 			tasks: [{
 				id: "181250692EF8B390"
-				item: { components: { "ftbquests:missing_item": "duneons:salmon" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "duneons:salmon" }
 				type: "item"
 			}]
 			x: -4.5d
