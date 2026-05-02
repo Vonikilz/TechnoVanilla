@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Chat Reporting Helper.zip","file/FreshAnimations_v1.10.4.zip","file/MandalasGUI+Dakmode_1.21.8_v2.5.zip","file/SmoothFont_1.21.zip","file/SodiumTranslations.zip","file/TechnoVanilla RU.zip","file/Create-Aeronautics-RU-main.zip","file/CC-Tweaked Russian language.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Chat Reporting Helper.zip","file/Create-Aeronautics-RU-main.zip","file/MandalasGUI+Dakmode_1.21.8_v2.5.zip","file/SmoothFont_1.21.zip","file/SodiumTranslations.zip","file/TechnoVanilla RU.zip","file/CC-Tweaked Russian language.zip"]
 incompatibleResourcePacks:["file/MandalasGUI+Dakmode_1.21.8_v2.5.zip"]
 lastServer:
 lang:ru_ru
@@ -127,7 +127,6 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-key_key.veil.editor:key.keyboard.unknown
 key_zume.zoom:key.keyboard.z
 key_zume.zoom_in:key.keyboard.equal
 key_zume.zoom_out:key.keyboard.minus
@@ -283,7 +282,6 @@ key_key.deeperdarker.boost:key.keyboard.b
 key_key.deeperdarker.transmit:key.keyboard.v
 key_key.crawlondemand.toggle_crawl:key.keyboard.left.alt
 key_key.crawlondemand.crawl:key.keyboard.z
-key_key.renderscale.options:key.keyboard.o
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_key.l2mods.dig:key.keyboard.grave.accent
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -304,9 +302,9 @@ key_key.draconicevolution.dislocator_gui:key.keyboard.unknown
 key_key.draconicevolution.dislocator_up:key.keyboard.unknown
 key_key.draconicevolution.dislocator_down:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
+key_key.golemoverhaul.netherite_golem_summon:key.keyboard.r
 key_key.oritech.augment_screen:key.keyboard.g
 key_key.ftbquests.quests:key.keyboard.unknown
-key_key.golemoverhaul.netherite_golem_summon:key.keyboard.r
 key_key.stellaris.jetsuit_mode:key.keyboard.v
 key_key.stellaris.freeze_planet_menu:key.keyboard.x
 key_key.stellaris.tablet_info:key.keyboard.n
@@ -342,7 +340,7 @@ key_key.l2mods.alt:key.keyboard.left.alt
 key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.r
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.20422535211267606
+soundCategory_music:0.056338028169014086
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
