@@ -49,6 +49,7 @@
 		}
 		{
 			dependencies: ["10F151348D05D5E3"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:fluix_crystal"
@@ -72,6 +73,7 @@
 		}
 		{
 			dependencies: ["2DE4B1350DC3B93C"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:inscriber"
@@ -113,6 +115,7 @@
 				"0AE207E4BD88932D"
 				"26A6CEAE9A9480EA"
 			]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "397D5E7E61169796"
 			shape: "pentagon"
@@ -346,6 +349,7 @@
 		}
 		{
 			dependencies: ["397D5E7E61169796"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "039288BE06DFDF22"
 			shape: "pentagon"
@@ -559,6 +563,7 @@
 		}
 		{
 			dependencies: ["1BE58DE8D3067485"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "138B06DF65DAB70A"
 			shape: "pentagon"
@@ -814,6 +819,7 @@
 		}
 		{
 			dependencies: ["397D5E7E61169796"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:wireless_access_point"

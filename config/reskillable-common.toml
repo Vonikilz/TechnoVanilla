@@ -89,3 +89,7 @@ enableSecondSkillPage = false
 # Default: -1
 # Range: > -1
 maxTotalSpentLevels = -1
+#Where the built-in/custom page arrows should appear. Valid: TOP, BOTTOM, LEFT, RIGHT.
+subpageNavPosition = "BOTTOM"
+#Toggle the visibility of the built-in/custom subpage titles on the skills screen.
+showSubpageTitles = true

@@ -44,6 +44,7 @@
 		}
 		{
 			dependencies: ["228AD70254FE9D18"]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "create:item_vault"
 			}
@@ -74,7 +75,7 @@
 				"470089AE9E1A6C24"
 				"780B77C33C65E022"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "389A3C74AA5619F2"
 			rewards: [{

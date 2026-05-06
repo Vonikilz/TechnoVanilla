@@ -19,6 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				components: {
@@ -88,6 +89,7 @@
 		}
 		{
 			dependencies: ["5ECCE536CA285EE7"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "stellaris:mars_globe"
@@ -199,6 +201,7 @@
 		}
 		{
 			dependencies: ["3B5B6F89043430FB"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "stellaris:moon_globe"
@@ -255,6 +258,7 @@
 		}
 		{
 			dependencies: ["5ECCE536CA285EE7"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "stellaris:venus_globe"
@@ -280,6 +284,7 @@
 		}
 		{
 			dependencies: ["05E477994D07CF1E"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "stellaris:mercury_globe"
@@ -431,6 +436,7 @@
 		}
 		{
 			dependencies: ["4B5E7BEB9AFB9FD9"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "stellaris:pumpjack"

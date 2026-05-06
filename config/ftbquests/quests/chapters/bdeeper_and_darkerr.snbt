@@ -171,11 +171,18 @@
 				table_id: 8219706238716003891L
 				type: "random"
 			}]
-			tasks: [{
-				id: "30F7FEBA18701F8C"
-				item: { count: 1, id: "deeperdarker:resonarium_plate" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "30F7FEBA18701F8C"
+					item: { count: 1, id: "deeperdarker:resonarium_plate" }
+					type: "item"
+				}
+				{
+					id: "79BD843E2183BF86"
+					item: { count: 1, id: "deeperdarker:resonarium_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
@@ -209,6 +216,17 @@
 			}]
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5803E9EF750A8023"]
+			id: "47084B884AB1CC19"
+			tasks: [{
+				id: "6D842FE510EE5391"
+				item: { count: 1, id: "deeperdarker:warden_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 }

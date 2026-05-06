@@ -14,6 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependency_requirement: "one_started"
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -35,6 +36,7 @@
 		}
 		{
 			dependencies: ["6C0001BF0664F067"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:mechanical_press"
@@ -91,6 +93,7 @@
 		}
 		{
 			dependencies: ["228AD70254FE9D18"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:mechanical_mixer"
@@ -212,6 +215,7 @@
 		}
 		{
 			dependencies: ["6D39783337C889CB"]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "create:schematic_and_quill"
 			}
@@ -373,7 +377,7 @@
 				"0C3E9C5F47C4BDDE"
 				"78F0823043CB403D"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:blaze_burner"
@@ -396,6 +400,7 @@
 		}
 		{
 			dependencies: ["17355DF0B9B13EF2"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "3B2817E53844247E"
 			rewards: [{
@@ -434,6 +439,7 @@
 		}
 		{
 			dependencies: ["1DD022C8FD9E9E86"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:deployer"
@@ -485,6 +491,7 @@
 		}
 		{
 			dependencies: ["0C3E9C5F47C4BDDE"]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "create:cardboard"
 			}
@@ -540,6 +547,7 @@
 		}
 		{
 			dependencies: ["1DD022C8FD9E9E86"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:brass_casing"
@@ -562,6 +570,7 @@
 		}
 		{
 			dependencies: ["228AD70254FE9D18"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "create:copper_casing"
@@ -720,6 +729,7 @@
 		}
 		{
 			dependencies: ["17355DF0B9B13EF2"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "461DCA541F0A16A1"
 			rewards: [{
@@ -811,6 +821,7 @@
 		}
 		{
 			dependencies: ["228AD70254FE9D18"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "103F5F9DF533659B"
 			rewards: [{
@@ -1321,6 +1332,7 @@
 		}
 		{
 			dependencies: ["6D39783337C889CB"]
+			dependency_requirement: "one_started"
 			id: "66486DF413A715F7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1389,6 +1401,7 @@
 		}
 		{
 			dependencies: ["6D39783337C889CB"]
+			dependency_requirement: "one_started"
 			id: "4998D7844EE4134E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1896,6 +1909,7 @@
 		}
 		{
 			dependencies: ["48A31F622215CB57"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "simulated:honey_glue"
@@ -2044,6 +2058,7 @@
 		}
 		{
 			dependencies: ["1773E4E1D3C7E818"]
+			dependency_requirement: "one_started"
 			id: "50660F675D4E5A64"
 			rewards: [{
 				exclude_from_claim_all: true

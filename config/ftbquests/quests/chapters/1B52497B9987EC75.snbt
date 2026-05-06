@@ -216,6 +216,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			icon: {
 				components: {
 					"minecraft:profile": {
@@ -236,10 +237,14 @@
 				id: "minecraft:player_head"
 			}
 			id: "59629118AD41A07A"
+			repeat_cooldown: 500
 			rewards: [{
-				id: "26955F0709D9AA28"
-				type: "xp"
-				xp: 100
+				command: "/tellraw @p [\"\",{\"text\":\"Переводы\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Vonikilz/Mods_Minecraft_RU\"}}]"
+				icon: {
+					id: "handcrafted:stackable_book"
+				}
+				id: "596E9CAE0EBC66AD"
+				type: "command"
 			}]
 			shape: "heart"
 			size: 1.3d
@@ -273,7 +278,7 @@
 				id: "minecraft:crafter"
 			}
 			id: "3E36F1B61CBE4F4A"
-			repeat_cooldown: 1
+			repeat_cooldown: 500
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"ТГК CreateAll\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/+OP1eVZoFBXJlMWIy\"}}]"
 				icon: {
@@ -296,7 +301,7 @@
 				id: "create:packager"
 			}
 			id: "6F4D367FBA1E9609"
-			repeat_cooldown: 1
+			repeat_cooldown: 500
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"GitHub Vonikilz\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Vonikilz\"}}]"
 				icon: {
@@ -324,7 +329,7 @@
 			rewards: [{
 				id: "53B96B67983A88C4"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 100
 			}]
 			shape: "heart"
 			size: 1.4d

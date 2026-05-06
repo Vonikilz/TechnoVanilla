@@ -14,6 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "oritech:nickel_ingot"
@@ -102,6 +103,7 @@
 		}
 		{
 			dependencies: ["07FA368632D7C5B6"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "57F6B758F732EE78"
 			rewards: [{
@@ -192,6 +194,7 @@
 		}
 		{
 			dependencies: ["57F6B758F732EE78"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "oritech:laser_arm_block"
@@ -221,6 +224,7 @@
 		}
 		{
 			dependencies: ["46D3E6CABA0ACBE2"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "4997B845EA1B4389"
 			rewards: [{
@@ -240,6 +244,7 @@
 		}
 		{
 			dependencies: ["4997B845EA1B4389"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "oritech:superconductor"
@@ -280,6 +285,7 @@
 		}
 		{
 			dependencies: ["4997B845EA1B4389"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "4F2E58A97D68C2B4"
 			rewards: [{

@@ -306,6 +306,7 @@
 		}
 		{
 			dependencies: ["07FA368632D7C5B6"]
+			hide_text_until_complete: true
 			hide_until_deps_complete: true
 			id: "1256A45A128C90AE"
 			rewards: [{
@@ -325,6 +326,31 @@
 				type: "observation"
 			}]
 			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D017B34DAB91F26"]
+			icon: {
+				id: "simulated:creative_physics_staff"
+			}
+			id: "18C76234FA40D654"
+			rewards: [{
+				id: "47CDE99AB7B13F00"
+				item: {
+					count: 1
+					id: "simulated:creative_physics_staff"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "40C40ACF2E8A4F01"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 1.5d
 			y: 4.5d
 		}
 	]

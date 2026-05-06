@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "7A51C91B21A5D4B8"
 			rewards: [{
@@ -94,6 +95,7 @@
 		}
 		{
 			dependencies: ["7A51C91B21A5D4B8"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "3DC2B8C66E71C818"
 			rewards: [{
@@ -130,6 +132,7 @@
 		}
 		{
 			dependencies: ["3DC2B8C66E71C818"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "059440FBAB2CCDE5"
 			rewards: [{
@@ -154,6 +157,7 @@
 				"3DCF9307C935F9DE"
 				"464BA836CFAA1822"
 			]
+			dependency_requirement: "one_started"
 			id: "325A3FB440DE2CFF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -235,6 +239,7 @@
 		}
 		{
 			dependencies: ["5DB41C85DC0DCB92"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "18E61ABB18CD55E1"
 			rewards: [{
@@ -298,6 +303,7 @@
 		}
 		{
 			dependencies: ["325A3FB440DE2CFF"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "5DB41C85DC0DCB92"
 			rewards: [{

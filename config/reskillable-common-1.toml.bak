@@ -9,11 +9,11 @@ showTabButtons = true
 #Global scaling multiplier for XP costs.
 # Default: 1.0
 # Range: 0.1 ~ 10.0
-xpScalingMultiplier = 1.0
+xpScalingMultiplier = 2
 #Maximum level each skill can be upgraded to.
-# Default: 100
+# Default: 32
 # Range: 2 ~ 100
-maximumLevel = 32
+maximumLevel = 64
 #List of substitutions to perform in names in skill lock lists.
 #Useful if you're using a resource pack to change the names of skills, this config doesn't affect gameplay, just accepted values in other configs so it's easier to think about
 #Format: key=value
@@ -25,15 +25,15 @@ enableSkillUpMessage = true
 skillAliases = ["defense=defense"]
 # Default: 0.15
 # Range: 0.0 ~ 10.0
-attackDamageBonus = 0.15
+attackDamageBonus = 0.05
 # Default: 0.15
 # Range: 0.0 ~ 10.0
-armorBonus = 0.15
+armorBonus = 0.05
 #The registry ID of the attribute to use for the Magic skill (e.g. 'modid:spell_power')
-magicAttribute = "minecraft:generic.luck"
+magicAttribute = "l2damagetracker:magic_damage"
 # Default: 0.25
 # Range: 0.0 ~ 5.0
-miningSpeedMultiplier = 0.25
+miningSpeedMultiplier = 0.15
 #How many total skill levels are required for each heart gained.
 # Default: 10
 # Range: 1 ~ 100
@@ -75,10 +75,10 @@ buildingAttribute = "forge:block_reach"
 buildingOperation = "ADDITION"
 # Default: 0.25
 # Range: 0.0 ~ 5.0
-"Building Bonus" = 0.25
+"Building Bonus" = 0.15
 # Default: 0.25
 # Range: 0.0 ~ 1.0
-"Farming Bonus" = 0.25
+"Farming Bonus" = 0.15
 #Bonus XP multiplier per 5 levels of Gathering (e.g., 0.05 = +5% XP per step)
 # Default: 0.05
 # Range: 0.0 ~ 1.0

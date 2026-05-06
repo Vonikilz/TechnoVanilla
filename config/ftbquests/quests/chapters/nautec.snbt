@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "53F267F169E859BC"
 			rewards: [{
@@ -30,6 +31,7 @@
 		}
 		{
 			dependencies: ["7430FA18901098D3"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "39CEAE0408F639BE"
 			rewards: [{
@@ -315,6 +317,7 @@
 		}
 		{
 			dependencies: ["12641F766B4DD7D4"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "nautec:augmentation_station"
@@ -550,6 +553,7 @@
 		}
 		{
 			dependencies: ["39CEAE0408F639BE"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "12641F766B4DD7D4"
 			rewards: [{

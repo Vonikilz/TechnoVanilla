@@ -311,6 +311,7 @@
 			y: -3.0d
 		}
 		{
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:ingot_osmium"
@@ -420,7 +421,7 @@
 				"2E8DED52A4F9CFF6"
 				"1DD022C8FD9E9E86"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:alloy_infused"
@@ -493,6 +494,7 @@
 				"1B608B2069BD95D2"
 				"1DD022C8FD9E9E86"
 			]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "176359EB00EB5794"
 			rewards: [{
@@ -681,6 +683,7 @@
 		}
 		{
 			dependencies: ["176359EB00EB5794"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "53F4D77DDC4CC22F"
 			rewards: [{
@@ -1062,6 +1065,7 @@
 		}
 		{
 			dependencies: ["1B608B2069BD95D2"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:advanced_control_circuit"
@@ -1091,6 +1095,7 @@
 		}
 		{
 			dependencies: ["3194225EE27254B1"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:elite_control_circuit"
@@ -1125,6 +1130,7 @@
 		}
 		{
 			dependencies: ["3C0CFFF4A06552B4"]
+			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:ultimate_control_circuit"
