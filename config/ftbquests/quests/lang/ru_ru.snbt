@@ -1,5 +1,4 @@
 {
-	chapter.02E9FCF468F7AC52.title: "&#48B15EПрочее&r"
 	chapter.049179086C8CDF1B.title: "&#FF9FA9Интересное&r"
 	chapter.0582B0B3F0B2DD28.title: "&dБоссы&r"
 	chapter.062F83E52545EED5.title: "&#C131FFCurse of Pandora&r"
@@ -202,6 +201,7 @@
 	quest.0DA995EA50E4D2D3.title: "Не для печати"
 	quest.0DBFA704C34E42B2.quest_desc: ["Повышает максимальное количество хранимой энергии"]
 	quest.0DEC7D7AD22F351E.quest_desc: ["В ней варят"]
+	quest.0DEC7D7AD22F351E.title: "Котелок"
 	quest.0E299CA64FC071C5.quest_desc: ["Можно наполнить зельем"]
 	quest.0E30F6D53DC3D11C.quest_desc: ["Позволяет следить за количеством определённого предмета в МЭ сети"]
 	quest.0E7F84F4B9A32B44.quest_desc: ["Соединяется с корпусами ячеек и блоками создания"]
@@ -445,7 +445,7 @@
 	quest.24DDAFD6C36BECAC.quest_desc: ["Для установки модулей в снаряжение"]
 	quest.24DDAFD6C36BECAC.title: "Модификация!"
 	quest.2504B6A44C76C322.quest_desc: ["Жизнь, как помидор…"]
-	quest.2504B6A44C76C322.title: "Помидор"
+	quest.2504B6A44C76C322.title: "Помидорка"
 	quest.250A49AFC4FE8EE7.quest_desc: [
 		"Нужно МНОГО полония, а FE ещё больше"
 		""
@@ -505,13 +505,14 @@
 	]
 	quest.29E2A3ECDC3BD1DD.quest_desc: ["Копирует книги"]
 	quest.2A2D7C80BDD2CF6D.quest_desc: ["Капустка завсегда хорошая закуска"]
-	quest.2A2D7C80BDD2CF6D.title: "Капуста"
+	quest.2A2D7C80BDD2CF6D.title: "Капустка"
 	quest.2A585DCF0D716C75.quest_desc: ["Авто-верстак МЭ сети"]
 	quest.2AD8E92D3C78C97D.quest_desc: ["Мутирует бактерии. &4Вход&r энергии сверху и снизу."]
 	quest.2AF436D84F5F65B3.title: "Тяжёлый Грэплер"
 	quest.2B39BBCA9F46AA7F.quest_desc: ["Напиток богов"]
 	quest.2B39BBCA9F46AA7F.title: "Я обожаю чай"
 	quest.2B8017C91BFD18D3.quest_desc: ["В разработке"]
+	quest.2B81F00D65F29DD6.title: "Я тут бог!"
 	quest.2BB38169EE38380D.quest_desc: ["Выпадают с дельфинов. Даёт грацию дельфина, при присоединении к себе."]
 	quest.2BC163BC0B00692C.quest_desc: [
 		"Горелка нужна для генерации горячего воздуха, она может сгенерировать максимум 500 кубо-метров горячего воздуха."
@@ -614,6 +615,7 @@
 	quest.34245546594077FA.title: "Начало &#AA00AAEnigmatic Legacy+&r"
 	quest.343E0962C8344399.title: "Токсичное болото"
 	quest.3462909982FCF4C6.quest_desc: ["Список всей еды сборки"]
+	quest.3462909982FCF4C6.title: "Справочник гурмана"
 	quest.349117835410CDC2.quest_desc: ["Кликните пустой бутылкой по столбу пузырей (магма или песок душ) для наолнения"]
 	quest.349117835410CDC2.title: "Я водолаз!"
 	quest.34ADDFC23E5D40DD.quest_desc: ["Максимум 5Х5 чанков"]
@@ -684,6 +686,7 @@
 	quest.3B34C4ADBC7E4113.title: "Медный век"
 	quest.3B5B6F89043430FB.quest_desc: ["Заправить ракету можно только ведром"]
 	quest.3B66CFD8C0DD3B4E.quest_desc: ["На ней жарят"]
+	quest.3B66CFD8C0DD3B4E.title: "Жаркое!"
 	quest.3B91451768A72898.quest_desc: ["Вы серьёзно собираетесь их выполнить?"]
 	quest.3C0CFFF4A06552B4.title: "Элитные материалы"
 	quest.3C2A27D08E16B6CA.title: "Модуль щита 2"
@@ -788,39 +791,13 @@
 		""
 		"&6Если вы скачали сборку с Minecraft Inside, то большая часть ДМ модов у вас уже присутствуют (самые специфичные ДМ моды будут выключены).&r"
 		"{@pagebreak}"
-		"Man of Many Planes от Luke100000"
-		""
-		"Добавляет несколько самолётов"
-		""
-		"&6Без скрипта ManOfMany.zs самолёты будут доступны раньше, чем это задуманно балансом. Скрипт можно скачать с GitHub.&r"
-		"{@pagebreak}"
-		"Aquaculture Delight от NoCube"
-		""
-		"Это аддон на мод Farmer's Delight на еду из морепродуктов"
-		"{@pagebreak}"
-		"Better Weaponry от WoroxIV"
-		""
-		"Мод на большое количество оружия, брони, инструментов из ванильных ресурсов"
-		"{@pagebreak}"
-		"Entity Culling от tr7zw"
-		""
-		"Мод на оптимизацию entity"
-		"{@pagebreak}"
 		"GPUBooster от Mr.Toad"
 		""
 		"Мод на оптимизацию GPU"
 		"{@pagebreak}"
-		"Not Enough Animations от tr7zw"
-		""
-		"Мод добавлет несколько анимаций для 3-го лица"
-		"{@pagebreak}"
 		"ServerCore от Wesley1808"
 		""
 		"Это мод для тех, кто хочет создать сервер со сборкой"
-		"{@pagebreak}"
-		"3D Skin Layers от tr7zw"
-		""
-		"Мод на 3d скин игрока"
 		"{@pagebreak}"
 		"Logical IFrames от kohara"
 		""
@@ -829,10 +806,6 @@
 		"Dungeons Content от MDEStudio"
 		""
 		"Добавляет контент из игры Minecraft Dungeon"
-		"{@pagebreak}"
-		"Trek от hotsuop"
-		""
-		"Добавляет кучу структур и данжей в стиле ваниллы"
 	]
 	quest.457A7DCBC1CEF0E8.title: "&bДМ&r"
 	quest.45A7D9CF775A46EB.quest_desc: ["Считывает текст с датчиков и прочих предметов на стене и передаёт его"]
@@ -894,6 +867,7 @@
 	quest.49119B7C108C72BC.quest_desc: ["Накладывает на мобов дебаффы. В последней обнове, что-то случилось с текстуркой в инветаре, но если поставить всё будет в порядке."]
 	quest.494366056D6966F1.quest_desc: ["В ширину и длинну 1 блок, а в высоту 9. С улучшением увеличивается только радиус в высоту."]
 	quest.494BF674AF27515A.quest_desc: ["Получается при обтёсывании древесины"]
+	quest.494BF674AF27515A.title: "Корка"
 	quest.4953870358936D2B.quest_desc: ["Требуются для запитки снаряжения"]
 	quest.4953870358936D2B.title: "Топливо"
 	quest.49558261BCD9B256.title: "КАК!? 2"
@@ -996,7 +970,7 @@
 	quest.519AB815E8B3B7F3.quest_desc: ["В этом моде вместо обычной деревянной миски исользуется эта"]
 	quest.519AB815E8B3B7F3.title: "Миска из шалкера"
 	quest.51BE7096BE4AEEA7.quest_desc: [
-		"Приветствую на сборке &6Techno&r&2Vanilla&r 1.1.9. Для обратной связи есть ТГ канал (&l&bhttps://t.me/CreateVoni&r&r) в нём есть много полезных ссылок, а также новости про сборку. &l&aПриятной игры!&r&r"
+		"Приветствую на сборке &6Techno&r&2Vanilla&r 1.1.9.2. Для обратной связи есть ТГ канал (&l&bhttps://t.me/CreateVoni&r&r) в нём есть много полезных ссылок, а также новости про сборку. &l&aПриятной игры!&r&r"
 		""
 		"&6Отображаются только те квесты, к которым вы готовы по прогрессу.&r"
 	]
@@ -1119,6 +1093,16 @@
 	quest.5CCC872854556561.quest_desc: ["Неплохо"]
 	quest.5CCE98132BB85D59.quest_desc: ["Наблюдатель, который работает только на поезда"]
 	quest.5CCE98132BB85D59.title: "Наблюдатель поезда"
+	quest.5CDF418127FF89A5.quest_desc: [
+		"Если Distance Horizont пишет сообщение в чат про G1 Garbage, то это значит что вы используете сборщик мусора G1 с Java 8, а надо ZGC с Java 21. Нужный сборщик мусора можно включить в настройках Java или с помощью аргументов Java."
+		""
+		"-XX:+UseZGC это включить ZGC"
+		""
+		"-XX:+ZGenerational это использовать ZGC для генерации мира, что собствено и нужно Distance Horizont"
+		""
+		"&6Если вы играете без Distance Horizont, то G1 Garbage вам подойдёт лучше&r"
+	]
+	quest.5CDF418127FF89A5.title: "Distance Horizon"
 	quest.5D47887C226C586B.quest_desc: ["Пригодится в будущем"]
 	quest.5D52A0202044D214.quest_desc: ["Позволяет подключить беспроводные терминалы к МЭ сети. Беспроводные усилители нужны для увеличения радиуса работы."]
 	quest.5DB8D3A2688D365C.quest_desc: ["На него можно падать с большой высоты без получения урона"]
@@ -1181,6 +1165,7 @@
 	quest.641EC2D248048AB2.title: "&3Ныряй!&r"
 	quest.6421338CF53E0A72.quest_desc: ["Позволяет написать ограничение скорости для потока FE, с поддержкой редстоуна"]
 	quest.6440D061BCFA2CF5.quest_desc: ["Улучшанная версия костра. На ней можно жарить 6 предметов, а не 4."]
+	quest.6440D061BCFA2CF5.title: "Костёр 2.0"
 	quest.646CA7BD00401513.quest_desc: ["Эти предметы можно выбить с подводных монстров или найти в ящиках "]
 	quest.646CA7BD00401513.title: "Подводный хлам"
 	quest.648AE38CE12FD0B9.quest_desc: ["Баффает тебя и твоих питомцев"]
@@ -1398,6 +1383,7 @@
 	quest.79E42DDC2DFD2ECC.quest_desc: ["По идее в грибном биоме?"]
 	quest.79E42DDC2DFD2ECC.title: "Грибное чудище"
 	quest.7A2B1F0AC2ED9E63.quest_desc: ["Очень многофункциональный предмет. Мне она не нравится. "]
+	quest.7A2B1F0AC2ED9E63.title: "Доска"
 	quest.7A51C91B21A5D4B8.title: "Начало &#38012EDraconic Evolution&r"
 	quest.7A617A1CDAFFED98.quest_desc: ["Встечаетя в пешерах"]
 	quest.7AB14A695E13C737.title: "Модуль площадь 2"
@@ -1494,6 +1480,7 @@
 	quest.7FD8019AA0F2BAA3.quest_desc: ["Бесконечная костная мука"]
 	quest.7FD8019AA0F2BAA3.title: "Я фермер"
 	reward.2621CBF4B8104F46.title: "Команда для починки step height"
+	reward.2F333C298CE31410.title: "Скопировать аргументы"
 	reward.36D46F2334D4A0EB.title: "Ссылка на мой профиль GitHub"
 	reward.39A8C58BDB49EB72.title: "ТКГ CreateAll"
 	reward.596E9CAE0EBC66AD.title: "GitHub c переводами"
@@ -1517,6 +1504,7 @@
 	task.0D1345892E49C04B.title: "Гайд"
 	task.0F16A061641ED0AC.title: "Переводы"
 	task.1010CC00CCD7D8B4.title: "Аддоны"
+	task.1052AE3EBDA74E60.title: "Креативный предмет"
 	task.115DC34C5DFBFB23.title: "Энергетическая труба"
 	task.11EA9C9A9370C11B.title: "Посетите кладбище"
 	task.14FE307BC4FEBCEC.title: "Поситите руины"

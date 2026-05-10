@@ -329,7 +329,7 @@
 			rewards: [{
 				id: "53B96B67983A88C4"
 				type: "xp_levels"
-				xp_levels: 100
+				xp_levels: 1
 			}]
 			shape: "heart"
 			size: 1.4d
@@ -339,6 +339,35 @@
 			}]
 			x: 0.0d
 			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "distanthorizons:textures/gui/button.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5CDF418127FF89A5"
+			repeat_cooldown: 500
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Нажми, чтобы скопировать аргументы\",\"underlined\":true,\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\"-XX:+UseZGC -XX:+ZGenerational\"}}]"
+				icon: {
+					components: {
+						"ftbquests:icon": "distanthorizons:textures/gui/button.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2F333C298CE31410"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7F386E2B2E5FDA5C"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -6.5d
 		}
 	]
 }

@@ -142,8 +142,8 @@
 				item: { count: 1, id: "farmersdelight:tree_bark" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4AAC6242D51A67DD"]
@@ -255,6 +255,24 @@
 			}]
 			x: 3.5d
 			y: 3.0d
+		}
+		{
+			id: "18D6489703C9EBC7"
+			rewards: [{
+				id: "153EC4F2AA38F109"
+				item: {
+					count: 1
+					id: "aquaculturedelight:fish_and_chips"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D65BF42F3EC6A20"
+				item: { count: 1, id: "aquaculturedelight:neptunium_knife" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 	]
 }
