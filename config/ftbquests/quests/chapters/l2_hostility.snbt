@@ -784,6 +784,9 @@
 		}
 		{
 			dependencies: ["021D0002D1D177AB"]
+			icon: {
+				id: "l2complements:eternal_upgrade_smithing_template"
+			}
 			id: "3D6234FDF13EB4EA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -791,11 +794,18 @@
 				table_id: 8219706238716003891L
 				type: "random"
 			}]
-			tasks: [{
-				id: "0E45630E35CE428B"
-				item: { count: 1, id: "l2complements:eternium_nugget" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E45630E35CE428B"
+					item: { count: 1, id: "l2complements:eternium_nugget" }
+					type: "item"
+				}
+				{
+					id: "452C164D77406FDD"
+					item: { count: 1, id: "l2complements:eternal_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
 			x: -14.0d
 			y: -14.0d
 		}
@@ -1380,6 +1390,40 @@
 			}]
 			x: -24.5d
 			y: -13.0d
+		}
+		{
+			dependencies: ["533094A660F68BA3"]
+			hide_until_deps_complete: true
+			id: "179EC8768981D597"
+			tasks: [{
+				id: "4349EBD0383AE771"
+				item: { count: 1, id: "l2complements:material_swap_smithing_template" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CCC872854556561"]
+			id: "2DFABA56AF913BD5"
+			tasks: [{
+				id: "41ABDC3E14A93EE1"
+				item: { count: 1, id: "l2complements:scepter_of_boreas" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7E5D2B63218DED9D"]
+			id: "161D10B977F3E45A"
+			tasks: [{
+				id: "278BE9A977EDB70D"
+				item: { count: 1, id: "l2complements:scepter_of_helios" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.5d
 		}
 	]
 }

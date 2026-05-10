@@ -11,7 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["56EE4989987EB119"]
 			hide_until_deps_complete: true
 			id: "34245546594077FA"
 			rewards: [{
@@ -31,20 +30,6 @@
 			y: -1.5d
 		}
 		{
-			id: "56EE4989987EB119"
-			rewards: [{
-				id: "14B8AC2683D5EBAB"
-				type: "xp"
-				xp: 150
-			}]
-			tasks: [{
-				id: "2FD057D31A955AAA"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -6.0d
-		}
-		{
 			dependencies: ["34245546594077FA"]
 			id: "788B3D5710B2CD11"
 			rewards: [{
@@ -53,6 +38,7 @@
 				table_id: 7351918268521242351L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "2A027C2B616A53D5"
 				item: { count: 1, id: "enigmaticlegacyplus:blank_scroll" }
@@ -230,8 +216,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:xp_scroll" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["06C7A0F84F54E0CD"]
@@ -253,7 +239,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["34245546594077FA"]
+			dependencies: [
+				"3979D13C8687C344"
+				"2DE330541D716259"
+			]
 			id: "7BB85E84F0B00FD8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -266,8 +255,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:spelltuner" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CFE2FE2B61B20B8"]
@@ -448,6 +437,7 @@
 				table_id: 7351918268521242351L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "08B86B886E23E6E8"
 				item: { count: 1, id: "enigmaticlegacyplus:ichor_droplet" }
@@ -638,6 +628,7 @@
 				table_id: 7351918268521242351L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "463466782D3EBBA8"
 				item: { count: 1, id: "enigmaticlegacyplus:recall_potion" }
@@ -946,6 +937,7 @@
 				table_id: 7351918268521242351L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "7A170671F52A69D7"
 				item: { count: 1, id: "enigmaticlegacyplus:astral_dust" }
@@ -1031,6 +1023,7 @@
 				table_id: 7351918268521242351L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "6351672C3AF295CD"
 				item: { count: 1, id: "enigmaticlegacyplus:etherium_ingot" }
@@ -1365,8 +1358,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:ichor_curse_bottle" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1692,23 +1685,6 @@
 		}
 		{
 			dependencies: ["788B3D5710B2CD11"]
-			id: "4DB0F5233E23FA08"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4141769A9BFFCCE0"
-				table_id: 7351918268521242351L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2FBB70E24F0BF4D0"
-				item: { count: 1, id: "enigmaticlegacyplus:survival_scroll" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["788B3D5710B2CD11"]
 			id: "732399CD4B7DD69C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1721,8 +1697,8 @@
 				item: { count: 1, id: "enigmaticlegacyplus:explorer_scroll" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1FFC427262213D8C"]
@@ -1774,6 +1750,68 @@
 			}]
 			x: -6.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["788B3D5710B2CD11"]
+			id: "3D046EF0CC0FBC66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26DA787CA3141E70"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "048B4C5B390259F8"
+				item: { count: 1, id: "enigmaticlegacyplus:survivor_scroll" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["788B3D5710B2CD11"]
+			id: "7325313942623CD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "271A356B4800ED4E"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48760FE7350CA968"
+				item: { count: 1, id: "enigmaticlegacyplus:hunter_scroll" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45C7D8FBC1ECEB71"]
+			id: "38E754FEA7D9D48B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "787AFB3A36C6F6DD"
+				table_id: 7351918268521242351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20A3467E22E9A340"
+				item: { count: 1, id: "enigmaticlegacyplus:escape_scroll" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5FCEE70925FD6D0C"]
+			id: "7A49CCD36931C213"
+			tasks: [{
+				id: "4827718E7C54630D"
+				item: { count: 1, id: "enigmaticlegacyplus:infernal_ring" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
 		}
 	]
 }

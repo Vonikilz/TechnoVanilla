@@ -150,7 +150,7 @@ _version = 4
 			[client.advanced.graphics.fog]
 				#
 				# Determines if fog is drawn on DH LODs.
-				enableDhFog = true
+				enableDhFog = false
 				#
 				# What color should fog use? 
 				# 
@@ -591,7 +591,7 @@ _version = 4
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "PRE_EXISTING_ONLY"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -673,7 +673,7 @@ _version = 4
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 2
+		numberOfThreads = 3
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -681,7 +681,7 @@ _version = 4
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.5"
+		threadRunTimeRatio = "1.0"
 		#
 		# What Java thread priority should DH's primary thread pools run with? 
 		# 
@@ -789,7 +789,7 @@ _version = 4
 	# When enabled, Distant Horizons will attempt to download missing LODs from the server.
 	# 
 	# Note: the server must have Distant Generation enabled for it to work.
-	enableServerGeneration = false
+	enableServerGeneration = true
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.

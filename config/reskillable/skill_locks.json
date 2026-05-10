@@ -1,5 +1,7 @@
 {
   "skillLocks": {
+    "l2complements:scepter_of_boreas":["magic:22"],
+    "l2complements:scepter_of_helios":["magic:7"],
     "simulated:cyan_portable_engine":["building:20"],
     "simulated:purple_portable_engine":["building:20"],
     "simulated:blue_portable_engine":["building:20"],
@@ -732,7 +734,7 @@
     "l2complements:strong_fire_charge": ["agility:64"],
     "l2complements:black_fire_charge": ["agility:22"],
     "l2complements:sonic_shooter": ["magic:12"],
-    "l2complements:hellfire_wand": ["magic:14"],
+    "l2complements:hellfire_wand": ["magic:5"],
     "l2complements:diffusion_wand": ["magic:4","building:4"],
     "l2complements:winterstorm_wand": ["magic:4"],
     "createfisheryindustry:copper_diving_leggings": ["defense:3"],

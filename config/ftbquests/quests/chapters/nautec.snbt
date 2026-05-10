@@ -135,6 +135,7 @@
 				table_id: 8219706238716003891L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				icon: {
 					id: "nautec:rusty_crate"
@@ -241,6 +242,11 @@
 				{
 					id: "5FC47BEEBAF134AD"
 					item: { count: 1, id: "nautec:ancient_valve" }
+					type: "item"
+				}
+				{
+					id: "7A227EF5DAD1084B"
+					item: { count: 1, id: "nautec:damaged_aquatic_chip" }
 					type: "item"
 				}
 			]
@@ -395,7 +401,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -9.5d
 			y: -1.5d
 		}
 		{
@@ -424,13 +430,14 @@
 				table_id: 8219706238716003891L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "55BEAAF2E97CFD36"
 				item: { count: 1, id: "nautec:mixer" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: -10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["39CEAE0408F639BE"]
@@ -446,11 +453,11 @@
 				item: { count: 1, id: "nautec:bacterial_analyzer" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["12641F766B4DD7D4"]
+			dependencies: ["39CEAE0408F639BE"]
 			icon: {
 				id: "nautec:bio_reactor"
 			}
@@ -486,11 +493,11 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 5.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["39CEAE0408F639BE"]
+			dependencies: ["73CF2F21C45E8663"]
 			id: "2AD8E92D3C78C97D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -503,11 +510,11 @@
 				item: { count: 1, id: "nautec:mutator" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -0.18d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["39CEAE0408F639BE"]
+			dependencies: ["72B28372612FEC99"]
 			id: "14B084BD5BEAB04E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -520,8 +527,8 @@
 				item: { count: 1, id: "nautec:incubator" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -0.18d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["28CECD591C19EC82"]
@@ -548,8 +555,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -2.5d
+			x: -12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["39CEAE0408F639BE"]
@@ -585,8 +592,8 @@
 				item: { count: 1, id: "nautec:charger" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.0d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["53F267F169E859BC"]
@@ -620,8 +627,8 @@
 				item: { count: 1, id: "nautec:laser_junction" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.18d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["39CEAE0408F639BE"]
@@ -638,7 +645,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["12641F766B4DD7D4"]
@@ -654,7 +661,7 @@
 				item: { count: 1, id: "nautec:long_distance_laser" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 4.5d
 		}
 		{
@@ -689,8 +696,19 @@
 				item: { count: 1, id: "nautec:eas_bucket" }
 				type: "item"
 			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7430FA18901098D3"]
+			id: "72B28372612FEC99"
+			tasks: [{
+				id: "0A54CED207800DDB"
+				item: { count: 1, id: "nautec:aquatic_chip" }
+				type: "item"
+			}]
 			x: -6.5d
-			y: -1.5d
+			y: -1.0d
 		}
 	]
 }

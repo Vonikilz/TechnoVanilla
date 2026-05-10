@@ -56,7 +56,7 @@ enableEquipmentDatapack = true
 	# Default: 0.25
 	# Range: 0.0 ~ 1.0
 	splitDropRateFactor = 0.3
-	allowNoAI = false
+	allowNoAI = true
 	allowPlayerAllies = true
 	allowTraitOnOwnable = true
 	# Default: 0.5

@@ -369,5 +369,23 @@
 			x: -1.5d
 			y: -6.5d
 		}
+		{
+			icon: {
+				id: "supplementaries:cog_block"
+			}
+			id: "34E53D14592BD1A3"
+			rewards: [{
+				id: "26A189E72D37BBEF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "79A31D8A960E8030"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
 	]
 }
