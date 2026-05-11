@@ -140,9 +140,11 @@
 				icon: {
 					id: "nautec:rusty_crate"
 				}
-				id: "548B8471FE36AF53"
-				structure: "nautec:deepslate_crystal_geode"
-				type: "structure"
+				id: "02E4E36C7686D565"
+				observe_type: 0
+				timer: 0L
+				to_observe: "nautec:prismarine_crystal"
+				type: "observation"
 			}]
 			x: -6.5d
 			y: 0.5d
