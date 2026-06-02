@@ -1,5 +1,8 @@
 {
   "skillLocks": {
+    "block_factorys_bosses:undying_tentacle":["attack:5","agility:5","magic:32"],
+    "block_factorys_bosses:kraken_trident":["attack:13","agility:10","magic:4"],
+    "block_factorys_bosses:pirate_saber":["attack:20"],
     "l2complements:scepter_of_boreas":["magic:22"],
     "l2complements:scepter_of_helios":["magic:7"],
     "simulated:cyan_portable_engine":["building:20"],

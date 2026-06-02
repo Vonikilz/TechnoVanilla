@@ -828,8 +828,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -10.0d
+			y: -2.5d
 		}
 		{
 			id: "199FDE8E87467FA2"
@@ -863,8 +863,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -11.5d
-			y: -4.0d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["78F0823043CB403D"]
@@ -882,7 +882,7 @@
 				value: 1L
 			}]
 			x: -10.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5803E9EF750A8023"]
@@ -1073,6 +1073,57 @@
 			}]
 			x: 7.5d
 			y: 3.5d
+		}
+		{
+			id: "66D4DA45A83E41EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C90828EBCDEC7D"
+				table_id: 5871660891141218159L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:pirate_captain"
+				id: "55F6CBFA403E1C1B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			id: "421F23E19FEB2D1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "447B3164710C2CF1"
+				table_id: 5871660891141218159L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:crossbow_pirate"
+				id: "586328A312D24500"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "176D33BD6B04EA5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06A6BBDC45227EC2"
+				table_id: 5871660891141218159L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:pirate_rook"
+				id: "04D26B47492F80CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -4.0d
 		}
 	]
 }

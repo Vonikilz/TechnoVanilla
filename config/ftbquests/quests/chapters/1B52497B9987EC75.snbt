@@ -371,7 +371,7 @@
 		}
 		{
 			icon: {
-				id: "supplementaries:cog_block"
+				id: "handcrafted:stackable_book"
 			}
 			id: "34E53D14592BD1A3"
 			rewards: [{

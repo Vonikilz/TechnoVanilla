@@ -92,7 +92,7 @@ enableEquipmentDatapack = true
 
 [orb_and_spawner]
 	allowHostilityOrb = true
-	enableHostilityOrbDrop = false
+	enableHostilityOrbDrop = true
 	#0 means 1x1x1 section, 1 means 3x3x3 sections, 2 means 5x5x5 sections
 	# Default: 2
 	# Range: 0 ~ 10

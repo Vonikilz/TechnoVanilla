@@ -52,7 +52,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "4F5C75A33606EBFA"
-					item: { components: { "ftbquests:missing_item": "stellaris:heavy_metal_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "stellaris:heavy_metal_ingot" }
 					type: "item"
 				}
 				{

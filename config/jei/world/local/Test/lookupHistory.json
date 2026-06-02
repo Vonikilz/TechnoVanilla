@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:jungle_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"deeperdarker:reinforced_echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"deeperdarker:warden_carapace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"deeperdarker:heart_of_the_deep"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -98,6 +99,5 @@
   {"ingredient":{"id":"minecraft:flint_and_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:rail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:crushing_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create:crushing_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

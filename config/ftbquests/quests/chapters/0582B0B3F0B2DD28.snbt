@@ -791,5 +791,57 @@
 			x: 10.0d
 			y: 2.0d
 		}
+		{
+			icon: {
+				id: "block_factorys_bosses:kraken_spawn_egg"
+			}
+			id: "20E05B1FAF162CB2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F053A56FF3734D5"
+					table_id: 7351918268521242351L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00BC24292D3A7679"
+					table_id: 7908187759497296074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29BE017EC3407CB6"
+					table_id: 5871660891141218159L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E098E901EEA7E4"
+					table_id: 8219706238716003891L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "block_factorys_bosses:kraken"
+					id: "6965A870ACC5CF07"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "block_factorys_bosses:kraken_tooth"
+					}
+					id: "14ACD49E4AE8382A"
+					structure: "block_factorys_bosses:kraken_ship"
+					type: "structure"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 }

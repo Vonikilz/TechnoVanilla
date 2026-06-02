@@ -4,6 +4,7 @@
   "radiationCheckInterval": 100,
   "rocketTpHeight": 600,
   "landerExplodeWhenTooFast": false,
+  "enableCannedFoodSystem": true,
   "oilConfig": {
     "chunkOilChance": 5,
     "minOil": 5,
