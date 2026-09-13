@@ -1,6 +1,6 @@
 [mobs]
 	#Enable or disable Imp
-	disable = false
+	disable_imp = false
 
 [imp]
 	#Health for Imp
@@ -50,25 +50,25 @@
 
 [black_charro]
 	#Health for Black Charro
-	# Default: 350.0
+	# Default: 370.0
 	# Range: 300.0 ~ 1.7976931348623157E308
 	health = 350.0
 	#Armor for Black Charro
-	# Default: 0.0
+	# Default: 4.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	armor = 0.0
 	#Damage for Black Charro
 	# Default: 5.0
 	# Range: 3.0 ~ 1.7976931348623157E308
 	damage = 5.0
-	#Movement for Black Charro
-	# Default: 0.35
-	# Range: 0.3 ~ 1.7976931348623157E308
-	movement = 0.35
 	#Knockback Resistance for Black Charro
-	# Default: 0.5
-	# Range: 0.25 ~ 1.7976931348623157E308
+	# Default: 1.0
+	# Range: 0.25 ~ 1.0
 	knockback_resistance = 0.5
+	#Message Cooldown for Black Charro
+	# Default: 350
+	# Range: > 300
+	message_cooldown = 350
 
 [condemned]
 	#Health for Condemned Soul
@@ -224,16 +224,6 @@
 	# Range: 5.0 ~ 1.7976931348623157E308
 	damage = 6.0
 
-[candle_keeper]
-	#Health for Candle Keeper
-	# Default: 80.0
-	# Range: 20.0 ~ 1.7976931348623157E308
-	health = 30.0
-	#Damage for Candle Keeper
-	# Default: 6.0
-	# Range: 4.0 ~ 1.7976931348623157E308
-	damage = 6.0
-
 [amarok]
 	#Health for Amarok
 	# Default: 100.0
@@ -247,3 +237,111 @@
 	# Default: 8.0
 	# Range: 6.0 ~ 1.7976931348623157E308
 	damage = 8.0
+
+[music]
+	#Enable or disable Boss Music
+	enable = true
+
+[possessed_armor_lancer]
+	#Health for Possessed Armor Lancer
+	# Default: 60.0
+	# Range: 30.0 ~ 1.7976931348623157E308
+	health = 60.0
+	#Armor value for Possessed Armor Lancer
+	# Default: 10.0
+	# Range: 5.0 ~ 1.7976931348623157E308
+	armor = 10.0
+	#Armor toughness for Possessed Armor Lancer
+	# Default: 8.0
+	# Range: 5.0 ~ 1.7976931348623157E308
+	armor_toughness = 8.0
+	#Damage for Possessed Armor Lancer
+	# Default: 6.0
+	# Range: 4.0 ~ 1.7976931348623157E308
+	damage = 6.0
+	#Attack Knockback for Possessed Armor Lancer
+	# Default: 1.0
+	# Range: 0.4 ~ 1.7976931348623157E308
+	attack_knockback = 1.0
+	#Knockback Resistance for Possessed Armor Lancer
+	# Default: 1.0
+	# Range: 0.5 ~ 1.7976931348623157E308
+	knockback_resistance = 1.0
+
+[eidolon]
+	#Health for Eidolon
+	# Default: 45.0
+	# Range: 35.0 ~ 1.7976931348623157E308
+	health = 45.0
+	#Damage for Eidolon
+	# Default: 6.5
+	# Range: 4.0 ~ 1.7976931348623157E308
+	damage = 6.5
+	#Knockback Resistance for Eidolon
+	# Default: 0.8
+	# Range: 0.5 ~ 1.0
+	knockback_resistance = 0.8
+
+[jiangshi]
+	#Health for Jiangshi
+	# Default: 25.0
+	# Range: 15.0 ~ 1.7976931348623157E308
+	health = 25.0
+	#Armor for Jiangshi
+	# Default: 2.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	armor = 2.0
+	#Damage for Jiangshi
+	# Default: 4.0
+	# Range: 4.0 ~ 1.7976931348623157E308
+	damage = 4.0
+
+[gearbound_headsman]
+	#Health for Gearbound Headsman
+	# Default: 45.0
+	# Range: 30.0 ~ 1.7976931348623157E308
+	health = 45.0
+	#Armor Toughness for Gearbound Headsman
+	# Default: 2.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	armor_toughness = 2.0
+	#Damage for Gearbound Headsman
+	# Default: 6.5
+	# Range: 5.0 ~ 1.7976931348623157E308
+	damage = 6.5
+	#Knockback Resistance for Gearbound Headsman
+	# Default: 0.8
+	# Range: 0.5 ~ 1.0
+	knockback_resistance = 0.8
+
+[shade_jelly]
+	#Health for Shade Jelly
+	# Default: 10.0
+	# Range: 8.0 ~ 1.7976931348623157E308
+	health = 10.0
+	#Flying Speed for Shade Jelly
+	# Default: 0.45
+	# Range: 0.35 ~ 1.7976931348623157E308
+	flying_speed = 0.45
+	#Knockback Resistance for Shade Jelly
+	# Default: 0.15
+	# Range: 0.1 ~ 1.7976931348623157E308
+	knockback_resistance = 0.15
+
+[omecuaime]
+	#Health for Omecuaime
+	# Default: 125.0
+	# Range: 100.0 ~ 1.7976931348623157E308
+	health = 125.0
+	#Armor for Omecuaime
+	# Default: 4.0
+	# Range: 2.0 ~ 1.7976931348623157E308
+	armor = 4.0
+	#Damage for Omecuaime
+	# Default: 12.0
+	# Range: 12.0 ~ 1.7976931348623157E308
+	damage = 12.0
+	#Attack Knockback for Omecuaime
+	# Default: 2.0
+	# Range: 1.5 ~ 1.7976931348623157E308
+	attack_knockback = 2.0

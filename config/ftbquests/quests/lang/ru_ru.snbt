@@ -3,7 +3,7 @@
 	chapter.0582B0B3F0B2DD28.title: "&dБоссы&r"
 	chapter.062F83E52545EED5.title: "&#C131FFCurse of Pandora&r"
 	chapter.1092B4BDD6EDE09E.title: "&#29FF69Логистика&r"
-	chapter.126C33E4B5287B0B.title: "&#AA00AAEnigmatic Legacy+&r"
+	chapter.126C33E4B5287B0B.title: "&#AA00AAEnigmatic Legacy+&r WIP"
 	chapter.1718B1CECB5EB7AF.title: "&dMyths and Legends&r"
 	chapter.18953F4DDCC1B553.title: "&#CDFF33Mystical Agriculture&r"
 	chapter.1B52497B9987EC75.title: "&aНачало&r"
@@ -21,7 +21,6 @@
 	chapter.704B93067DCCA906.title: "&#70FFFFApplied Energistics 2&r"
 	chapter.752A1E9125BCBEF9.title: "&4Враги&r"
 	chapter.75BDACC899BA86E1.title: "&#FF2063Bountiful Baubles:Reforked&r"
-	chapter_group.0FA3A6CC6E4863EB.title: "&bДМ&r"
 	chapter_group.22A55EF50C26B34E.title: "&#48B15EПрочее&r"
 	chapter_group.2363E53A8E84B337.title: "&6Приключения&r"
 	chapter_group.74BE1C5C28E7AE94.title: "&eТехнологии&r"
@@ -817,10 +816,6 @@
 		"Logical IFrames от kohara"
 		""
 		"Меняет механику кадров неуязвимости всех entity на ту что у мобов в игре terraria (включая игрока)"
-		"{@pagebreak}"
-		"Dungeons Content от MDEStudio"
-		""
-		"Добавляет контент из игры Minecraft Dungeon"
 	]
 	quest.457A7DCBC1CEF0E8.title: "&bДМ&r"
 	quest.45A7D9CF775A46EB.quest_desc: ["Считывает текст с датчиков и прочих предметов на стене и передаёт его"]

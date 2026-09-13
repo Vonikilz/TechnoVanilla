@@ -47,7 +47,7 @@
 		# Range: 1 ~ 20
 		attackDamage = 4
 		# Default: 4
-		# Range: 1 ~ 20
+		# Range: 0 ~ 20
 		miningSpeed = 4
 		# Default: 4
 		# Range: 1 ~ 20
@@ -168,6 +168,19 @@
 	[else.storageCrystal]
 		enable = true
 
+	[else.survivalScroll]
+		# Default: 40
+		# Range: 0 ~ 100
+		healthThreshold = 40
+
+	[else.explorerScroll]
+		# Default: 4
+		# Range: 1 ~ 8
+		effectiveRange = 4
+		# Default: 320
+		# Range: 160 ~ 800
+		cooldown = 320
+
 [abyssItems]
 	# Default: 5
 	# Range: 1 ~ 10
@@ -217,6 +230,17 @@
 		# Range: 0 ~ 100
 		lifeSteal = 15
 		keepInventory = true
+
+	[abyssItems.violenceScroll]
+		# Default: 4
+		# Range: 0 ~ 10
+		attackSpeed = 4
+		# Default: 3
+		# Range: 0 ~ 20
+		entityReach = 3
+		# Default: 2
+		# Range: 0 ~ 10
+		knockbackResistanceBoost = 2
 
 	[spellstone.voidPearl]
 		# Default: 16.0
@@ -358,23 +382,47 @@
 		# Default: 30
 		# Range: 10 ~ 100
 		cooldown = 30
+		# Default: 1.0
+		# Range: 0.0 ~ 256.0
+		accelerationModifier = 1.0
+		# Default: 0.6
+		# Range: 0.0 ~ 256.0
+		accelerationModifierElytra = 0.6
+
+	[spellstone.illusionLantern]
+		# Default: 1.25
+		# Range: 1.0 ~ 20.0
+		vulnerabilityModifier = 1.25
+		# Default: 50
+		# Range: 0 ~ 80
+		resistanceModifier = 50
+		# Default: 60
+		# Range: 20 ~ 200
+		cooldown = 60
+
+	[spellstone.creationHeart]
+		# Default: 3
+		# Range: 1 ~ 40
+		cooldown = 3
 
 	[blessItems.redemptionRing]
 		# Default: 25
 		# Range: 0 ~ 100
-		damageMultiplier = 25
+		damageMultiplier = 50
 		# Default: 20
 		# Range: 0 ~ 100
-		attackMultiplier = 20
+		attackMultiplier = 50
 		# Default: 20
 		# Range: 5 ~ 100
-		regenerationSpeed = 20
+		regenerationSpeed = 10
 		# Default: 1
 		# Range: 0 ~ 8
-		lootingBonusAlt = 1
+		lootingBonusAlt = 8
 		# Default: 1
 		# Range: 0 ~ 8
-		fortuneBonusAlt = 1
+		fortuneBonusAlt = 8
+		enableSpecialDrops = true
+		uniqueLegacy = true
 
 	[blessItems.earthPromise]
 		# Default: 1000
@@ -382,7 +430,7 @@
 		cooldown = 1000
 		# Default: 25
 		# Range: 0 ~ 100
-		firstCurseModifier = 25
+		firstCurseModifier = 50
 		# Default: 80
 		# Range: 0 ~ 100
 		healthThreshold = 80
@@ -390,7 +438,18 @@
 	[blessItems.theBless]
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
-		specialDamageBoost = 0.15
+		specialDamageBoost = 0.2
+
+	[blessItems.scorchedCharm]
+		# Default: 2
+		# Range: 0 ~ 10
+		lavaHealAmount = 5
+		# Default: 20
+		# Range: 0 ~ 100
+		lifestealModifier = 15
+		# Default: 10
+		# Range: 0 ~ 50
+		resistanceProbability = 15
 
 [sevenCurses]
 	# Default: 200
@@ -398,28 +457,28 @@
 	painMultiplier = 200
 	# Default: 24.0
 	# Range: 4.0 ~ 100.0
-	neutralAngerRange = 24.0
+	neutralAngerRange = 36.0
 	# Default: 30
 	# Range: 0 ~ 100
-	armorDebuff = 30
+	armorDebuff = 50
 	# Default: 40
 	# Range: 0 ~ 100
-	monsterDamageDebuff = 40
+	monsterDamageDebuff = 50
 	#Allowed Values: ALWAYS_LOSS, NEED_CURSE_RING, NEED_CURSE_RING_AND_IGNORE_KEEPINVENTORY
-	soulCrystalsMode = "NEED_CURSE_RING"
+	soulCrystalsMode = "NEED_CURSE_RING_AND_IGNORE_KEEPINVENTORY"
 	enableInsomnia = true
 	# Default: 1
 	# Range: 0 ~ 10
-	lootingBonus = 1
+	lootingBonus = 10
 	# Default: 1
 	# Range: 0 ~ 10
-	fortuneBonus = 1
+	fortuneBonus = 10
 	# Default: 300
 	# Range: 0 ~ 1000
-	experienceBonus = 300
+	experienceBonus = 500
 	# Default: 10
 	# Range: 0 ~ 30
-	enchantingBonus = 10
+	enchantingBonus = 30
 	enableSpecialDrops = true
 	autoEquip = false
 	ultraHardcore = false
@@ -428,3 +487,7 @@
 	maxSoulCrystalLoss = 9
 	forTheWorthy = true
 	neutralWhiteList = ["minecraft:bee"]
+	eternalBurning = true
+	enableEnderRing = true
+	uniqueLegacy = true
+	giveStarterGear = true

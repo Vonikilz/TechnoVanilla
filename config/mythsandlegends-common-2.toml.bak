@@ -223,3 +223,13 @@
 	# Default: 6.0
 	# Range: 5.0 ~ 1.7976931348623157E308
 	damage = 6.0
+
+[candle_keeper]
+	#Health for Candle Keeper
+	# Default: 30.0
+	# Range: 20.0 ~ 1.7976931348623157E308
+	health = 30.0
+	#Damage for Candle Keeper
+	# Default: 6.0
+	# Range: 4.0 ~ 1.7976931348623157E308
+	damage = 6.0

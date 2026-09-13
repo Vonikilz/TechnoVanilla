@@ -40,13 +40,13 @@
 	# Range: 4.0 ~ 1.7976931348623157E308
 	damage = 6.0
 	#Attack Knockback for Gargoyle
-	# Default: 60.0
-	# Range: 30.0 ~ 1.7976931348623157E308
-	attack_knockback = 60.0
+	# Default: 1.2
+	# Range: 0.5 ~ 2.0
+	attack_knockback = 2.0
 	#Knockback Resistance for Gargoyle
-	# Default: 60.0
-	# Range: 30.0 ~ 1.7976931348623157E308
-	knockback_resistance = 60.0
+	# Default: 1.0
+	# Range: 0.3 ~ 1.0
+	knockback_resistance = 1.0
 
 [black_charro]
 	#Health for Black Charro
@@ -226,10 +226,24 @@
 
 [candle_keeper]
 	#Health for Candle Keeper
-	# Default: 30.0
+	# Default: 80.0
 	# Range: 20.0 ~ 1.7976931348623157E308
 	health = 30.0
 	#Damage for Candle Keeper
 	# Default: 6.0
 	# Range: 4.0 ~ 1.7976931348623157E308
 	damage = 6.0
+
+[amarok]
+	#Health for Amarok
+	# Default: 100.0
+	# Range: 50.0 ~ 1.7976931348623157E308
+	health = 100.0
+	#Armor for Amarok
+	# Default: 4.0
+	# Range: 2.0 ~ 6.0
+	armor = 4.0
+	#Damage for Amarok
+	# Default: 8.0
+	# Range: 6.0 ~ 1.7976931348623157E308
+	damage = 8.0

@@ -1,7 +1,7 @@
-Исходный код сборки модов TechnoVanilla для minecraft 1.21.1 NeoForge  
+Исходный код сборки модов TechnoVanilla для minecraft 1.21.1 NeoForge 21.1.236  
 
 TechnoVanilla — это сборка, где вам предстоит изучать мир, проходить подземелья, путешествовать в стиле Vanilla+ сборок. Но сделать это не так-то просто. Из-за модов на новых врагов, боссов, и улучшение их интеллекта обычным мечом и щитом очень сложно справится, а если вы играете на хардкоре, то и вовсе невозможно. Как быть то тогда? Всё просто, надо использовать технологии, а какие именно зависит от вашего стиля игры и сообразительности.
 
 Сборка прошла модерацию на Minecraft Inside https://minecraft-inside.ru/188305/  
 
-Сборка прошла модерацию на CurseForge https://www.curseforge.com/minecraft/modpacks/techno-vanilla
+Сборка прошла модерацию на CurseForge (Старая версия) https://www.curseforge.com/minecraft/modpacks/techno-vanilla
