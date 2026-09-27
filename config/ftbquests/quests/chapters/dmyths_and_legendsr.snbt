@@ -77,21 +77,6 @@
 			y: 2.0d
 		}
 		{
-			id: "2815F8FBFDE2858D"
-			rewards: [{
-				id: "31F68B87A5EBA741"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "0D1345892E49C04B"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: -0.25d
-		}
-		{
 			icon: {
 				id: "mythsandlegends:ironshade_helmet"
 			}
@@ -165,6 +150,36 @@
 			}]
 			x: -8.0d
 			y: -1.0d
+		}
+		{
+			id: "7F04F0BD2050F00F"
+			tasks: [{
+				id: "6F98B9ED5CE8DDA0"
+				item: { components: { "geckolib:stack_animatable_id": 1L }, count: 1, id: "mythsandlegends:noctifer_tenebris" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "019826FC84A7ABC9"
+			tasks: [{
+				id: "3728F6F7755CD0C0"
+				item: { count: 1, id: "mythsandlegends:spirit_suppressing_bell" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "6DFDD138A2802D31"
+			tasks: [{
+				id: "5F9DB116315DF8D5"
+				item: { count: 1, id: "mythsandlegends:copper_coin_sword" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
 		}
 	]
 }

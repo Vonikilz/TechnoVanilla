@@ -170,6 +170,7 @@
 		}
 		{
 			dependencies: ["5D9183077F009BCB"]
+			hide_until_deps_complete: true
 			id: "129372B25346C0EC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -187,6 +188,7 @@
 		}
 		{
 			dependencies: ["129372B25346C0EC"]
+			hide_until_deps_complete: true
 			id: "6DEB73F6959B5543"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -722,7 +724,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["34245546594077FA"]
@@ -1600,6 +1602,7 @@
 		}
 		{
 			dependencies: ["5E15D631FCA9117F"]
+			hide_until_deps_complete: true
 			id: "3D1251A67D0296ED"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1812,6 +1815,58 @@
 			}]
 			x: 9.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"06C7A0F84F54E0CD"
+				"48388EEDF6BBBF77"
+			]
+			hide_until_deps_complete: true
+			id: "7EB23E0A0980D11A"
+			tasks: [{
+				id: "67DA13791D077ED3"
+				item: { count: 1, id: "enigmaticlegacyplus:sacred_chalice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"129372B25346C0EC"
+				"48388EEDF6BBBF77"
+			]
+			hide_until_deps_complete: true
+			id: "16E2A7030C3DA8F7"
+			tasks: [{
+				id: "46F4ED5BCD31D212"
+				item: { count: 1, id: "enigmaticlegacyplus:forger_crystal" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43D8DB83D104E680"]
+			id: "2EC3651E373BFCBE"
+			tasks: [{
+				id: "5E34EA4653B46FDD"
+				item: { count: 1, id: "enigmaticlegacyplus:redemption_amulet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E1940CAF25EDB83"]
+			id: "7C8CDA8967A9BB33"
+			tasks: [{
+				id: "3B0D7C67C22EB0AF"
+				item: { components: { "enigmaticlegacyplus:eldritch_timer": 0.0f }, count: 1, id: "enigmaticlegacyplus:annihilating_sword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 }
