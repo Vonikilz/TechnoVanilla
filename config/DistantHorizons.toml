@@ -1,4 +1,4 @@
-_version = 4
+_version = 5
 
 [client]
 	#
@@ -10,15 +10,15 @@ _version = 4
 			# Enable Screen Space Ambient Occlusion
 			enableSsao = true
 			#
+			# Enabling Anti-Aliasing smooths edges and reduces flickering when moving.
+			enableAntiAliasing = true
+			#
 			# If true some vanilla graphics settings will be automatically changed 
 			# during DH setup to provide a better experience. 
 			#  
 			# IE disabling vanilla clouds (which render on top of DH LODs), 
 			#    and chunk fading (DH already fades MC chunks)
 			overrideVanillaGraphicsSettings = true
-			#
-			# Enabling Anti-Aliasing smooths edges and reduces flickering when moving.
-			enableAntiAliasing = true
 
 			[client.advanced.graphics.quality]
 				#
@@ -27,7 +27,7 @@ _version = 4
 				# Note: this is a best effort number. 
 				# The actual render distance may be above or below this number 
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 32
+				lodChunkRenderDistanceRadius = 256
 				#
 				# This indicates how far apart drops in LOD quality are. 
 				# 
@@ -56,23 +56,35 @@ _version = 4
 				# Highest Quality: PIXEL_ART
 				verticalQuality = "MEDIUM"
 				#
+				# If true DH will try to use the camera position when 
+				# determining LOD quality drop-off. 
+				# If false DH will use the player's position. 
+				#  
+				# Enabling helps free-cam mods render correctly. 
+				# Disabling helps multi-camera mods render correctly (ie Immersive Portals or camera mods).
+				useCameraPositionForQualityDropOff = true
+				#
+				# If true LOD quality will increase when the camera is zoomed in, 
+				# IE when using a spyglass or zoom mod. 
+				# 
+				# Only LODs visible through the camera view are affected. 
+				# 
+				# When zoomed in LODs will load to the same detail level 
+				# they would have if you were close to them.
+				increaseQualityWhenZoomedIn = true
+				#
+				# How many detail levels zooming in can increase LOD quality by. 
+				# Higher numbers allow stronger zooms to render crisper terrain, 
+				# but will increase memory and GPU usage while zoomed in. 
+				#  
+				# A vanilla spyglass needs 4 detail levels to reach its full quality.
+				maxZoomQualityIncrease = 4
+				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# DISABLED: LODs will be opaque.
 				transparency = "COMPLETE"
-				#
-				# What blocks shouldn't be rendered as LODs? 
-				# 
-				# NONE: Represent all blocks in the LODs 
-				# NON_COLLIDING: Only represent solid blocks in the LODs (tall grass, torches, etc. won't count for a LOD's height)
-				blocksToIgnore = "NON_COLLIDING"
-				#
-				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
-				# 
-				# True: a red flower will tint the grass below it red. 
-				# False: skipped blocks will not change color of surface below them.
-				tintWithAvoidedBlocks = true
 				#
 				# How should LODs be shaded? 
 				# 
@@ -101,9 +113,13 @@ _version = 4
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
 				vanillaFadeMode = "DOUBLE_PASS"
 				#
-				# Should DH fade out before reaching the far clip plane? 
-				# This is helpful to prevent DH clouds from cutting off in the distance.
-				dhFadeFarClipPlane = true
+				# This is the same as vanilla Biome Blending settings for Lod area. 
+				#     Note: anything above '0' will slow down LOD loading time. 
+				# 
+				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
+				#     '1' equals to Vanilla Biome Blending of '3x3', 
+				#     '2' equals to Vanilla Biome Blending of '5x5'...
+				lodBiomeBlending = 3
 				#
 				# How bright LOD colors are. 
 				# 
@@ -118,38 +134,6 @@ _version = 4
 				# 1 = normal 
 				# 2 = very saturated
 				saturationMultiplier = "1.0"
-				#
-				# This is the same as vanilla Biome Blending settings for Lod area. 
-				#     Note: anything above '0' will slow down LOD loading time. 
-				# 
-				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
-				#     '1' equals to Vanilla Biome Blending of '3x3', 
-				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 3
-				#
-				# If true DH will try to use the camera position when 
-				# determining LOD quality drop-off. 
-				# If false DH will use the player's position. 
-				#  
-				# Enabling helps free-cam mods render correctly. 
-				# Disabling helps multi-camera mods render correctly (ie Immersive Portals or camera mods).
-				useCameraPositionForQualityDropOff = true
-				#
-				# If true LOD quality will increase when the camera is zoomed in, 
-				# IE when using a spyglass or zoom mod. 
-				# 
-				# Only LODs visible through the camera view are affected. 
-				# 
-				# When zoomed in LODs will load to the same detail level 
-				# they would have if you were close to them.
-				increaseQualityWhenZoomedIn = true
-				#
-				# How many detail levels zooming in can increase LOD quality by. 
-				# Higher numbers allow stronger zooms to render crisper terrain, 
-				# but will increase memory and GPU usage while zoomed in. 
-				#  
-				# A vanilla spyglass needs 4 detail levels to reach its full quality.
-				maxZoomQualityIncrease = 4
 
 			[client.advanced.graphics.genericRendering]
 				#
@@ -171,7 +155,11 @@ _version = 4
 				expandDistantBeacons = true
 				#
 				# If true LOD clouds will be rendered.
-				enableCloudRendering = false
+				enableCloudRendering = true
+				#
+				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
+				# True = DH will render 3 layers of clouds at different heights.
+				enableMultiLayerClouds = true
 				#
 				# A comma separated separated list of dimension resource locations where DH clouds will render.
 				# 
@@ -179,15 +167,11 @@ _version = 4
 				# 
 				# Changes require a world re-load.
 				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
-				#
-				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
-				# True = DH will render 3 layers of clouds at different heights.
-				enableMultiLayerClouds = true
 
 			[client.advanced.graphics.fog]
 				#
 				# Determines if fog is drawn on DH LODs.
-				enableDhFog = false
+				enableDhFog = true
 				#
 				# What color should fog use? 
 				# 
@@ -299,6 +283,62 @@ _version = 4
 					#
 					# What is the height fog's density?
 					heightFogDensity = "20.0"
+
+			[client.advanced.graphics.texture]
+				#
+				# If true nearby and zoomed-in LODs will render with their block's 
+				# actual texture instead of a single flat color. 
+				#  
+				# Only applies to high detail LODs where the texture is actually visible, 
+				# distant LODs always use flat colors. 
+				# Some shader packs nay not have an affect.
+				enableTexturedLods = true
+				#
+				# The highest detail level number that can render with block textures. 
+				# At higher detail levels each LOD covers multiple blocks, 
+				# which can essentially make textures smaller than a pixel and therefore invisible. 
+				#  
+				# Larger numbers texture more distant LODs 
+				# but increase memory usage.
+				maxTexturedLodDetailLevel = 2
+				#
+				# A comma separated list of block resource locations 
+				# that DH won't render textures on. 
+				# Partial matches/incomplete resource locations will also match. 
+				# 
+				# Example: "minecraft:grass_block,nylium" 
+				# 
+				# Changes require a restart.
+				blocksDontRenderTextureCsv = "minecraft:bamboo"
+				#
+				# A comma separated list of block resource locations 
+				# that DH will render their sides using the bottom texture. 
+				# Partial matches/incomplete resource locations will also match. 
+				# 
+				# Example: "minecraft:grass_block,nylium" 
+				# 
+				# Changes require a restart.
+				blocksDontUseSideTextureCsv = "grass_block,mycelium,nylium,dirt_path,grass"
+				#
+				# A comma separated list of tag names 
+				# that DH will render their sides using the bottom texture. 
+				# 
+				# Example: "grass_blocks,nylium" 
+				# 
+				# Changes require a restart.
+				blockTagsDontUseSideTextureCsv = "grass_blocks,nylium"
+				#
+				# A comma separated list of block resource locations 
+				# that DH will use rasterization to determine 
+				# the face textures.
+				# 
+				# Can be used to fix issues with mods/blocks where
+				# a side uses just part of a modeled block's texture. 
+				# 
+				# Example: "minecraft:beacon" 
+				# 
+				# Changes require a restart.
+				blocksAlwaysRasterizeTextureCsv = "minecraft:beacon"
 
 			[client.advanced.graphics.noiseTexture]
 				#
@@ -439,73 +479,9 @@ _version = 4
 				#  
 				# Options: 
 				# AUTO - changes based on the most likely API for that MC version 
-				# OPEN_GL - Default 
-				# BLAZE_3D - Only supported on MC 1.21.11
-				renderingApi = "AUTO"
-				#
-				# Requires a restart to change. 
-				#  
-				# Options: 
-				# AUTO - changes based on the most likely API for that MC version 
 				# OPEN_GL - The Default for MC 1.21.11 and older (supports Iris shaders) 
 				# BLAZE_3D - The Default for MC 26.1.2 and newer (supports Vulkan)
 				renderingEngine = "AUTO"
-
-			[client.advanced.graphics.texture]
-				#
-				# If true nearby and zoomed-in LODs will render with their block's 
-				# actual texture instead of a single flat color. 
-				#  
-				# Only applies to high detail LODs where the texture is actually visible, 
-				# distant LODs always use flat colors. 
-				# Some shader packs nay not have an affect.
-				enableTexturedLods = true
-				#
-				# The highest detail level number that can render with block textures. 
-				# At higher detail levels each LOD covers multiple blocks, 
-				# which can essentially make textures smaller than a pixel and therefore invisible. 
-				#  
-				# Larger numbers texture more distant LODs 
-				# but increase memory usage.
-				maxTexturedLodDetailLevel = 2
-				#
-				# A comma separated list of block resource locations 
-				# that DH won't render textures on. 
-				# Partial matches/incomplete resource locations will also match. 
-				# 
-				# Example: "minecraft:grass_block,nylium" 
-				# 
-				# Changes require a restart.
-				blocksDontRenderTextureCsv = "minecraft:bamboo"
-				#
-				# A comma separated list of block resource locations 
-				# that DH will render their sides using the bottom texture. 
-				# Partial matches/incomplete resource locations will also match. 
-				# 
-				# Example: "minecraft:grass_block,nylium" 
-				# 
-				# Changes require a restart.
-				blocksDontUseSideTextureCsv = "grass_block,mycelium,nylium,dirt_path"
-				#
-				# A comma separated list of tag names 
-				# that DH will render their sides using the bottom texture. 
-				# 
-				# Example: "grass_blocks,nylium" 
-				# 
-				# Changes require a restart.
-				blockTagsDontUseSideTextureCsv = "grass_blocks,nylium"
-				#
-				# A comma separated list of block resource locations 
-				# that DH will use rasterization to determine 
-				# the face textures.
-				# 
-				# Can be used to fix issues with mods/blocks where
-				# a side uses just part of a modeled block's texture. 
-				# 
-				# Example: "minecraft:beacon" 
-				# 
-				# Changes require a restart.
-				blocksAlwaysRasterizeTextureCsv = "minecraft:beacon"
 
 		[client.advanced.multiplayer]
 			#
@@ -520,7 +496,7 @@ _version = 4
 		[client.advanced.autoUpdater]
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = false
+			enableAutoUpdater = true
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.
@@ -538,7 +514,7 @@ _version = 4
 			# DEFAULT: Default lod renderer 
 			# DEBUG_TRIANGLE: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 
@@ -562,15 +538,15 @@ _version = 4
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
 			#
+			# If true overlapping quads will be rendered as bright red for easy identification. 
+			# If false the quads will be rendered normally.
+			showOverlappingQuadErrors = false
+			#
 			# If true several keys can be used to toggle debug states. 
 			# F6 - enable/disable LOD rendering 
 			# F7 - enable/disable LOD only rendering 
 			# F8 - cycle through the different debug rendering modes
 			enableDebugKeybindings = false
-			#
-			# If true overlapping quads will be rendered as bright red for easy identification. 
-			# If false the quads will be rendered normally.
-			showOverlappingQuadErrors = false
 			#
 			# If true OpenGL Buffer garbage collection will be logged 
 			# this also includes the number of live buffers.
@@ -625,6 +601,15 @@ _version = 4
 				#            as it may break Minecraft's renderer when an exception is thrown.
 				glErrorHandlingMode = "IGNORE"
 
+			[client.advanced.debugging.positionFinderDebugging]
+				positionFinderEnable = false
+				positionFinderDetailLevel = 6
+				positionFinderXPos = 0
+				positionFinderZPos = 0
+				positionFinderMinBlockY = -64
+				positionFinderMaxBlockY = 125
+				positionFinderMarginPercent = "0.0"
+
 			[client.advanced.debugging.f3Screen]
 				#
 				# Shows the player's LOD position.
@@ -668,79 +653,7 @@ _version = 4
 				mapTest = "{}"
 				linkableTest = 420
 
-			[client.advanced.debugging.positionFinderDebugging]
-				positionFinderEnable = false
-				positionFinderDetailLevel = 6
-				positionFinderXPos = 0
-				positionFinderZPos = 0
-				positionFinderMinBlockY = -64
-				positionFinderMaxBlockY = 125
-				positionFinderMarginPercent = "0.0"
-
 	[common.worldGenerator]
-		#
-		# Should Distant Horizons slowly generate LODs 
-		#  outside the vanilla render distance? 
-		# Depending on the generator mode, this will import existing chunks 
-		# and/or generating missing chunks.
-		enableDistantGeneration = true
-		#
-		# How detailed should LODs be generated outside the vanilla render distance? 
-		# 
-		# PRE_EXISTING_ONLY 
-		# Only create LOD data for already generated chunks. 
-		# 
-		# 
-		# SURFACE 
-		# Generate the world surface, 
-		# this does NOT include trees, 
-		# or structures. 
-		# 
-		# FEATURES 
-		# Generate everything except structures. 
-		# WARNING: This may cause world generator bugs or instability when paired with certain world generator mods. 
-		# 
-		# INTERNAL_SERVER 
-		# Ask the local server to generate/load each chunk. 
-		# This is the most compatible and will generate structures correctly, 
-		# but may cause server/simulation lag. 
-		# Note: unlike other modes this option DOES save generated chunks to 
-		# Minecraft's region files.
-		distantGeneratorMode = "PRE_EXISTING_ONLY"
-		#
-		# How should distant generator progress be displayed? 
-		# 
-		# OVERLAY: may be the same as CHAT for some Minecraft versions 
-		# CHAT 
-		# LOG 
-		# DISABLED
-		showGenerationProgress = "DISABLED"
-		#
-		# How often should the distant generator progress be displayed?
-		generationProgressDisplayIntervalInSeconds = 2
-		#
-		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
-		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
-		generationProgressDisableMessageDisplayTimeInSeconds = 20
-		#
-		# When logging generation progress also include the rate at which chunks 
-		# are being generated. 
-		# This can be useful for troubleshooting performance.
-		generationProgressIncludeChunksPerSecond = true
-		#
-		# The center X chunk position that the world gen max radius is centered around.
-		generationCenterChunkX = 0
-		#
-		# The center Z chunk position that the world gen max radius is centered around.
-		generationCenterChunkZ = 0
-		#
-		# The max radius in chunks around the central point where world generation is allowed. 
-		# If this value is set to 0, generation bounds are disabled and the render distance will be used. 
-		# 
-		# This should only be set if you have a pre-generated world that has a very limited size. 
-		# Setting this on a normal MC world will prevent the world generator from filling 
-		# out your render distance.
-		generationMaxChunkRadius = 0
 		#
 		# Defines how LODs will be generated 
 		# outside the vanilla render distance. 
@@ -812,6 +725,40 @@ _version = 4
 		# 
 		# Does nothing on a dedicated server.
 		surfaceRegenMaxDistancePercent = "-1.0"
+		#
+		# How should distant generator progress be displayed? 
+		# 
+		# OVERLAY: may be the same as CHAT for some Minecraft versions 
+		# CHAT 
+		# LOG 
+		# DISABLED
+		showGenerationProgress = "DISABLED"
+		#
+		# How often should the distant generator progress be displayed?
+		generationProgressDisplayIntervalInSeconds = 2
+		#
+		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
+		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
+		generationProgressDisableMessageDisplayTimeInSeconds = 20
+		#
+		# When logging generation progress also include the rate at which chunks 
+		# are being generated. 
+		# This can be useful for troubleshooting performance.
+		generationProgressIncludeChunksPerSecond = true
+		#
+		# The center X chunk position that the world gen max radius is centered around.
+		generationCenterChunkX = 0
+		#
+		# The center Z chunk position that the world gen max radius is centered around.
+		generationCenterChunkZ = 0
+		#
+		# The max radius in chunks around the central point where world generation is allowed. 
+		# If this value is set to 0, generation bounds are disabled and the render distance will be used. 
+		# 
+		# This should only be set if you have a pre-generated world that has a very limited size. 
+		# Setting this on a normal MC world will prevent the world generator from filling 
+		# out your render distance.
+		generationMaxChunkRadius = 0
 
 	[common.lodBuilding]
 		#
@@ -827,6 +774,7 @@ _version = 4
 		# modified chunks are skipped due to being too similar to
 		# their saved hash.
 		disableUnchangedChunkCheck = false
+		dataCompression = "Z_STD_BLOCK"
 		#
 		# How should block data be compressed when creating LOD data? 
 		# This setting will only affect new or updated LOD data, 
@@ -843,7 +791,6 @@ _version = 4
 		# Hidden blocks (IE ores) are ignored.  
 		# Expected Compression Ratio: 0.7
 		worldCompression = "VISUALLY_EQUAL"
-		dataCompression = "Z_STD_BLOCK"
 		#
 		# Requires a level restart to apply. 
 		# 
@@ -868,24 +815,10 @@ _version = 4
 		# At max throughput: ~16k saves per sec, ~6% disk usage
 		databaseSyncMode = "NORMAL"
 
-		[common.lodBuilding.experimental]
-			#
-			# When active DH will attempt to fill missing LOD data 
-			# with any data that is present in the tree, preventing holes when moving 
-			# when a N-sized generator (or server) is active. 
-			# 
-			# This is only used when N-sized world generation is available 
-			# and/or when on a server where [generateOnlyInHighestDetail] is false. 
-			# 
-			# Experimental:
-			# Enabling this option will increase CPU and harddrive use
-			# and may cause rendering bugs.
-			upsampleLowerDetailLodsToFillHoles = false
-
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 3
+		numberOfThreads = 6
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -956,7 +889,7 @@ _version = 4
 			#
 			# If enabled, a chat message will be displayed when DH has too many chunks 
 			# queued for updating.
-			showUpdateQueueOverloadedChatWarning = true
+			showUpdateQueueOverloadedChatWarning = false
 			#
 			# If enabled, a chat message will be displayed when DH has too many chunks 
 			# queued for updating.
@@ -976,21 +909,17 @@ _version = 4
 			# to cause frame stuttering and/or other issues.
 			showGarbageCollectorWarning = true
 			#
-			# If enabled, a chat message will be displayed when DH is using 
-			# a deprecated renderer.
-			showDeprecatedRendererWarningOnStartup = true
-			#
 			# If enabled, a message will be logged if explicit garbage collection 
 			# is disabled. 
 			# This is known to cause out-of-memory issues 
 			# and is better solved with a concurrent garbage collector.
-			logExplicitGcDisabledWarning = true
+			logExplicitGcDisabledWarning = false
 			#
 			# If enabled, a message will be displayed in chat if explicit garbage collection 
 			# is disabled. 
 			# This is known to cause out-of-memory issues 
 			# and is better solved with a concurrent garbage collector.
-			showExplicitGcDisabledWarning = true
+			showExplicitGcDisabledWarning = false
 
 [server]
 	#
@@ -1001,7 +930,7 @@ _version = 4
 	# DO NOT CHANGE UNLESS YOU KNOW WHAT YOU'RE DOING.
 	# Autogenerated ID used to prevent multiple independent servers from accidentally
 	# writing over each other's LODs when the same serverKey is set on both.
-	serverId = -807395536
+	serverId = -1170328484
 	#
 	# Custom server key used which can be used to always reuse the same LOD data folder,
 	# for cases when the server doesn't have a static IP for some reason.
@@ -1013,11 +942,6 @@ _version = 4
 	# If the mod is running behind a proxy, each backend should use a unique value.
 	# If this value is empty, level key will be based on the server's seed hash.
 	levelKeyPrefix = ""
-	#
-	# When enabled, Distant Horizons will attempt to download missing LODs from the server.
-	# 
-	# Note: the server must have Distant Generation enabled for it to work.
-	enableServerGeneration = false
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
@@ -1055,10 +979,3 @@ _version = 4
 	# If true, DH will automatically adjust transfer rate to minimize connection lag.
 	# If false, transfer speed will remain fixed.
 	enableAdaptiveTransferSpeed = false
-
-	[server.experimental]
-		#
-		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
-		# This must also be enabled on the server; otherwise, it will have no effect.
-		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
-		enableNSizedGeneration = false
